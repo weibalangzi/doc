@@ -40,7 +40,7 @@ vux是基于weUI和vue开发的一套移动端ui组件库，但组件的多样�
 vux本身依附于vue，所以除了官方网站外，并没有衍生出其它的社区环境，但好在vux在github上的Issues貌似都得到了妥善的解决，还是值得欣慰的 https://github.com/airyland/vux/issues?page=1&q=is%3Aissue+is%3Aopen
 #### 文档
 vux的文档还算是比较全面的，该有的都有，组件的一些属性及使用方法都有介绍，还有一些组件在使用过程中可能碰到的问题都有提及 https://doc.vux.li/zh-CN/components/x-button.html
-关于图表插件的问题.
+#### 关于图表插件的问题
 
 市面上常见的图表插件无非就是echart和hchart，但这两个图表基本都是在PC端使用的，对于移动端并没有做什么特殊的处理，所以在使用的时候可能存在一些意想不到的问题。
 
