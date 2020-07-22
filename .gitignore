@@ -1,5 +1,6 @@
 # dependencies
 *node_modules
+*env_hello
 
 # misc
 .DS_Store
