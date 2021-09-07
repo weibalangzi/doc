@@ -8,7 +8,7 @@
 // 以前在js里面使用jq时，经常要用到$或者JQuery来获取dom元素或者做一些其它操作
 // 但是在ts里面，是无法识别
 
-// 在ts里面，需要声明一下
+// 在ts里面，需要声明一下 
 declare var jQuery: (selector: string) => any;
 
 // declare var 并没有真的定义一个变量，只是定义了全局变量 jQuery 的类型，仅仅会用于编译时的检查，在编译结果中会被删除
