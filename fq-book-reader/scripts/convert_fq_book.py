@@ -96,10 +96,23 @@ def rewrite_internal_links(text: str, title_by_path: dict[str, str]) -> str:
     return INTERNAL_MD_LINK_RE.sub(repl, text)
 
 
+def neutralize_remote_images(text: str) -> str:
+    """Keep image URLs as readable links so pandoc does not embed/fetch them."""
+
+    def repl(m: re.Match[str]) -> str:
+        alt = (m.group(1) or "").strip()
+        url = m.group(2).strip()
+        label = alt if alt else "插图"
+        return f"[{label}]({url})"
+
+    return re.sub(r"!\[([^\]]*)\]\(([^)]+)\)", repl, text)
+
+
 def clean_chapter(text: str, title_by_path: dict[str, str]) -> str:
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = normalize_alerts(text)
     text = strip_htmlish(text)
+    text = neutralize_remote_images(text)
     text = rewrite_internal_links(text, title_by_path)
     # demote top-level H1 so book title remains the only book H1
     text = re.sub(r"^#\s+", "## ", text, count=1, flags=re.MULTILINE)
@@ -120,8 +133,8 @@ def build_book_markdown(docs_dir: Path, chapters: list[tuple[str | None, str, st
         "源仓库：https://github.com/hoochanlon/fq-book\n\n",
         "许可：Creative Commons BY-NC 4.0（允许非商用分享与演绎）\n\n",
         "本 EPUB 由 Docsify Markdown 源文件按官方目录自动转换，"
-        "供微信读书等本地阅读器导入使用。远程插图依赖原图床/IPFS，"
-        "离线环境可能无法显示图片，正文不受影响。\n\n",
+        "供微信读书等本地阅读器导入使用。原书插图为外链，"
+        "已改为文中可点击链接（不嵌入图片），保证体积小、可离线读正文。\n\n",
         "---\n\n",
     ]
 

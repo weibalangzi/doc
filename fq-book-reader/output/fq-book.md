@@ -10,7 +10,7 @@
 
 许可：Creative Commons BY-NC 4.0（允许非商用分享与演绎）
 
-本 EPUB 由 Docsify Markdown 源文件按官方目录自动转换，供微信读书等本地阅读器导入使用。远程插图依赖原图床/IPFS，离线环境可能无法显示图片，正文不受影响。
+本 EPUB 由 Docsify Markdown 源文件按官方目录自动转换，供微信读书等本地阅读器导入使用。原书插图为外链，已改为文中可点击链接（不嵌入图片），保证体积小、可离线读正文。
 
 ---
 
@@ -42,13 +42,13 @@ VPN、Proxy不时也会出现新应用，操作方式多数基本也大同小异
 
 > **【重要】** GFW本质上是巨大的高性能分布式入侵检测维稳系统并不是单纯的防火墙
 
-<!-- ![](https://ipfs.io/ipfs/Qme29LCkkA2XrjLZtzaGsmgMmSL1y3wn2nyXE749E7zD4i?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qme29LCkkA2XrjLZtzaGsmgMmSL1y3wn2nyXE749E7zD4i?3.png) -->
 
-![](https://i.postimg.cc/QNqxQy7t/2018-05-23-210035.png)
+[插图](https://i.postimg.cc/QNqxQy7t/2018-05-23-210035.png)
 
 摘自维基百科：[互联网审查](https://zh.wikipedia.org/zh-hans/%E4%BA%92%E8%81%94%E7%BD%91%E5%AE%A1%E6%9F%A5)
 
-![](https://i.postimg.cc/vHvnMVWq/Snipaste-2019-06-06-14-06-20.png)
+[插图](https://i.postimg.cc/vHvnMVWq/Snipaste-2019-06-06-14-06-20.png)
 
 
 ## 注意事项
@@ -125,39 +125,39 @@ VPN、Proxy不时也会出现新应用，操作方式多数基本也大同小异
 
 速成示例作业站点由 [WebOutlook](https://github.com/hoodiearon/WebOutlook) 提供支持
 
-![](https://i.postimg.cc/Fz2bDWSs/Snipaste-2019-07-01-04-27-55.png)
+[插图](https://i.postimg.cc/Fz2bDWSs/Snipaste-2019-07-01-04-27-55.png)
 
 ### chrome 离线安装代理扩展插件
 
 借助 [173app](https://173app.com) 下载 [skyzip](https://173app.com/apps/hbgknjagaclofapkgkeapamhmglnbphi) 
 
-![](https://i.postimg.cc/jq4Q0cr9/Snipaste-2019-07-01-03-43-31.png)
+[插图](https://i.postimg.cc/jq4Q0cr9/Snipaste-2019-07-01-03-43-31.png)
 
 将下载好的插件 `.crx` 格式改为压缩格式 `.zip` 并解压
 
-![](https://i.postimg.cc/brnvP3Z5/Snipaste-2019-07-01-03-51-18.png)
+[插图](https://i.postimg.cc/brnvP3Z5/Snipaste-2019-07-01-03-51-18.png)
 
 在`开发者模式` 选中 `加载已解压的扩展程序` 即可
 
-![](https://i.postimg.cc/hjzCSdcw/hasi9.png)
+[插图](https://i.postimg.cc/hjzCSdcw/hasi9.png)
 
 打开扩展开关并点亮 skyzip 成绿色
 
-![](https://i.postimg.cc/ht2rS7yz/Snipaste-2019-07-01-04-12-46.png)
+[插图](https://i.postimg.cc/ht2rS7yz/Snipaste-2019-07-01-04-12-46.png)
 
 测试
 
-![](https://i.postimg.cc/PqGqvSFB/Snipaste-2019-07-01-04-15-42.png)
+[插图](https://i.postimg.cc/PqGqvSFB/Snipaste-2019-07-01-04-15-42.png)
 
 ### free-ss.site 节点导入影梭
 
 先在 [github](https://github.com/) 上搜索 `shadowsocks-windows` 并下载此代理软件；win7需要下载此类框架运行环境，win10自带。
 
-![](https://i.postimg.cc/dtxRWXJR/Snipaste-2019-07-01-02-52-33.png)
+[插图](https://i.postimg.cc/dtxRWXJR/Snipaste-2019-07-01-02-52-33.png)
 
 利用 skyzip 打开 https://free-ss.site
 
-![](https://i.postimg.cc/zfxpz271/Snipaste-2019-07-01-04-54-26.png)
+[插图](https://i.postimg.cc/zfxpz271/Snipaste-2019-07-01-04-54-26.png)
 
 也可借助 [jsproxy](https://github.com/EtherDream/jsproxy/) 项目提供的 [web代理网址](https://jsproxy.ga/)，在此基础上又嵌套一个web代理 [croxyproxy](https://www.croxyproxy.com/) ，用以加载爱国上网服务器网站节点信息。
 
@@ -165,51 +165,51 @@ VPN、Proxy不时也会出现新应用，操作方式多数基本也大同小异
 
 ?> 嵌套的原因是：虽然有些web代理没被墙，但并不会完全加载各个网站的相关脚本等其他代码，所以就用到其他web代理（也有很多被墙的）作为嵌套使用。
 
-![](https://i.postimg.cc/7YsJHTcq/new11.png)
+[插图](https://i.postimg.cc/7YsJHTcq/new11.png)
 
 `鼠标 Shadowsocks 右键 -> 服务器 -> 扫描二维码` 添加节点服务器
 
-![](https://i.postimg.cc/15vSbGdr/Snipaste-2019-07-01-00-03-43.png)
+[插图](https://i.postimg.cc/15vSbGdr/Snipaste-2019-07-01-00-03-43.png)
 
 配置地址:`127.0.0.1` 端口:`1080` 并确定
 
-![](https://i.postimg.cc/MHvGF9YN/Snipaste-2019-07-01-03-21-10.png)
+[插图](https://i.postimg.cc/MHvGF9YN/Snipaste-2019-07-01-03-21-10.png)
 
 将 `系统代理` 开启并测试
 
-![](https://i.postimg.cc/K8qTfcMv/Snipaste-2019-07-01-04-44-42.png)
+[插图](https://i.postimg.cc/K8qTfcMv/Snipaste-2019-07-01-04-44-42.png)
 
 ### tunsafe 导入配置作业
 
 进入[tunsafe官网](https://tunsafe.com/)，可以看到此外它还提供独立的虚拟网卡和软件（集合安装器需要全局翻墙环境），然后下载并安装这两个文件。
 
-![](https://i.postimg.cc/1XRCdppx/20190607083401.png)
+[插图](https://i.postimg.cc/1XRCdppx/20190607083401.png)
 
 安装很简单，默认就行；注意勾选下始终信任项目就好了。
 
-![](https://i.postimg.cc/Z5LLG954/20190607083553.png)
+[插图](https://i.postimg.cc/Z5LLG954/20190607083553.png)
 
 在 `user guide` 选择 `using tunsafe windows`接着再选择`free vpn servers`
 
-![](https://i.postimg.cc/7LKsW3r8/20190606205200.png)
+[插图](https://i.postimg.cc/7LKsW3r8/20190606205200.png)
 
 点击 `create new account`，选择服务器，然后生成下载该配置文件，**建议下载多个配置文件测试连接效果**。
 
-![](https://i.postimg.cc/63NrzTyJ/20190606205536.png)
+[插图](https://i.postimg.cc/63NrzTyJ/20190606205536.png)
 
 打开软件在`File`项中选择`browse in explorer` 就会打开软件配置目录源
 
-![](https://i.postimg.cc/hv8Qj0rf/Snipaste-2019-06-06-21-11-36.png)
+[插图](https://i.postimg.cc/hv8Qj0rf/Snipaste-2019-06-06-21-11-36.png)
 
 将下载好的conf导入到该目录
 
-![](https://i.postimg.cc/SRYVwsqj/20190607092202.png)
+[插图](https://i.postimg.cc/SRYVwsqj/20190607092202.png)
 
 如果连接不上，那换一个服务器连接测试，即可
 
 !> 也有可能存在恶意禁用的问题，详情请看：[简谈国产杀软 - 恶意禁用连接互联网服务问题](append/guochan-sharuan?id=恶意禁用连接互联网服务问题)
 
-![](https://i.postimg.cc/T3RbDfrP/Snipaste-2019-06-07-08-54-24.png)
+[插图](https://i.postimg.cc/T3RbDfrP/Snipaste-2019-06-07-08-54-24.png)
 
 
 # 方法论
@@ -224,13 +224,13 @@ ps：关于更详细的站点收录，请点击参考此github项目[hamuleite](
 
 * doub
 
-![](https://i.postimg.cc/QdbQ863Q/doub-io-sxsx-131.png)
+[插图](https://i.postimg.cc/QdbQ863Q/doub-io-sxsx-131.png)
 
-![](https://i.postimg.cc/KjBTdffg/doub-io-sxsx-132.png)
+[插图](https://i.postimg.cc/KjBTdffg/doub-io-sxsx-132.png)
 
 * herokuapp
 
-![](https://i.postimg.cc/Nft2K1bp/2018-05-01-191319.png)
+[插图](https://i.postimg.cc/Nft2K1bp/2018-05-01-191319.png)
 
 ## 获取梯子上网的方式
 
@@ -320,9 +320,9 @@ ps：关于更详细的站点收录，请点击参考此github项目[hamuleite](
 
 <!-- 以下是个人进行科学上网的方式总览图：
 
-<!-- ![](https://ipfs.io/ipfs/QmRhbqdGy8wmZhnE68D8uesrEgDFAsp2pcJE2frMuKfrvs?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRhbqdGy8wmZhnE68D8uesrEgDFAsp2pcJE2frMuKfrvs?1.png) -->
 
-<!-- ![](https://i.postimg.cc/Bbx7pj5R/2018-05-05-154505.png) -->
+<!-- [插图](https://i.postimg.cc/Bbx7pj5R/2018-05-05-154505.png) -->
 
 
 ## 获取国外手机号码
@@ -441,37 +441,37 @@ kitesim 套餐：
 
 从欧易购买好虚拟币后，与binpay进行交易，步骤如图：
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_21-49-26.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_21-49-26.png)
 
 过几分钟后，就会收到邮件及系统的转出成功提示
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_21-54-02.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_21-54-02.png)
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-24-31.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-24-31.png)
 
 接着打开binpay，将充值到账的虚拟币，转换成美元
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-26-55.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-26-55.png)
 
 这时钱包有了美元额度，就可以申请开卡了。
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-27-54.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-27-54.png)
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-29-06.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-29-06.png)
 
 设置密码激活卡
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-30-58.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-30-58.png)
 
 ## 使用 cloud flare r2 服务信用卡资料填写
 
 免税州见信息提炼部分，使用美国地址生成器 https://www.meiguodizhi.com ，填入邮寄信息等。
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-38-44.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-38-44.png)
 
 r2 存储桶使用成功！
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-45-24.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-12_22-45-24.png)
 
 ## btw
 
@@ -530,27 +530,27 @@ r2 存储桶使用成功！
 
 进入：https://www.apple.com 美版，下拉到最底，选择“[Gift Cards](https://www.apple.com/shop/gift-cards)” 点击[buy](https://www.apple.com/shop/buy-giftcard/giftcard)。
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-10-33.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-10-33.png)
 
 最低额度是充值10$
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-14-20.png) 
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-14-20.png) 
 
 以我的为例，填好自己的姓名、邮箱，选择“no message”，点击"Add to Bag"，二次确认"check out"
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-16-03.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-16-03.png)
 
 用美国地址生成器 https://www.meiguodizhi.com 邮箱选择自己用的,电话选择地址生成器生成的，电话不会被验证，临时邮箱时间较短，最好也用自己的，方便自己接受邮件。
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-26-55.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_20-26-55.png)
 
 邮件接收
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_21-12-40.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-13_21-12-40.png)
 
 图片看起来没截到，连接VPN，登录AppStore，填兑换码，购买小火箭
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-14_00-32-26.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/fkca/PixPin_2025-11-14_00-32-26.png)
 
 ### 剩余时间随便边看边写点什么
 
@@ -1281,7 +1281,7 @@ rules:
 
 ## 效果
 
-![ ](https://i.postimg.cc/QNfg6xHj/Pix-Pin-2025-11-30-20-04-25.png)
+[插图](https://i.postimg.cc/QNfg6xHj/Pix-Pin-2025-11-30-20-04-25.png)
 
 
 ## 通过代理IP结合指纹浏览器上网
@@ -1322,15 +1322,15 @@ kookeey操作：
 
 填写方式
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-12-23_07-34-22.webp)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-12-23_07-34-22.webp)
 
 相关原理，详细见：[Clash for Windows 代理工具使用说明](https://docs.gtk.pw/)
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-12-23_08-26-34.webp)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-12-23_08-26-34.webp)
 
 https://www.ping0.cc 检测结果
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-12-23_08-19-59.webp)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-12-23_08-19-59.webp)
 
 
 ## 无法使用Gemini（ipdodo）
@@ -1341,7 +1341,7 @@ https://www.ping0.cc 检测结果
 
 明明已经开启了网络代理，并且将节点切换到了美国或英国等Gemini支持的地区，但在Chrome浏览器中访问Google Gemini时，依然弹出“Gemini is not available in your country”的提示，导致gemini无法使用？这种“明明翻了却像没翻”的问题，困扰了无数用户。其实，这往往是Chrome浏览器的某些底层协议“出卖”了你的真实位置。本文将围绕 QUIC 协议、WebRTC、IPv6、浏览器缓存、异常流量和 IP 质量几个方向，帮助你排查并**解决电脑翻墙后 Chrome 浏览器无法使用谷歌 Gemini 的问题**。
 
-![img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E8%A7%A3%E5%86%B3%E7%94%B5%E8%84%91%E7%BF%BB%E5%A2%99%E5%90%8Echrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E8%B0%B7%E6%AD%8Cgemini%E9%97%AE%E9%A2%98-1024x548.jpg)
+[img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E8%A7%A3%E5%86%B3%E7%94%B5%E8%84%91%E7%BF%BB%E5%A2%99%E5%90%8Echrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E8%B0%B7%E6%AD%8Cgemini%E9%97%AE%E9%A2%98-1024x548.jpg)
 
 ### 一、 为什么电脑翻墙后chrome浏览器无法使用谷歌gemini？
 
@@ -1368,7 +1368,7 @@ QUIC（Quick UDP Internet Connections）是由Google开发的一种基于UDP的�
 1.**进入设置页面：**
 打开你的Chrome浏览器，在顶部的地址栏中输入 chrome://flags/ 并按下回车键（Enter）。这将带你进入Chrome的实验室设置页面。
 
-![img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E6%AD%A5%E9%AA%A4%E4%B8%80.png)
+[img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E6%AD%A5%E9%AA%A4%E4%B8%80.png)
 
  
 
@@ -1378,14 +1378,14 @@ QUIC（Quick UDP Internet Connections）是由Google开发的一种基于UDP的�
 3.**定位关键设置：**
 在搜索结果中，找到名为 **“**Experimental QUIC protocol**”** 的选项。
 
-![img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E6%AD%A5%E9%AA%A4%E4%BA%8C.png)
+[img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E6%AD%A5%E9%AA%A4%E4%BA%8C.png)
 
  
 
 4.**修改状态：**
 点击该选项右侧的下拉菜单（默认通常是Default），将其修改为 **“**Disabled**”**（禁用）。
 
-![img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E6%AD%A5%E9%AA%A4%E4%B8%89.png)
+[img](https://www.ipdodo.com/news/wp-content/uploads/2026/01/%E6%AD%A5%E9%AA%A4%E4%B8%89.png)
 
 5.**重启浏览器：**
 修改完成后，浏览器底部会弹出一个蓝色的 **“**Relaunch**”** 按钮。点击它，Chrome会自动重启。
@@ -1471,11 +1471,11 @@ Google的风控系统拥有庞大的黑名单数据库。很多免费的或廉�
 
 配置及效果如图
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2026/20260815191634.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2026/20260815191634.png)
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2026/20260815191640.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2026/20260815191640.png)
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2026/20260815191641.png)
+[插图](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2026/20260815191641.png)
 
 > **【重要】** > 为什么浏览器翻墙后，定位也是在台湾、美国，关闭了QUIC协议也没用，clash选择Research+Al ，US Fixed IP，就能正常访问Gemini了呢？ 以下由Manus AI解答。
 
@@ -1711,7 +1711,7 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 在研究中，必须将“长期海外打工（劳工阶层）”与“身份移民”进行严格的政策与学术分流。部分底层家庭试图通过肉体出海（如赴新、赴日、赴台打工）实现改变命运的目的，但各目的地的底层治理逻辑存在巨大差异：
 
-![](https://hoochanlon.github.io/picx-images-hosting/imgs/uploads/2026/20260707202437-1.png)
+[插图](https://hoochanlon.github.io/picx-images-hosting/imgs/uploads/2026/20260707202437-1.png)
 
 **学术结论**：国际移民组织（IOM）等机构发布的报告 [ADBI] 证明，长期在外打工对于底层家庭而言，本质上是一种**高强度的家庭财务防御机制**（通过跨国汇款改善母国的居住、防老、防病条件），但它**无法直接转化为目的国的国籍与阶层跃迁**。
 
@@ -1793,27 +1793,27 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 开启DNSCrypt服务与网卡选项√
 
-<!-- ![](https://ipfs.io/ipfs/Qme3m7pu4qM2RqT7LqtRM6umPZuKhEMBJkCFGr3tAg66Y3?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qme3m7pu4qM2RqT7LqtRM6umPZuKhEMBJkCFGr3tAg66Y3?3.png) -->
 
-![](https://i.postimg.cc/ZY289WC0/2018-04-29-031314.png)
+[插图](https://i.postimg.cc/ZY289WC0/2018-04-29-031314.png)
 
 启用自动模式
 
-<!-- ![](http://p0.cdn.img9.top/ipfs/Qmd449GEzw6KUvpmcfDxv3e9rYRxYk3dHNuo5ZitD7zEqm?0.png) -->
+<!-- [插图](http://p0.cdn.img9.top/ipfs/Qmd449GEzw6KUvpmcfDxv3e9rYRxYk3dHNuo5ZitD7zEqm?0.png) -->
 
-![](https://i.postimg.cc/VkYFqdcw/2018-04-29-031427.png)
+[插图](https://i.postimg.cc/VkYFqdcw/2018-04-29-031427.png)
 
 高级设置-&gt;应用设置
 
-<!-- ![](http://p1.cdn.img9.top/ipfs/QmNZ1JEN51T7v5cP8aEVJfYQvBXLcCscAtgXtWf6nhESKL?1.png) -->
+<!-- [插图](http://p1.cdn.img9.top/ipfs/QmNZ1JEN51T7v5cP8aEVJfYQvBXLcCscAtgXtWf6nhESKL?1.png) -->
 
-![](https://i.postimg.cc/fR2YYCK7/2018-04-29-031418.png)
+[插图](https://i.postimg.cc/fR2YYCK7/2018-04-29-031418.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmSr8t86BHkoDyofqEMYucg9uAyxCGVjuqzVPE6yGmqf3r?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSr8t86BHkoDyofqEMYucg9uAyxCGVjuqzVPE6yGmqf3r?4.png) -->
 
-![](https://i.postimg.cc/qRfhG5CK/2018-04-29-1.png)
+[插图](https://i.postimg.cc/qRfhG5CK/2018-04-29-1.png)
 
 > **【说明】** 不过需要注意的是：DNSCrypt 时常将计算机 dns 设置成 `127.0.0.1` 以本地DNS解析服务器作为缓存，从而加快解析效率；关机或关闭 DNSCrypt 时，注意检查计算机 DNS 配置，改成自动获取或原自己配置的 DNS 地址。
 
@@ -1824,27 +1824,27 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 进入[baidns.cn](https://baidns.cn/)，记住此DNS地址
 
-<!-- ![](https://ipfs.io/ipfs/QmXL5GM1HPZcvsGx8eDKhnNWWJjVNKQ6PQzzdsqYf94FuM?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXL5GM1HPZcvsGx8eDKhnNWWJjVNKQ6PQzzdsqYf94FuM?3.png) -->
 
-![](https://i.postimg.cc/vZKD4bnf/2018-05-10-181032.png)
+[插图](https://i.postimg.cc/vZKD4bnf/2018-05-10-181032.png)
 
 打开`控制面板\网络和internet\网络和共享中心`并点击`WLAN`，接着选择`属性`并进入`internet协议版本4 (TCP/IPv4)`
 
-<!-- ![](https://ipfs.io/ipfs/QmfZFMj1hg7fo1uop8uLoEX9fcMYY4wMNJ1C5aBMNy2GkX?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfZFMj1hg7fo1uop8uLoEX9fcMYY4wMNJ1C5aBMNy2GkX?2.png) -->
 
-![](https://i.postimg.cc/v8rYnjm9/2018-05-10-053020.png)
+[插图](https://i.postimg.cc/v8rYnjm9/2018-05-10-053020.png)
 
 选择`使用下面的DNS服务器地址`并填入相应的DNS地址
 
-<!-- ![](https://ipfs.io/ipfs/QmZFzd8GsXzmLwAfth8X9WFEPk9z83oSHQm3NPbNHhB1iQ?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZFzd8GsXzmLwAfth8X9WFEPk9z83oSHQm3NPbNHhB1iQ?4.png) -->
 
-![](https://i.postimg.cc/DyfTXwHk/2018-05-10-053911.png)
+[插图](https://i.postimg.cc/DyfTXwHk/2018-05-10-053911.png)
 
 [点击测试](https://my.ishadowx.net/),你可能会对修改DNS只能防劫持但还可以防污染甚至解封IP的感到不解，[请进入传送门](#dns污染)
 
-<!-- ![](https://ipfs.io/ipfs/QmTK8mV8q2sZbUeQXMFj5MCCmASyY1ZyGFy2oAYeQB3k49?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTK8mV8q2sZbUeQXMFj5MCCmASyY1ZyGFy2oAYeQB3k49?0.png) -->
 
-![](https://i.postimg.cc/fR31ctvF/2018-05-23.png)
+[插图](https://i.postimg.cc/fR31ctvF/2018-05-23.png)
 
 
 ## hosts
@@ -1855,21 +1855,21 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 利用 https://www.ipaddress.com 查询维基百科相关ip，并找到`C:\Windows\System32\drivers\etc\host`，打开它
 
-<!-- ![](http://p3.cdn.img9.top/ipfs/QmeUhmaHpUSiQP9hgA4Y5gEsoufqF5u3o9zVrGftWJQx4T?3.png) -->
+<!-- [插图](http://p3.cdn.img9.top/ipfs/QmeUhmaHpUSiQP9hgA4Y5gEsoufqF5u3o9zVrGftWJQx4T?3.png) -->
 
-![](https://i.postimg.cc/SQdRXsVC/2018-04-30-090747.png)
+[插图](https://i.postimg.cc/SQdRXsVC/2018-04-30-090747.png)
 
 添加维基的ip地址，`#`是注释
 
-<!-- ![](https://ipfs.io/ipfs/QmfBgmHvkYXor6gJtvpz93psQAvTm4zsFB2qMK2NtNszYR?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfBgmHvkYXor6gJtvpz93psQAvTm4zsFB2qMK2NtNszYR?2.png) -->
 
-![](https://i.postimg.cc/prcPsm1S/2018-04-30-091155.png)
+[插图](https://i.postimg.cc/prcPsm1S/2018-04-30-091155.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmT5DKfhyTteW4NWPQfb657YEz2jeuoESmmpZgLXJ3Dkd3?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmT5DKfhyTteW4NWPQfb657YEz2jeuoESmmpZgLXJ3Dkd3?4.png) -->
 
-![](https://i.postimg.cc/sg7RhHyq/2018-04-30-092057.png)
+[插图](https://i.postimg.cc/sg7RhHyq/2018-04-30-092057.png)
 
 
 # 浏览应用
@@ -1880,35 +1880,35 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 要想使用扩展插件，首先得去镜像站点[下载chrome](https://repo.fdzh.org/chrome/exe/?C=M&O=D)
 
-![](https://i.postimg.cc/yd0JnRxm/2018-05-31-181314.png)
+[插图](https://i.postimg.cc/yd0JnRxm/2018-05-31-181314.png)
 
 `https://chrome.google.com/webstore/detail/扩展应用名称`后面即是它的chromeID，打开网址将ID复制
 
-<!-- ![](https://ipfs.io/ipfs/QmXxyd7LKPB7GFD82DGFhHeHo3WAptztEYeHtmnuXzGZud?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXxyd7LKPB7GFD82DGFhHeHo3WAptztEYeHtmnuXzGZud?2.png) -->
 
-![](https://i.postimg.cc/8cP1Wf6P/2018-05-01-153439.png)
+[插图](https://i.postimg.cc/8cP1Wf6P/2018-05-01-153439.png)
 
 接着进入[chrome- extension-downloader](https://chrome-extension-downloader.com/)页面，粘贴ID并点击下载按钮
 
-<!-- ![](https://ipfs.io/ipfs/QmZucqRU4mUnRczUnC7avan6LFiXAsiKzzmDBDoLX6XxeT?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZucqRU4mUnRczUnC7avan6LFiXAsiKzzmDBDoLX6XxeT?3.png) -->
 
-![](https://i.postimg.cc/Vkbzj8dM/2018-05-01-153929.png)
+[插图](https://i.postimg.cc/Vkbzj8dM/2018-05-01-153929.png)
 
 将下载好的`.crx`扩展文件拖动至chrome的扩展程序页面中，便可完成安装
 
-<!-- ![](https://ipfs.io/ipfs/QmXdxTD6RBijvGmfSQK8SenmSqi5bvCWcT2aAdY7ACzped?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXdxTD6RBijvGmfSQK8SenmSqi5bvCWcT2aAdY7ACzped?0.png) -->
 
-![](https://i.postimg.cc/sgSRM4N4/2018-05-01-154821.png)
+[插图](https://i.postimg.cc/sgSRM4N4/2018-05-01-154821.png)
 除此之外，还可使用[Google访问助手](http://www.ggfwzs.com/)并按相关说明进行设置
 
-<!-- ![](https://ipfs.io/ipfs/QmYXeM1YztaipcumewNYqQmNGSjPj6E4uspjGvSwfxYuaE?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYXeM1YztaipcumewNYqQmNGSjPj6E4uspjGvSwfxYuaE?2.png) -->
 
-![](https://i.postimg.cc/brd7pxnb/2018-04-28-214301.png)
+[插图](https://i.postimg.cc/brd7pxnb/2018-04-28-214301.png)
 虽然助手只能用于访问Google服务，但有了商店可以下载各式各样的代理插件 
 
-<!-- ![](https://ipfs.io/ipfs/Qmd3XDfNV6QswghKe7nmrP2by3cxzgT1TEMdVTuTunWyfb?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmd3XDfNV6QswghKe7nmrP2by3cxzgT1TEMdVTuTunWyfb?4.png) -->
 
-![](https://i.postimg.cc/mg70L2Pd/2018-04-28-220028.png)
+[插图](https://i.postimg.cc/mg70L2Pd/2018-04-28-220028.png)
 
 
 ## opera
@@ -1919,45 +1919,45 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 更改`国家或地区`换成香港或澳门特别行政区
 
-<!-- ![](http://ipfs.io/ipfs/QmaoGnn2RwRpH5HdDWHBtzJE2kzK3bygkMExAEo2PTgmQR?3.png) -->
+<!-- [插图](http://ipfs.io/ipfs/QmaoGnn2RwRpH5HdDWHBtzJE2kzK3bygkMExAEo2PTgmQR?3.png) -->
 
-![](https://i.postimg.cc/25Gj5x1X/2018-04-28-204541.png)
+[插图](https://i.postimg.cc/25Gj5x1X/2018-04-28-204541.png)
 
 下载安装opera并打开设置选项中的`隐私和安全`找到`VPN`选项开启便可
 
-<!-- ![](http://ipfs.io/ipfs/QmbPmiD1oWdoKGMt8voGxdy7mxwQcGQngceetoeJ8goZwD?3.png) -->
+<!-- [插图](http://ipfs.io/ipfs/QmbPmiD1oWdoKGMt8voGxdy7mxwQcGQngceetoeJ8goZwD?3.png) -->
 
-![](https://i.postimg.cc/Y9j7CBKh/2018-04-28-205527.png)
+[插图](https://i.postimg.cc/Y9j7CBKh/2018-04-28-205527.png)
 
 测试
 
-<!-- ![](http://ipfs.io/ipfs/QmPnbqrUEBboNmUJ3aZYHFbK3cWfGcefz2CxyK2Zj7Ydsx?0.png) -->
+<!-- [插图](http://ipfs.io/ipfs/QmPnbqrUEBboNmUJ3aZYHFbK3cWfGcefz2CxyK2Zj7Ydsx?0.png) -->
 
-![](https://i.postimg.cc/ZK6WSpxX/2018-04-28-210138.png)
+[插图](https://i.postimg.cc/ZK6WSpxX/2018-04-28-210138.png)
 
 打开扩展应用商店，搜索`chrome`关键字，找到[extension-source-viewer](https://addons.opera.com/zh-cn/extensions/details/extension-source-viewer/)，点击进入安装它
 
-<!-- ![](https://ipfs.io/ipfs/QmS1hLEzPNXhcii2dSuX6TkFKE77Stib2y75LWEymxkTTX?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmS1hLEzPNXhcii2dSuX6TkFKE77Stib2y75LWEymxkTTX?2.png) -->
 
-![](https://i.postimg.cc/hjHGFtzS/2018-05-01-160149.png)
+[插图](https://i.postimg.cc/hjHGFtzS/2018-05-01-160149.png)
 
 下载zip压缩包
 
-<!-- ![](https://ipfs.io/ipfs/QmazGqGpH2Aqt9XedswyX7ZpbdnmZiFjaDkx9dLtHXbBMy?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmazGqGpH2Aqt9XedswyX7ZpbdnmZiFjaDkx9dLtHXbBMy?0.png) -->
 
-![](https://i.postimg.cc/KvhYJ4hf/2018-05-01-160509.png)
+[插图](https://i.postimg.cc/KvhYJ4hf/2018-05-01-160509.png)
 
 将opera扩展下载的chrome扩展压缩包，进行解压生成文件夹
 
-<!-- ![](https://ipfs.io/ipfs/QmT7Vn1JUHsgRvzm5AfX7akDBvEB7VcnW1uTfR9QtZQLbc?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmT7Vn1JUHsgRvzm5AfX7akDBvEB7VcnW1uTfR9QtZQLbc?3.png) -->
 
-![](https://i.postimg.cc/d03QLyGs/2018-05-01-164056.png)
+[插图](https://i.postimg.cc/d03QLyGs/2018-05-01-164056.png)
 
 在chrome中的扩展程序中，开启开发者模式，点击加载已解压的扩展程序，找到已解压的扩展程序文件夹，点击确定
 
-<!-- ![](https://ipfs.io/ipfs/QmW44rZLfD9wdmwpUkSmQhhYrGMh3SXvr7xSexyUyXQF9x?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmW44rZLfD9wdmwpUkSmQhhYrGMh3SXvr7xSexyUyXQF9x?1.png) -->
 
-![](https://i.postimg.cc/Zn7VYXmK/2018-05-01-164619.png)
+[插图](https://i.postimg.cc/Zn7VYXmK/2018-05-01-164619.png)
 
 
 ## tor（firefox）
@@ -1966,15 +1966,15 @@ Wong, A. (2021). Capital flight: The travel channel. *Journal of International M
 
 azure已由政府背景的企业所代理，但还是可用的，只是不太建议选择
 
-<!-- ![](https://ipfs.io/ipfs/QmWV4nmWRJL1Yi7jrFdt35tE91fYPTbZ6XMxgV1nqtp1ZU?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWV4nmWRJL1Yi7jrFdt35tE91fYPTbZ6XMxgV1nqtp1ZU?2.png) -->
 
-![](https://i.postimg.cc/v89G8GPp/2018-04-29-022846.png)
+[插图](https://i.postimg.cc/v89G8GPp/2018-04-29-022846.png)
 
 满足你的好奇心这里给出一个暗网地址:point_right:[hdwiki](https://thehiddenwiki.org/)
 
-<!-- ![](http://ipfs.io/ipfs/QmPa9g6SnpvXdDHcy5bYWB3jdkvtiCYe4oU44bznHaKrRX?3.png) -->
+<!-- [插图](http://ipfs.io/ipfs/QmPa9g6SnpvXdDHcy5bYWB3jdkvtiCYe4oU44bznHaKrRX?3.png) -->
 
-![](https://i.postimg.cc/xjGBF8pT/2018-04-29-023357.png)
+[插图](https://i.postimg.cc/xjGBF8pT/2018-04-29-023357.png)
 
 
 ## puffin
@@ -1983,23 +1983,23 @@ azure已由政府背景的企业所代理，但还是可用的，只是不太建
 
 [下载安装puffin](https://www.puffinbrowser.com/)
 
-![](https://i.postimg.cc/13pwJbdn/2018-06-08-121528.png)
+[插图](https://i.postimg.cc/13pwJbdn/2018-06-08-121528.png)
 
 在初始化配置时，需要连接VPN
 
-![](https://i.postimg.cc/B6wKj3jy/2018-06-08-123200.png)
+[插图](https://i.postimg.cc/B6wKj3jy/2018-06-08-123200.png)
 
 查看服务器与本地IP信息
 
-![](https://i.postimg.cc/d0skn3dp/2018-06-08-123524.png)
+[插图](https://i.postimg.cc/d0skn3dp/2018-06-08-123524.png)
 
 断开VPN连接，再重启`启用云服务器`即可
 
-![](https://i.postimg.cc/kDPDSgqj/2018-06-08-123758.png)
+[插图](https://i.postimg.cc/kDPDSgqj/2018-06-08-123758.png)
 
 测试
 
-![](https://i.postimg.cc/3xBFFdW0/2018-06-08-124837.png)
+[插图](https://i.postimg.cc/3xBFFdW0/2018-06-08-124837.png)
 
 
 ## zeronet
@@ -2008,142 +2008,142 @@ azure已由政府背景的企业所代理，但还是可用的，只是不太建
 
 下载接着解压缩并打开[Zeronet](https://zeronet.io/)
 
-<!-- ![](https://ipfs.io/ipfs/QmfQdYYVi7h4h3LqVWXFZNkxffHBmjKUGmJbEjr4vJETha?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfQdYYVi7h4h3LqVWXFZNkxffHBmjKUGmJbEjr4vJETha?3.png) -->
 
-![](https://i.postimg.cc/ZntPk6H7/2018-05-20-213528.png)
+[插图](https://i.postimg.cc/ZntPk6H7/2018-05-20-213528.png)
 
 打开ZeroMe
 
-<!-- ![](https://ipfs.io/ipfs/QmavvBF5yT6ANDNETqXPsY3PGWhS96v42ZMvz9Zro1Exaq?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmavvBF5yT6ANDNETqXPsY3PGWhS96v42ZMvz9Zro1Exaq?3.png) -->
 
-![](https://i.postimg.cc/ZR33LCmr/2018-05-20-225824.png)
+[插图](https://i.postimg.cc/ZR33LCmr/2018-05-20-225824.png)
 
 允许授权
 
-<!-- ![](https://ipfs.io/ipfs/QmeanoM1b4r94RYPj2UD8T7qJ98Gw1guqFPMpxNQA7zuVz?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeanoM1b4r94RYPj2UD8T7qJ98Gw1guqFPMpxNQA7zuVz?1.png) -->
 
-![](https://i.postimg.cc/CLvZkj83/2018-05-20-230112.png)
+[插图](https://i.postimg.cc/CLvZkj83/2018-05-20-230112.png)
 
 注册新的用户
 
-<!-- ![](https://ipfs.io/ipfs/QmYRJSVT3PpfEqN1KZJ8WsU2DLkAczDu4FdWVuiQreksng?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYRJSVT3PpfEqN1KZJ8WsU2DLkAczDu4FdWVuiQreksng?2.png) -->
 
-![](https://i.postimg.cc/xdLTxHkT/2018-05-20-230310.png)
+[插图](https://i.postimg.cc/xdLTxHkT/2018-05-20-230310.png)
 
 选择获得认证证书
 
-<!-- ![](https://ipfs.io/ipfs/QmaKYaN4GqYGxoU75k33Zv6fHdvXaYG6fMDQ9fh3iy8WZX?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaKYaN4GqYGxoU75k33Zv6fHdvXaYG6fMDQ9fh3iy8WZX?0.png) -->
 
-![](https://i.postimg.cc/wv0zZk9H/2018-05-20-233227.png)
+[插图](https://i.postimg.cc/wv0zZk9H/2018-05-20-233227.png)
 
 创建成功
 
-<!-- ![](https://ipfs.io/ipfs/QmP6oMX3FimFeSvx8oJjYgA7uDtfzCAvF65r1j8fm7AjWE?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmP6oMX3FimFeSvx8oJjYgA7uDtfzCAvF65r1j8fm7AjWE?4.png) -->
 
-![](https://i.postimg.cc/6pnXtKBM/2018-05-20-233251.png)
+[插图](https://i.postimg.cc/6pnXtKBM/2018-05-20-233251.png)
 
 点击`在用户数据库中搜索`可查看已注册用户并拉入黑名单
 
-<!-- ![](https://ipfs.io/ipfs/QmchciRgEmuS48cPw9TxLH4yq25hy39FbD3ciXvckKbgG3?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmchciRgEmuS48cPw9TxLH4yq25hy39FbD3ciXvckKbgG3?3.png) -->
 
-![](https://i.postimg.cc/HkGqSNbX/2018-05-20-233508.png)
+[插图](https://i.postimg.cc/HkGqSNbX/2018-05-20-233508.png)
 
 点击右上角的`0`图标可回到控制台首页，在设置中也可管理屏蔽用户
 
-<!-- ![](https://ipfs.io/ipfs/QmP9FKwvRaVmFs9cEEKYGrvAF4kk5zAst79XybrWVD34ZD?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmP9FKwvRaVmFs9cEEKYGrvAF4kk5zAst79XybrWVD34ZD?4.png) -->
 
-![](https://i.postimg.cc/FHVh0vw7/2018-05-20-233759.png)
+[插图](https://i.postimg.cc/FHVh0vw7/2018-05-20-233759.png)
 
 再次进入ZeroMe选择已注册好的账户并下载相关组件，完成之后加入便可
 
-<!-- ![](https://ipfs.io/ipfs/Qmc5CHNk6TebUoyByJvobge1EPTaF53WuLXimNb3TpvG7v?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmc5CHNk6TebUoyByJvobge1EPTaF53WuLXimNb3TpvG7v?0.png) -->
 
-![](https://i.postimg.cc/DyVhDmTS/2018-05-20-234758.png)
+[插图](https://i.postimg.cc/DyVhDmTS/2018-05-20-234758.png)
 
 用[零度搜索](https://www.zerogate.tk/lingdu.bit)查找相关感兴趣的论坛可参加讨论
 
-<!-- ![](https://ipfs.io/ipfs/QmVr3A3oWBWxPwbUsiD5gj5JBHxcLYzNaMC6oAYL2YC7Pg?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVr3A3oWBWxPwbUsiD5gj5JBHxcLYzNaMC6oAYL2YC7Pg?2.png) -->
 
-![](https://i.postimg.cc/FKwCRdGc/2018-05-21-000234.png)
+[插图](https://i.postimg.cc/FKwCRdGc/2018-05-21-000234.png)
 
 进入[零度导航](https://www.zerogate.tk/0123.bit)可找到，一些你想要的东西
 
-<!-- ![](https://ipfs.io/ipfs/QmZPQQPXincSMcDdovrZbjUuxieqsvQyDsuzcXvVBrFi2z?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZPQQPXincSMcDdovrZbjUuxieqsvQyDsuzcXvVBrFi2z?4.png) -->
 
-![](https://i.postimg.cc/XqksQ2Wc/2018-05-21-001320.png)
+[插图](https://i.postimg.cc/XqksQ2Wc/2018-05-21-001320.png)
 
 另外一些细节方面，右上角`0`图标左拖动可拉取更新还可查看设置相关信息
 
-<!-- ![](https://ipfs.io/ipfs/QmTeLqpubB6F9TNyQJ85XaXXsRKK89t7pDUtA9Fn7Jtq67?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTeLqpubB6F9TNyQJ85XaXXsRKK89t7pDUtA9Fn7Jtq67?4.png) -->
 
-![](https://i.postimg.cc/K8HJqk6V/2018-05-21-003643.png)
+[插图](https://i.postimg.cc/K8HJqk6V/2018-05-21-003643.png)
 
 若将Zeronet整个文件删除，重新载入则失去对当前账户的所有权且无法找回
 
-<!-- ![](https://ipfs.io/ipfs/QmTCjXEepwdu4wUVW1nw66Hve2iURe939TPaBnF4Vsrs1D?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTCjXEepwdu4wUVW1nw66Hve2iURe939TPaBnF4Vsrs1D?4.png) -->
 
-![](https://i.postimg.cc/50M5TwnP/2018-05-21-005027.png)
+[插图](https://i.postimg.cc/50M5TwnP/2018-05-21-005027.png)
 
 因此需备份`users.json`文件
 
-<!-- ![](https://ipfs.io/ipfs/QmcFGnNonp269m2Hc6NAAJfE9mhWqFxNfGy7pomcsdhxZu?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmcFGnNonp269m2Hc6NAAJfE9mhWqFxNfGy7pomcsdhxZu?2.png) -->
 
-![](https://i.postimg.cc/VvZCfMWP/2018-05-21-005403.png)
+[插图](https://i.postimg.cc/VvZCfMWP/2018-05-21-005403.png)
 
 将Zeronet整个文件删除且重新载入以后，打开`ZeroNet.exe`让其生成`data`文件夹
 
-<!-- ![](https://ipfs.io/ipfs/QmSo7gVZvDC76Ty8D2w7W4hVCD9KHCbk7gzP9EBHVuY6GT?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSo7gVZvDC76Ty8D2w7W4hVCD9KHCbk7gzP9EBHVuY6GT?0.png) -->
 
-![](https://i.postimg.cc/QVLjJdXW/2018-05-21-010901.png)
+[插图](https://i.postimg.cc/QVLjJdXW/2018-05-21-010901.png)
 
 复制已备份好的`users.json`文件放置在`data`文件夹中
 
-<!-- ![](![](https://ipfs.io/ipfs/QmX9q2EzXcUo1g6x8HJv9qqFi3UJvjoQMVmJrXyh6t8j6p?2.png)) -->
+<!-- [插图](![](https://ipfs.io/ipfs/QmX9q2EzXcUo1g6x8HJv9qqFi3UJvjoQMVmJrXyh6t8j6p?2.png)) -->
 
-![](https://i.postimg.cc/TPkLqgBL/2018-05-21-011154.png)
+[插图](https://i.postimg.cc/TPkLqgBL/2018-05-21-011154.png)
 
 重启ZeroNet并打开ZeroMe，下载完数据库点击授权
 
-<!-- ![](https://ipfs.io/ipfs/QmdvwoK2cMM8F6UaVGTrq31bS3pZMZ79jUzCoeZnXNnvVb?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdvwoK2cMM8F6UaVGTrq31bS3pZMZ79jUzCoeZnXNnvVb?1.png) -->
 
-![](https://i.postimg.cc/CLjRrWWV/2018-05-21-011848.png)
+[插图](https://i.postimg.cc/CLjRrWWV/2018-05-21-011848.png)
 
 再重启ZeroNet打开ZeroMe即可
 
-<!-- ![](https://ipfs.io/ipfs/QmUx6vCMPwhcei5D5HomostAgqBgzGXMftUhNcfrrm7rth?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUx6vCMPwhcei5D5HomostAgqBgzGXMftUhNcfrrm7rth?2.png) -->
 
-![](https://i.postimg.cc/SNryMqBj/2018-05-21-012112.png)
+[插图](https://i.postimg.cc/SNryMqBj/2018-05-21-012112.png)
 
 若是遇到一些site Blocked或是disable proxy请将`www.zerogate.tk`换成`127.0.0.1:43110`即可
 
-<!-- ![](https://ipfs.io/ipfs/QmV9SdqrZCNdWCpCZLBV4MqUkHg36KWN8UJUnChBNi5YLs?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmV9SdqrZCNdWCpCZLBV4MqUkHg36KWN8UJUnChBNi5YLs?1.png) -->
 
-![](https://i.postimg.cc/RZYx70XC/2018-05-20-221304.png)
+[插图](https://i.postimg.cc/RZYx70XC/2018-05-20-221304.png)
 
 <!-- 
 打开[零度搜索](https://www.zerogate.tk/lingdu.bit)，并查找相关站点
 
-![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_220806.png)
+[插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_220806.png)
 
 将`https://www.zerogate.tk`替换成`http://127.0.0.1`
 
-![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_221304.png)
+[插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_221304.png)
 
 打开站点并设置大小限制到100MB
 
-![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_222037.png)
+[插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_222037.png)
 
 进入站点
 
-![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_222425.png)
+[插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_222425.png)
 
 复制特征码
 
-![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_223125.png)
+[插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_223125.png)
 
 在特征码前加入 `magnet:?xt=urn:btih:`指令复制到迅雷下载即可
 
-![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_224907.png) -->
+[插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/2018-05-20_224907.png) -->
 
 <!-- ### 磁力链结构
 
@@ -2174,45 +2174,45 @@ tr ：tracker的缩写，表示tracker服务器的地址也是选填的。
 
 点击 `connect` 等一会 PC 即可连接上互联网
 
-<!-- ![](https://ipfs.io/ipfs/QmWFRGy8fQr35qK5RujpWdnHyQjMWvjESRxnQK84uQrhcw?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWFRGy8fQr35qK5RujpWdnHyQjMWvjESRxnQK84uQrhcw?3.png) -->
 
-![](https://i.postimg.cc/x18kPk9D/2018-04-29-022009.png)
+[插图](https://i.postimg.cc/x18kPk9D/2018-04-29-022009.png)
 
 打开`移动热点`，创建成功后，并右键选择`设置`
 
-<!-- ![](https://ipfs.io/ipfs/QmfPtCEk3dqjjXeXHW67paE6TuRRm8t144VpweAJzU5Ux5?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfPtCEk3dqjjXeXHW67paE6TuRRm8t144VpweAJzU5Ux5?3.png) -->
 
-![](https://i.postimg.cc/hPbw0jpr/2018-05-08-213716.png)
+[插图](https://i.postimg.cc/hPbw0jpr/2018-05-08-213716.png)
 
 可设定WiFi热点名称与密码，若系统是win7，[就请看这里](#append/win7-wifi)
 
-<!-- ![](https://ipfs.io/ipfs/Qmb5xZZWGN73dWHXHHfTPTxSPmqZQEsPRkaGwhGgHYG1SS?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmb5xZZWGN73dWHXHHfTPTxSPmqZQEsPRkaGwhGgHYG1SS?1.png) -->
 
-![](https://i.postimg.cc/L6RQhS2Z/2018-05-08-214959.png)
+[插图](https://i.postimg.cc/L6RQhS2Z/2018-05-08-214959.png)
 
 `控制面板`->`网络共享中心`->`更改适配器设置`找到VPN软件开启的网卡，右键`属性`
 
-<!-- ![](https://ipfs.io/ipfs/QmRPSE29AQPX37pcKyH6HkWcg18pqAymp66J68ziFTnEie?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRPSE29AQPX37pcKyH6HkWcg18pqAymp66J68ziFTnEie?4.png) -->
 
-![](https://i.postimg.cc/q7tjWMXW/2018-05-08-221121.png)
+[插图](https://i.postimg.cc/q7tjWMXW/2018-05-08-221121.png)
 
 在`共享`选择`允许其他网络用户通过此计算机的Internet连接来连接`，并在`家庭网络连接`选择热点网卡
 
-<!-- ![](https://ipfs.io/ipfs/QmaWy3yjxn1a88qVjKrinU2wYEyYLpjGausVvG1UdoNSqu?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaWy3yjxn1a88qVjKrinU2wYEyYLpjGausVvG1UdoNSqu?0.png) -->
 
-![](https://i.postimg.cc/B6TcG887/2018-05-08-221920.png)
+[插图](https://i.postimg.cc/B6TcG887/2018-05-08-221920.png)
 
 打开手机`WiFi`设置
 
-<!-- ![](https://ipfs.io/ipfs/QmdUMKKiFa1Fj7wottZXy8zY7wq7m78TudGDGkDinAX1SZ?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdUMKKiFa1Fj7wottZXy8zY7wq7m78TudGDGkDinAX1SZ?2.png) -->
 
-![](https://i.postimg.cc/dVg8kRrS/QQ20180508224410.png)
+[插图](https://i.postimg.cc/dVg8kRrS/QQ20180508224410.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmfCDDEGWhFb2nD7LrLu2gmVWdhVzBgDc59qDnmGMfaYJE?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfCDDEGWhFb2nD7LrLu2gmVWdhVzBgDc59qDnmGMfaYJE?1.png) -->
 
-![](https://i.postimg.cc/nrV7b3fM/QQ20180508224420.png)
+[插图](https://i.postimg.cc/nrV7b3fM/QQ20180508224420.png)
 
 
 ## 典型VPN概览
@@ -2221,41 +2221,41 @@ tr ：tracker的缩写，表示tracker服务器的地址也是选填的。
 
 进入[tunsafe官网](https://tunsafe.com/)，可以看到此外它还提供独立的虚拟网卡和软件（集合安装器需要全局翻墙环境），然后下载并安装这两个文件。
 
-![](https://i.postimg.cc/1XRCdppx/20190607083401.png)
+[插图](https://i.postimg.cc/1XRCdppx/20190607083401.png)
 
 安装很简单，默认就行；注意勾选下始终信任项目就好了。
 
-![](https://i.postimg.cc/Z5LLG954/20190607083553.png)
+[插图](https://i.postimg.cc/Z5LLG954/20190607083553.png)
 
 在 `user guide` 选择 `using tunsafe windows`接着再选择`free vpn servers`
 
-![](https://i.postimg.cc/7LKsW3r8/20190606205200.png)
+[插图](https://i.postimg.cc/7LKsW3r8/20190606205200.png)
 
 点击 `create new account`，选择服务器，然后生成下载该配置文件，**建议下载多个配置文件测试连接效果**。
 
-![](https://i.postimg.cc/63NrzTyJ/20190606205536.png)
+[插图](https://i.postimg.cc/63NrzTyJ/20190606205536.png)
 
 也可以在 [mullvad](https://www.mullvad.net) 中选择`取得账户`-> `验证` -> `WireGuard configuration generator`
 
-![](https://i.postimg.cc/C1b528w4/20190607084331.png)
+[插图](https://i.postimg.cc/C1b528w4/20190607084331.png)
 
 选择服务器并下载
 
-![](https://i.postimg.cc/CxnYmCWV/20190607084522.png)
+[插图](https://i.postimg.cc/CxnYmCWV/20190607084522.png)
 
 打开软件在`File`项中选择`browse in explorer` 就会打开软件配置目录源
 
-![](https://i.postimg.cc/hv8Qj0rf/Snipaste-2019-06-06-21-11-36.png)
+[插图](https://i.postimg.cc/hv8Qj0rf/Snipaste-2019-06-06-21-11-36.png)
 
 将下载好的conf导入到该目录
 
-![](https://i.postimg.cc/SRYVwsqj/20190607092202.png)
+[插图](https://i.postimg.cc/SRYVwsqj/20190607092202.png)
 
 如果连接不上，那换一个服务器连接测试，即可
 
 !> 也有可能存在恶意禁用的问题，详情请看：[简谈国产杀软 - 恶意禁用连接互联网服务问题](append/guochan-sharuan?id=恶意禁用连接互联网服务问题)
 
-![](https://i.postimg.cc/T3RbDfrP/Snipaste-2019-06-07-08-54-24.png)
+[插图](https://i.postimg.cc/T3RbDfrP/Snipaste-2019-06-07-08-54-24.png)
 
 ## GateVPN
 
@@ -2270,9 +2270,9 @@ tr ：tracker的缩写，表示tracker服务器的地址也是选填的。
 | openvpn | 复杂 | win,mac,ios,android | 极好 | 一般 |
 | MS-SSTP | 最易 | 只windows平台 | 较好 | 最差 |
 
-<!-- ![](https://ipfs.io/ipfs/QmQc1YoVQvszg1rNZscxwWJ7ZmBMmDZyvALyw3T5iYsRa4?4.gif) -->
+<!-- [插图](https://ipfs.io/ipfs/QmQc1YoVQvszg1rNZscxwWJ7ZmBMmDZyvALyw3T5iYsRa4?4.gif) -->
 
-![](https://i.postimg.cc/RZFb7zhp/Snipaste-2019-06-06-04-03-52.png)
+[插图](https://i.postimg.cc/RZFb7zhp/Snipaste-2019-06-06-04-03-52.png)
 
 ## OpenVPN
 
@@ -2280,9 +2280,9 @@ tr ：tracker的缩写，表示tracker服务器的地址也是选填的。
 
 进入[freeopenvpn.org](https://www.freeopenvpn.org/)，点击home查看服务器列表，`get access`、`download`皆可进入下载页面
 
-<!-- ![](https://ipfs.io/ipfs/QmbkkgwTLEQGRWNEqWAvhnLkaNB5dVWNmZiLV1HYonVkwQ?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmbkkgwTLEQGRWNEqWAvhnLkaNB5dVWNmZiLV1HYonVkwQ?1.png) -->
 
-![](https://i.postimg.cc/fRkYHqMb/2018-04-29-012851.png)
+[插图](https://i.postimg.cc/fRkYHqMb/2018-04-29-012851.png)
 
 导入文件后，运行 openVPN 连接互联网
 
@@ -2291,15 +2291,15 @@ tr ：tracker的缩写，表示tracker服务器的地址也是选填的。
 
 进入[wireguard](https://www.wireguard.com/install/)，下载
 
-![](https://i.postimg.cc/d0Ny2kxH/Snipaste-2019-10-04-10-49-28.png)
+[插图](https://i.postimg.cc/d0Ny2kxH/Snipaste-2019-10-04-10-49-28.png)
 
 打开wireguard选择 `add empty tunnel`并复制`public key` 公钥键值
 
-![](https://i.postimg.cc/FR2w1Vkf/00-05.png)
+[插图](https://i.postimg.cc/FR2w1Vkf/00-05.png)
 
 进入[cryptostorm.is/wireguard](https://cryptostorm.is/wireguard)，将公钥复制到`your wireguard public key`选项，`add key`继续，并生成的配置文件
 
-![](https://i.postimg.cc/MHB0Ky1p/27-48.png)
+[插图](https://i.postimg.cc/MHB0Ky1p/27-48.png)
 
 将配置文件复制到`public key`下方配置信息框内，并删除如下不必要的字段
 
@@ -2308,15 +2308,15 @@ tr ：tracker的缩写，表示tracker服务器的地址也是选填的。
 PrivateKey = YOUR_PRIVATE_KEY
 ```
 
-![](https://i.postimg.cc/BbRhmSBX/41-15.png)
+[插图](https://i.postimg.cc/BbRhmSBX/41-15.png)
 
 点击`active`激活
 
-![](https://i.postimg.cc/65gwLTRh/50-10.png)
+[插图](https://i.postimg.cc/65gwLTRh/50-10.png)
 
 测试
 
-![](https://i.postimg.cc/zvz1SjPK/56-26.png)
+[插图](https://i.postimg.cc/zvz1SjPK/56-26.png)
 
 > 参考自油管 [Siemens Tutorials](https://www.youtube.com/channel/UCmvvn2qsP77_7XUB0omMeCw/about?pbjreload=10) 关于wireguard翻墙视频
 
@@ -2340,43 +2340,43 @@ PrivateKey = YOUR_PRIVATE_KEY
 
 访问[ss站点](https://free-ss.tk/)，右键扫描二维码
 
-<!-- ![](https://ipfs.io/ipfs/QmWS9eJJi7dnMXjG7jxYAz7NDDCLHnrtSfc6viNRjbBjc9?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWS9eJJi7dnMXjG7jxYAz7NDDCLHnrtSfc6viNRjbBjc9?2.png) -->
 
-![](https://i.postimg.cc/C1v3LX5P/2018-04-30-105508.png)
+[插图](https://i.postimg.cc/C1v3LX5P/2018-04-30-105508.png)
 
  此时已经可以连接互联网了，如果你的系统不是自动设置的，请看<a href="#/proxy/ss-ssr?id=配置">配置</a>
 
 右键允许来自局域网的连接
 
-<!-- ![](https://ipfs.io/ipfs/QmbNUAL9vmXcnAkWP15XxevvLqpED2tbAxxnVCeGDs3o9X?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmbNUAL9vmXcnAkWP15XxevvLqpED2tbAxxnVCeGDs3o9X?1.png) -->
 
-![](https://i.postimg.cc/J0fdsLLq/2018-05-05-032022.png)
+[插图](https://i.postimg.cc/J0fdsLLq/2018-05-05-032022.png)
 
 `网络和共享中心`-&gt;`wlan`-&gt;`详细信息`查看本机网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmdwEi4zS8DNWx8gzkykPAoBkocQguEEP4QYhZFQV8Kwj9?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdwEi4zS8DNWx8gzkykPAoBkocQguEEP4QYhZFQV8Kwj9?4.png) -->
 
-![](https://i.postimg.cc/Vvsxz4Ds/2018-05-05-032400.png)
+[插图](https://i.postimg.cc/Vvsxz4Ds/2018-05-05-032400.png)
 
 `高级`设置`代理`选择`手动`，按照如下信息设置
 
-<!-- ![](https://ipfs.io/ipfs/QmfU5EVwSUgyNtKFbetxfR1pvcyQTgbmM1y5Rp7QYkuX1b?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfU5EVwSUgyNtKFbetxfR1pvcyQTgbmM1y5Rp7QYkuX1b?1.png) -->
 
-![](https://i.postimg.cc/mkCKNDVq/x1.png)
+[插图](https://i.postimg.cc/mkCKNDVq/x1.png)
 
  一些朋友可能对连接互联网的网速要求较高，也可使用[speedtest](http://www.speedtest.net/)进行测试
 
-<!-- ![](https://ipfs.io/ipfs/QmRfQ2LhCek5jw7UDBxwC2Y9Qm8VLjP17Ehhgh99Kw7Uod?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRfQ2LhCek5jw7UDBxwC2Y9Qm8VLjP17Ehhgh99Kw7Uod?3.png) -->
 
-![](https://i.postimg.cc/zXw9yyyH/x2.png)
+[插图](https://i.postimg.cc/zXw9yyyH/x2.png)
 
 ### 配置
 
 有些系统如win7，连接服务器后还需在internet属性中手动设置本机地址与sock5代理端口
 
-<!-- ![](https://ipfs.io/ipfs/QmQBdt4QM9GKcgfFdXh1LtKh45ubyrTqhjEgVHUBk9VfG4?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmQBdt4QM9GKcgfFdXh1LtKh45ubyrTqhjEgVHUBk9VfG4?4.png) -->
 
-![](https://i.postimg.cc/k4tHqGr4/2018-04-28-224352.png)
+[插图](https://i.postimg.cc/k4tHqGr4/2018-04-28-224352.png)
 
 PAC模式即脚本配置模式，收录的网址走代理路线，没有收录的地址则不走代理路线即正常访问。例如将Google加入代理访问列表，配置规则如下：
 
@@ -2387,52 +2387,52 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 
 在`pac`选项中-&gt;`编辑本地pac文件`即可
 
-<!-- ![](https://ipfs.io/ipfs/QmeHE8dTsEEQhvQRWBjwzKeioyprepRha6vFFYpce4i22o?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeHE8dTsEEQhvQRWBjwzKeioyprepRha6vFFYpce4i22o?1.png) -->
 
-![](https://i.postimg.cc/xTP40BZK/2018-04-28-230423.png)
+[插图](https://i.postimg.cc/xTP40BZK/2018-04-28-230423.png)
 
 ### SS分享
 
 右键-&gt;`服务器`-&gt;`分享服务器配置`，如图
 
-![](https://i.postimg.cc/bv46CPGj/2018-53px8.png)
+[插图](https://i.postimg.cc/bv46CPGj/2018-53px8.png)
 
 随后可以看到相关ss链接与二维码生成
 
-![](https://i.postimg.cc/90hL2Bt8/2018-06-09-174922.png)
+[插图](https://i.postimg.cc/90hL2Bt8/2018-06-09-174922.png)
 
 可将二维码截图或是复制ss链接分享给他人，扫码或粘贴导入都行
 
-![](https://i.postimg.cc/FFyPZ2N2/2018-06-09-181034.png)
+[插图](https://i.postimg.cc/FFyPZ2N2/2018-06-09-181034.png)
 
 ## SSR
 
 ### 订阅功能
 
 右键->`服务器订阅`->`SSR服务器订阅设置`
-<!-- ![](https://ipfs.io/ipfs/QmX4z2VDbj5EDvzRzBHTiyqYsTvvxbgDi3pFwhiLfLLNFL?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmX4z2VDbj5EDvzRzBHTiyqYsTvvxbgDi3pFwhiLfLLNFL?1.png) -->
 
-![](https://i.postimg.cc/wvKV5kPq/2018-04-28-235146.png)
+[插图](https://i.postimg.cc/wvKV5kPq/2018-04-28-235146.png)
 
 点击add添加按钮，并导入此条订阅：https://prom-php.herokuapp.com/cloudfra_ssr.txt
-<!-- ![](https://ipfs.io/ipfs/QmNbaKnwt9E447xLzndAZvCHDByMbA6rZn4AsdDbeuFDuP?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmNbaKnwt9E447xLzndAZvCHDByMbA6rZn4AsdDbeuFDuP?2.png) -->
 
-![](https://i.postimg.cc/YChfJVB2/2018-06-09-215048.png)
+[插图](https://i.postimg.cc/YChfJVB2/2018-06-09-215048.png)
 
-<!-- ![](https://ipfs.io/ipfs/QmfXCT9yWSxPq4G7QuU9b1RzmFWZodAkY2Pzrt7iGHko5X?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfXCT9yWSxPq4G7QuU9b1RzmFWZodAkY2Pzrt7iGHko5X?1.png) -->
 
 再右键->`服务器订阅`->`更新ssr服务器订阅（不通过代理）`
 
-![](https://i.postimg.cc/jSpNBShv/2018-04-28-235337.png)
+[插图](https://i.postimg.cc/jSpNBShv/2018-04-28-235337.png)
 
 订阅成功后会有如下提示
-<!-- ![](https://ipfs.io/ipfs/QmdteWfXcW3NzJrB8gbxmF83eoybYfBoLThFEC6f8CwYCw?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdteWfXcW3NzJrB8gbxmF83eoybYfBoLThFEC6f8CwYCw?1.png) -->
 
-![](https://i.postimg.cc/SQ1nwKS8/2018-04-28-235358.png)
+[插图](https://i.postimg.cc/SQ1nwKS8/2018-04-28-235358.png)
 
 再打开SSR可看到导入了多条账号信息
 
-![](https://i.postimg.cc/TPcwQdNK/2018-06-09-220222.png)
+[插图](https://i.postimg.cc/TPcwQdNK/2018-06-09-220222.png)
 
 订阅的好处：
 
@@ -2443,7 +2443,7 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 
 打开ssr选中ssr链接即可
 
-![](https://i.postimg.cc/SNzx37tF/2018-06-09-190728.png)
+[插图](https://i.postimg.cc/SNzx37tF/2018-06-09-190728.png)
 
 <!-- !> ssr可以使用ss链接与二维码，反之是不行的，且ss只能连接兼容ss的服务器
  若想较为深入的了解ss链接的含义，[请参考ss、ssr、v2ray链接解析章节](#append/srvurl.md)
@@ -2464,55 +2464,55 @@ PAC模式即脚本配置模式，收录的网址走代理路线，没有收录�
 
 在使用v2ray前，需要下载[SwitchyOmega插件](https://github.com/FelisCatus/SwitchyOmega)，打开ss分享站点，点击蓝色配置小齿轮，下载`config.json`
 
-<!-- ![](https://ipfs.io/ipfs/QmcEBpCA4L194bXFpYaTLeDqJiypw9577KkuBT5hTLTwim?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmcEBpCA4L194bXFpYaTLeDqJiypw9577KkuBT5hTLTwim?2.png) -->
 
-![](https://i.postimg.cc/nr1ffr7m/2018-04-29-000906.png)
+[插图](https://i.postimg.cc/nr1ffr7m/2018-04-29-000906.png)
 
 替换同名源文件
 
-<!-- ![](https://ipfs.io/ipfs/QmPpDSm8oyz7b2oTGVMtYBv63pDeDzQkft5z2vpnSazSvy?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPpDSm8oyz7b2oTGVMtYBv63pDeDzQkft5z2vpnSazSvy?4.png) -->
 
-![](https://i.postimg.cc/tT5BXxS9/2018-04-29-001551.png)
+[插图](https://i.postimg.cc/tT5BXxS9/2018-04-29-001551.png)
 
 打开v2ray.exe程序，即可
 
-<!-- ![](https://ipfs.io/ipfs/QmYh2fcdZyadbTrdNoE7o4uQfUoupiqycJrvNzm6JDem93?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYh2fcdZyadbTrdNoE7o4uQfUoupiqycJrvNzm6JDem93?4.png) -->
 
-![](https://i.postimg.cc/9Q5Znfbb/2018-04-29-001900.png)
+[插图](https://i.postimg.cc/9Q5Znfbb/2018-04-29-001900.png)
 
 注意`congfig.json`里的端口、协议配置信息
 
-<!-- ![](https://ipfs.io/ipfs/QmSpmZsk2LFMtN3ku7PiNp5Yv9EREtxiJQMuWSPqYbpaz8?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSpmZsk2LFMtN3ku7PiNp5Yv9EREtxiJQMuWSPqYbpaz8?3.png) -->
 
-![](https://i.postimg.cc/MTM1LfCs/2018-04-29-002418.png)
+[插图](https://i.postimg.cc/MTM1LfCs/2018-04-29-002418.png)
 
 SwitchyOmega在情景模式中添加如下设置
 
-<!-- ![](https://ipfs.io/ipfs/Qmd1Gdt7v7PBrmj49mFjMFq2EyZ6H2EpytueRQESbBpCXC?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmd1Gdt7v7PBrmj49mFjMFq2EyZ6H2EpytueRQESbBpCXC?0.png) -->
 
-![](https://i.postimg.cc/ZqyRtPqy/2018-04-29-002210.png)
+[插图](https://i.postimg.cc/ZqyRtPqy/2018-04-29-002210.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmW62TYFQHQqoaJgX65AEKqosrXEpJKgSBgt8kBZw4zGzn?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmW62TYFQHQqoaJgX65AEKqosrXEpJKgSBgt8kBZw4zGzn?1.png) -->
 
-![](https://i.postimg.cc/yYJ2TLp9/2018-04-29-002706.png)
+[插图](https://i.postimg.cc/yYJ2TLp9/2018-04-29-002706.png)
 ## GUI
 
 v2ray图形化界面软件与ss操作类似，请留心，以[v2rayN_Pro](https://drive.google.com/drive/folders/1oCt98YHiFdf_uJPB2nRGU2FXDnZxSXVM)为例，将服务器`设为活动服务器`
 
-<!-- ![](https://ipfs.io/ipfs/QmdttdMMn7tbhE3k7KQNnHWPxPeS8CJ2fTXB1NGFs18haa?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdttdMMn7tbhE3k7KQNnHWPxPeS8CJ2fTXB1NGFs18haa?3.png) -->
 
-![](https://i.postimg.cc/4xWLkt0Z/2018-05-06-211557.png)
+[插图](https://i.postimg.cc/4xWLkt0Z/2018-05-06-211557.png)
 自带UDP转发，但你的账号服务器也必须支持UDP转发并开启，才可连接网络游戏
 
-<!-- ![](https://ipfs.io/ipfs/QmTcjcDKmZvGAdER6pmqVGVUYU4Qy6PJ6C2NKiS2U4PpRM?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTcjcDKmZvGAdER6pmqVGVUYU4Qy6PJ6C2NKiS2U4PpRM?0.png) -->
 
-![](https://i.postimg.cc/L6TvLL2f/2018-05-06-212229.png)
+[插图](https://i.postimg.cc/L6TvLL2f/2018-05-06-212229.png)
 
 如需共享账户，可将二维码截图或复制v2ray的链接分享给好友，扫描或粘贴导入皆可
 
-![](https://i.postimg.cc/MHY00J2x/2018-06-09-194631.png)
+[插图](https://i.postimg.cc/MHY00J2x/2018-06-09-194631.png)
 
 
 ## proxifier
@@ -2521,39 +2521,39 @@ v2ray图形化界面软件与ss操作类似，请留心，以[v2rayN_Pro](https:
 
  未配置网络协议的情况下，打开telegram，连接是不成功的，此时打开proxifier协议代理软件，在`profile`中选择`proxy servers`
 
-<!-- ![](https://ipfs.io/ipfs/QmXEQikveHVzSXwieaSZQMthKLi2b3Dmrj4CmhbrkKb5bS?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXEQikveHVzSXwieaSZQMthKLi2b3Dmrj4CmhbrkKb5bS?4.png) -->
 
-![](https://i.postimg.cc/j5Vbzzvt/2018-05-05-00.png)
+[插图](https://i.postimg.cc/j5Vbzzvt/2018-05-05-00.png)
 
 点击`add`选项弹出此`proxy server`窗口
 
-<!-- ![](https://ipfs.io/ipfs/QmQZz9AszKY52Rb9b2pGbucYbAhdc1TvnzfSTkR1Kzkv2A?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmQZz9AszKY52Rb9b2pGbucYbAhdc1TvnzfSTkR1Kzkv2A?2.png) -->
 
-![](https://i.postimg.cc/BvFWQj3y/2018-05-05-012427.png)
+[插图](https://i.postimg.cc/BvFWQj3y/2018-05-05-012427.png)
 
 出现提示窗口一直默认即可
 
-<!-- ![](https://ipfs.io/ipfs/QmThWyoMWXtBPH2CRhcn6iuA85M1piYr52ng1hcqVXCG17?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmThWyoMWXtBPH2CRhcn6iuA85M1piYr52ng1hcqVXCG17?3.png) -->
 
-![](https://i.postimg.cc/SQrBsF0y/2018-05-05-013230.png)
+[插图](https://i.postimg.cc/SQrBsF0y/2018-05-05-013230.png)
 
 这时处于`direct`选项全局模式OK
 
-<!-- ![](https://ipfs.io/ipfs/QmdnvWMZ4r61N4JUijmWSbf8Jwt7i3BzfL1fzo3DWtvFVf?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdnvWMZ4r61N4JUijmWSbf8Jwt7i3BzfL1fzo3DWtvFVf?4.png) -->
 
-![](https://i.postimg.cc/W37HhrH9/2018-05-05-015347.png)
+[插图](https://i.postimg.cc/W37HhrH9/2018-05-05-015347.png)
 
 勾选` Resolve hostnames through proxy`可防止DNS污染
 
-<!-- ![](https://ipfs.io/ipfs/QmfLdRwcQD1WqC5DfgXzmAyV6T3F3cNyGRLcYAXB6UWMNL?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfLdRwcQD1WqC5DfgXzmAyV6T3F3cNyGRLcYAXB6UWMNL?2.png) -->
 
-![](https://i.postimg.cc/y6vGKm9x/2018-05-05-013748.png)
+[插图](https://i.postimg.cc/y6vGKm9x/2018-05-05-013748.png)
 
 在ss的pac模式下测试telegram
 
-<!-- ![](https://ipfs.io/ipfs/QmXTLirvocLvNXkskAHYuRkfBERQRpeSrM6WspCV8PQvtG?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXTLirvocLvNXkskAHYuRkfBERQRpeSrM6WspCV8PQvtG?0.png) -->
 
-![](https://i.postimg.cc/28tXbC0f/2018-05-05-01442.png)
+[插图](https://i.postimg.cc/28tXbC0f/2018-05-05-01442.png)
 
 
 ## privoxy
@@ -2562,27 +2562,27 @@ v2ray图形化界面软件与ss操作类似，请留心，以[v2rayN_Pro](https:
 
 打开`option`选择`edit main configuration`
 
-<!-- ![](https://ipfs.io/ipfs/QmPcjXUUhr7AAHi3vSHVy6UfsADi1fhhb1Bt4ypYDFRaiR?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPcjXUUhr7AAHi3vSHVy6UfsADi1fhhb1Bt4ypYDFRaiR?3.png) -->
 
-![](https://i.postimg.cc/yY4Rp5pz/2018-05-06-200606.png)
+[插图](https://i.postimg.cc/yY4Rp5pz/2018-05-06-200606.png)
 
 在配置文件中末尾处添加`forward-socks5 / 127.0.0.1:1080 .`
 
-<!-- ![](https://ipfs.io/ipfs/QmQfecQdLwrw2xaerNosFDvrrhhdR2WvJozidVNbp1GWw5?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmQfecQdLwrw2xaerNosFDvrrhhdR2WvJozidVNbp1GWw5?2.png) -->
 
-![](https://i.postimg.cc/zf6vbb91/2018-05-06-200824-1.png)
+[插图](https://i.postimg.cc/zf6vbb91/2018-05-06-200824-1.png)
 
 到`代理`中设置privoxy的默认地址与监听端口
 
-<!-- ![](https://ipfs.io/ipfs/QmZ4nnJsvPqsoCeQPRvh7yiun7SiUscGPg5e2KxxFemaFC?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZ4nnJsvPqsoCeQPRvh7yiun7SiUscGPg5e2KxxFemaFC?4.png) -->
 
-![](https://i.postimg.cc/6qw9ndcF/2018-05-06-201359.png)
+[插图](https://i.postimg.cc/6qw9ndcF/2018-05-06-201359.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmY185S5pis1Q9rPpg6xH5UjodWT1Zr2qoRMkGj8Gpd4f1?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmY185S5pis1Q9rPpg6xH5UjodWT1Zr2qoRMkGj8Gpd4f1?2.png) -->
 
-![](https://i.postimg.cc/1RHSbVJ5/2018-05-06-203158.png)
+[插图](https://i.postimg.cc/1RHSbVJ5/2018-05-06-203158.png)
 
 将网络共享给手机，ss共享局域网也是做了privoxy含有的端口映射功能；按照如下配置将本机环回地址改为任意地址
 
@@ -2595,64 +2595,64 @@ listen-address 0.0.0.0:8118
 ```
 查看本机局域网IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmdwEi4zS8DNWx8gzkykPAoBkocQguEEP4QYhZFQV8Kwj9?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdwEi4zS8DNWx8gzkykPAoBkocQguEEP4QYhZFQV8Kwj9?1.png) -->
 
-![](https://i.postimg.cc/Vvsxz4Ds/2018-05-05-032400.png)
+[插图](https://i.postimg.cc/Vvsxz4Ds/2018-05-05-032400.png)
 
 `高级`设置`代理`选择`手动`，按照如下信息设置
 
-<!-- ![](https://ipfs.io/ipfs/Qmcw7qqe9euzZ25CX5A9epEi45wAe9hAs5zwrhaK5MkrKU?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmcw7qqe9euzZ25CX5A9epEi45wAe9hAs5zwrhaK5MkrKU?1.png) -->
 
-![](https://i.postimg.cc/15tkTC8J/QQ20180507165544.png)
+[插图](https://i.postimg.cc/15tkTC8J/QQ20180507165544.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/Qmb7SwSVo6VMY2og6hZeEYrTcS1KcYNxWckYYkyZifjBSS?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmb7SwSVo6VMY2og6hZeEYrTcS1KcYNxWckYYkyZifjBSS?0.png) -->
 
-![](https://i.postimg.cc/vHcKX4KK/QQ20180507165554.png)
+[插图](https://i.postimg.cc/vHcKX4KK/QQ20180507165554.png)
 
 
 ## SSH-Tunnel
 
 打开[SSH站点](http://www.speedssh.com)，创建SSH账户
 
-<!-- ![](https://ipfs.io/ipfs/QmZEDXe76sAvE9f55jcqyj2gSQWhGjhAY19SFerks4AZD4?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZEDXe76sAvE9f55jcqyj2gSQWhGjhAY19SFerks4AZD4?1.png) -->
 
-![](https://i.postimg.cc/DwFBH5y8/2018-05-07-020641.png)
+[插图](https://i.postimg.cc/DwFBH5y8/2018-05-07-020641.png)
 
 在[Bitvise SSH Client](https://www.bitvise.com/)上输入相关信息，`22`为SSH默认端口，登录
 
-<!-- ![](https://ipfs.io/ipfs/QmVZU3eTnUMt3AjduBZwMFixaotncWgSf3K4aZ1iasFqhU?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVZU3eTnUMt3AjduBZwMFixaotncWgSf3K4aZ1iasFqhU?0.png) -->
 
-![](https://i.postimg.cc/FKCpf4bL/2018-05-07-031612-1.png)
+[插图](https://i.postimg.cc/FKCpf4bL/2018-05-07-031612-1.png)
 
 关闭
 
-<!-- ![](https://ipfs.io/ipfs/QmV3y5DGfVHasLdjzhEktHYNycQBDqFRgdZKbcGqbbWdAK?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmV3y5DGfVHasLdjzhEktHYNycQBDqFRgdZKbcGqbbWdAK?3.png) -->
 
-![](https://i.postimg.cc/vmTLwKRH/2018-05-07-021221.png)
+[插图](https://i.postimg.cc/vmTLwKRH/2018-05-07-021221.png)
 
-<!-- ![](https://ipfs.io/ipfs/QmfVXq1NvcVC2gqrFq3yLvWkHhFMmxwzG2y1NqnVh2TmaP?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfVXq1NvcVC2gqrFq3yLvWkHhFMmxwzG2y1NqnVh2TmaP?0.png) -->
 
-![](https://i.postimg.cc/T1VncMbQ/2018-05-07-021255.png)
+[插图](https://i.postimg.cc/T1VncMbQ/2018-05-07-021255.png)
 
 设置`SOCKS/HTTP proxy forwarding`
 
-<!-- ![](https://ipfs.io/ipfs/QmYje4D3Sc5KDpZy1hJnD1QmEgKA4UP9dds7mNTZh21QvT?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYje4D3Sc5KDpZy1hJnD1QmEgKA4UP9dds7mNTZh21QvT?1.png) -->
 
-![](https://i.postimg.cc/HLF5Ds4B/2018-05-07-021327.png)
+[插图](https://i.postimg.cc/HLF5Ds4B/2018-05-07-021327.png)
 
 设置代理
 
-<!-- ![](https://ipfs.io/ipfs/QmS5Y8qBjE8aUxGUM9Cz2Wm9dgh7DGYoPfFBNXDmhbDvqf?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmS5Y8qBjE8aUxGUM9Cz2Wm9dgh7DGYoPfFBNXDmhbDvqf?0.png) -->
 
-![](https://i.postimg.cc/6qfGvVsm/2018-05-07-021118.png)
+[插图](https://i.postimg.cc/6qfGvVsm/2018-05-07-021118.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmdjxGqsaSRsGdKdUx77fafgstHuR4basXDac42jiLARzS?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdjxGqsaSRsGdKdUx77fafgstHuR4basXDac42jiLARzS?4.png) -->
 
-![](https://i.postimg.cc/fbStKQnX/2018-05-07-021103.png)
+[插图](https://i.postimg.cc/fbStKQnX/2018-05-07-021103.png)
 
 
 # 使用网站
@@ -2667,9 +2667,9 @@ listen-address 0.0.0.0:8118
 
 现今IP被封禁
 
-<!-- ![](https://ipfs.io/ipfs/QmY2qrPY83q7qU4KHPC2D4tynwgj3ikCnNmPtEHzXfa3SH?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmY2qrPY83q7qU4KHPC2D4tynwgj3ikCnNmPtEHzXfa3SH?1.png) -->
 
-![](https://i.postimg.cc/3xDQ39nS/2018-04-30-140950.png)
+[插图](https://i.postimg.cc/3xDQ39nS/2018-04-30-140950.png)
 
 ## DuckDuckGo
 
@@ -2679,9 +2679,9 @@ listen-address 0.0.0.0:8118
 
 目前已被封IP
 
-<!-- ![](http://ipfs.io/ipfs/QmUGinkyFHMaec77wF72s5qz9rh1YBJvzC4ZiMjY5XGjri?4.png) -->
+<!-- [插图](http://ipfs.io/ipfs/QmUGinkyFHMaec77wF72s5qz9rh1YBJvzC4ZiMjY5XGjri?4.png) -->
 
-![](https://i.postimg.cc/C5K9X4R4/2018-04-30-135848.png)
+[插图](https://i.postimg.cc/C5K9X4R4/2018-04-30-135848.png)
 
 ## Ecosia
 
@@ -2691,9 +2691,9 @@ listen-address 0.0.0.0:8118
 
 主要搜索源是bing，必应国内版返回的数据和谐较多
 
-<!-- ![](https://ipfs.io/ipfs/QmNQ5qgTaaT1A4q7cwqYinbvi3nzC4qaA4reEhZfnBaFGa?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmNQ5qgTaaT1A4q7cwqYinbvi3nzC4qaA4reEhZfnBaFGa?4.png) -->
 
-![](https://i.postimg.cc/NFLPpfnJ/2018-04-28-210623.png)
+[插图](https://i.postimg.cc/NFLPpfnJ/2018-04-28-210623.png)
 
 ## Qwant
 
@@ -2705,9 +2705,9 @@ listen-address 0.0.0.0:8118
 
 搜索效果很不错，数据很全面
 
-<!-- ![](https://ipfs.io/ipfs/QmZbGQihNC8zKhBxFxNc7jWtF3qML4jfjXE7aCwozQRQPg?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZbGQihNC8zKhBxFxNc7jWtF3qML4jfjXE7aCwozQRQPg?1.png) -->
 
-![](https://i.postimg.cc/GhWSxRxK/2018-05-01-084517.png)
+[插图](https://i.postimg.cc/GhWSxRxK/2018-05-01-084517.png)
 
 但会不会同[startpage](https://www.startpage.com/)被GFW封杀，也是有点悬的问题，也许它只想让我们不准看、不准听、不准说，喜迎油价上涨地着老大哥的[www.baidu.com](https://www.baidu.com)
 
@@ -2720,15 +2720,15 @@ listen-address 0.0.0.0:8118
 
 进入 https://web.archive.org 输入想要永久备份的网址页面，再点击 `save this url in the wayback machine` 便可生成备份站点。
 
-![](https://i.postimg.cc/CMbyc8K2/Snipaste-2019-06-09-19-13-00.png)
+[插图](https://i.postimg.cc/CMbyc8K2/Snipaste-2019-06-09-19-13-00.png)
 
 对于已经备份过的网页该网站是存有记录的，不过对于显示css、image并不理想，还是存在一定的局限性。
 
-![](https://i.postimg.cc/1X6P8R9K/Snipaste-2019-06-09-19-45-23.png)
+[插图](https://i.postimg.cc/1X6P8R9K/Snipaste-2019-06-09-19-45-23.png)
 
 愿意离线保存的话，在Chrome设置中`更多工具 -> 网页另存为 -> 网页全部(*.htm;*.html)`或者`ctrl + p`打印PDF（建议使用[wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf)针对网页打印PDF，相关参数官网有详细说明）；也可以保存成一个概览整图，在`f12`（开发者工具）中，`ctrl + shift + p`（控制台）输入：`screen` 如图示
 
-![](https://i.postimg.cc/fTR7x34y/Snipaste-2019-06-09-20-03-18.png)
+[插图](https://i.postimg.cc/fTR7x34y/Snipaste-2019-06-09-20-03-18.png)
 
 btw，当网页无法打开或者失效不久，没有时光机的话，也可以通过快照临时查看，[灵感来自：coderschool](https://coderschool.cn/2348.html)。
 
@@ -2746,23 +2746,23 @@ btw，当网页无法打开或者失效不久，没有时光机的话，也可�
 
 在搜索引擎上搜索如：“ss/ssr、v2ray节点分享”等相关关键词，总会找到被爬取到一些个人博客网站；当然，也可以在GitHub上输入这些关键词，如图所示。
 
-![](https://i.postimg.cc/fTjTxqCM/Snipaste-2019-06-08-14-25-52.png)
+[插图](https://i.postimg.cc/fTjTxqCM/Snipaste-2019-06-08-14-25-52.png)
 
 进入 [youneed.win](https://www.youneed.win) 即可观察到这些重点信息，他的个人站点类似于 [free-ss.site](https://free-ss.site) 的国内镜像；因此，将此站点所示的ss节点信息填入 shadowsocks 即可；与之类似的还有：[nulastudio/Freedom](https://github.com/nulastudio/Freedom) 等等
 
-![](https://i.postimg.cc/MpMPCNLS/Snipaste-2019-06-08-14-28-28.png)
+[插图](https://i.postimg.cc/MpMPCNLS/Snipaste-2019-06-08-14-28-28.png)
 
 不过也得注意的是：关注的人越来越多，自然会引起五毛以及内部的觉察，他们只要动些手脚比如人海举报、或是gfw等级封锁，自然又访问不成了。使用 watching 留意观察他提供ss节点访问更新就好了。btw，他这站点借助 [weirch (free-ss的站长)](https://github.com/free-ss) 的 free-ss.site 提供的节点，看来引流量不少；但不可否认，以此方式提供节点信息，确实帮助了不少人，这个是值得肯定的。
 
 和 weirch 聊到相关话题，我也把 [WebSiteOutlook](https://github.com/hoodiearon/WebSiteOutlook) 的issue功能关了，因为...如图...当然我也删去一些人发着玩的 issue 以及广告，由此还是将存储库的issue功能关闭算了...
 
-![](https://i.postimg.cc/4y6xdWy2/Snipaste-2019-06-08-14-56-44.png)
+[插图](https://i.postimg.cc/4y6xdWy2/Snipaste-2019-06-08-14-56-44.png)
 
 ## YouTube 油管订阅
 
 搜索相关关键字查看相关视频，如果觉得up主多数视频有实际帮助的话，订阅他的频道，即可
 
-![](https://i.postimg.cc/YC43TXsG/Snipaste-2019-06-13-21-20-00.png)
+[插图](https://i.postimg.cc/YC43TXsG/Snipaste-2019-06-13-21-20-00.png)
 
 顺便推荐几个技术分享站点，也顺带着安利一个网盘 [mega](https://mega.nz/)
 
@@ -2781,35 +2781,35 @@ btw，当网页无法打开或者失效不久，没有时光机的话，也可�
 
 点击资料旁在右上角头像那点击`My Room`，然后并选择任意项
 
-<!-- ![](https://ipfs.io/ipfs/QmYon74j1A3bpv5BgESkuxmKg3Fsnt2aDC6aByQ89iLGH1?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYon74j1A3bpv5BgESkuxmKg3Fsnt2aDC6aByQ89iLGH1?4.png) -->
 
-![](https://i.postimg.cc/1zTmKfdQ/5cf8ccb934d9511615.png)
+[插图](https://i.postimg.cc/1zTmKfdQ/5cf8ccb934d9511615.png)
 
 点击优土小图标
 
-<!-- ![](https://ipfs.io/ipfs/QmYddfvgPnXZ3NhpxsqU9MXwrAtyi2xTjpy99aUEnAeWzb?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYddfvgPnXZ3NhpxsqU9MXwrAtyi2xTjpy99aUEnAeWzb?4.png) -->
 
-![](https://i.postimg.cc/cJKZ6dL5/5cf8cd00b088751477.png)
+[插图](https://i.postimg.cc/cJKZ6dL5/5cf8cd00b088751477.png)
 
 网速比香港记者还快，刷梅林路由这类修电脑动手实操性较强的，也可在这进行在线观看
 
-<!-- ![](https://ipfs.io/ipfs/QmRLuupq19dKy7dRKy2zkdo6kqSSAFCrbnHq7wXqjKvhh4?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRLuupq19dKy7dRKy2zkdo6kqSSAFCrbnHq7wXqjKvhh4?3.png) -->
 
-![](https://i.postimg.cc/ZKLs4Jf6/2018-04-29-170242.png)
+[插图](https://i.postimg.cc/ZKLs4Jf6/2018-04-29-170242.png)
 
 ## demo.glyptodon
 
 打开 [demo.glyptodon](https://demo.glyptodon.com)，一直 `OK` 确认并等待开机即可
 
-![](https://i.loli.net/2019/06/06/5cf8cd8d9936b39088.png)
+[插图](https://i.loli.net/2019/06/06/5cf8cd8d9936b39088.png)
 
 测试，也试着玩一下简单的网页代理吧：[anyproxy](https://www.anyproxy.cn/)
 
-![](https://i.loli.net/2019/06/06/5cf8cacec80aa67102.png)
+[插图](https://i.loli.net/2019/06/06/5cf8cacec80aa67102.png)
 
 当然，也可使用[netptop/siteproxy](https://github.com/netptop/siteproxy)在heroku平台上搭建代理网页自行使用，部署方式该代理网页项目已说明，不再重复叙述。在线代理地址：[proxy.netptop](https://proxy3.netptop.com/)
 
-![](https://i.loli.net/2020/06/07/dVDnFw5fvNiuobR.png)
+[插图](https://i.loli.net/2020/06/07/dVDnFw5fvNiuobR.png)
 
 
 ## heroku搭建ss服务器
@@ -2829,93 +2829,93 @@ btw，当网页无法打开或者失效不久，没有时光机的话，也可�
 
 创建App
 
-<!-- ![](https://ipfs.io/ipfs/QmUXxiPhVKLX446nyc7Z6pdSw8WQ8F1wA37sBnSfC7wCgM?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUXxiPhVKLX446nyc7Z6pdSw8WQ8F1wA37sBnSfC7wCgM?2.png) -->
 
-![](https://i.postimg.cc/NFKxzR93/2018-04-29-195722.png)
+[插图](https://i.postimg.cc/NFKxzR93/2018-04-29-195722.png)
 
 起个可用名称，默认美国服务器就行，总之不要选网络有限制国家的服务器
 
-<!-- ![](https://ipfs.io/ipfs/QmUNHKLumDEBb4XdxydVEenRauihPnwuA3bTtcCZKizJZh?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUNHKLumDEBb4XdxydVEenRauihPnwuA3bTtcCZKizJZh?1.png) -->
 
-![](https://i.postimg.cc/T3TvZP0k/2018-05-16-013449m.png)
+[插图](https://i.postimg.cc/T3TvZP0k/2018-05-16-013449m.png)
 
 在`deploy`点击github图标，并搜索fork过来的项目名称`shadowsocks-heroku`
 
-<!-- ![](https://ipfs.io/ipfs/Qma4mAJVrjEC8nVKos6Eb44CbKFppJm6fqnB4ieVhyaoVn?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qma4mAJVrjEC8nVKos6Eb44CbKFppJm6fqnB4ieVhyaoVn?0.png) -->
 
-![](https://i.postimg.cc/RVQjQBmw/2018-05-16-014155.png)
+[插图](https://i.postimg.cc/RVQjQBmw/2018-05-16-014155.png)
 
 点击`Connect`按钮
 
-<!-- ![](https://ipfs.io/ipfs/QmSGRCqZ25Kr9kZCFhetdfTMJgKvYmxEHsCCN53WzmrUhE?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSGRCqZ25Kr9kZCFhetdfTMJgKvYmxEHsCCN53WzmrUhE?1.png) -->
 
-![](https://i.postimg.cc/C5C6Nj3w/2018-05-16-014818.png)
+[插图](https://i.postimg.cc/C5C6Nj3w/2018-05-16-014818.png)
 
 转到`settings`点击` reveal config vars`
 
-<!-- ![](https://ipfs.io/ipfs/QmdvghVLwd7std3mSFauDrdVMv4h4V3mmHvMRKiSvdXq61?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdvghVLwd7std3mSFauDrdVMv4h4V3mmHvMRKiSvdXq61?2.png) -->
 
-![](https://i.postimg.cc/FR3Prys0/2018-05-16-015444.png)
+[插图](https://i.postimg.cc/FR3Prys0/2018-05-16-015444.png)
 
 填入`METHOD`与`KEY`并设置其相关参数，关于各项加密算法请看此章结尾处
 
-<!-- ![](https://ipfs.io/ipfs/QmeaPP1aktxNH297tUu8NCu1eTcQwpZ5TwXQLJLQ4D1hN7?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeaPP1aktxNH297tUu8NCu1eTcQwpZ5TwXQLJLQ4D1hN7?2.png) -->
 
-![](https://i.postimg.cc/50B3dfn3/2018-05-16-020104.png)
+[插图](https://i.postimg.cc/50B3dfn3/2018-05-16-020104.png)
 
 回到`deploy`选项
 
-<!-- ![](https://ipfs.io/ipfs/QmWuBvjMhmMK2igG3Y7LjZJcfv7bRysTaCYstxLgq7FVrt?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWuBvjMhmMK2igG3Y7LjZJcfv7bRysTaCYstxLgq7FVrt?0.png) -->
 
-![](https://i.postimg.cc/QdvkFFzm/2018-05-16-020653.png)
+[插图](https://i.postimg.cc/QdvkFFzm/2018-05-16-020653.png)
 
 下拉点击`enable automatic deploys`完成后再点击`deploy branch`
 
-<!-- ![](https://ipfs.io/ipfs/QmVVTUPaB96knLXLjcMvF6dRiqrfGxnEn3NLBFe7CNxRGK?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVVTUPaB96knLXLjcMvF6dRiqrfGxnEn3NLBFe7CNxRGK?2.png) -->
 
-![](https://i.postimg.cc/05ZYpW3b/2018-05-16-020817.png)
+[插图](https://i.postimg.cc/05ZYpW3b/2018-05-16-020817.png)
 
 此时已经部署成功了
 
-<!-- ![](https://ipfs.io/ipfs/QmRbbbFZmsVLoyTNSHhPrg8CRs5QCdXFedK6fST8H9q1Ri?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRbbbFZmsVLoyTNSHhPrg8CRs5QCdXFedK6fST8H9q1Ri?4.png) -->
 
-![](https://i.postimg.cc/9f3ZWv4N/2018-05-16-021041.png)
+[插图](https://i.postimg.cc/9f3ZWv4N/2018-05-16-021041.png)
 
 [下载相关客户端](https://github.com/onplus/shadowsocks-heroku/releases)
 
-<!-- ![](https://ipfs.io/ipfs/QmdCvNxsKYfuxDSjnrtbu4capqkMuw1TWHP2TPHoJgcnN7?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdCvNxsKYfuxDSjnrtbu4capqkMuw1TWHP2TPHoJgcnN7?4.png) -->
 
-![](https://i.postimg.cc/59PzHHYz/2018-05-16-021835.png)
+[插图](https://i.postimg.cc/59PzHHYz/2018-05-16-021835.png)
 
 下载完成后解压缩，并打开`config.json`配置文件
 
-<!-- ![](https://ipfs.io/ipfs/QmS9CrJeuaAeBVz9eK8SLE4iX4bgMRizucuFkS6Uvd6j8F?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmS9CrJeuaAeBVz9eK8SLE4iX4bgMRizucuFkS6Uvd6j8F?2.png) -->
 
-![](https://i.postimg.cc/ZRb9nZJj/2018-05-16-022113.png)
+[插图](https://i.postimg.cc/ZRb9nZJj/2018-05-16-022113.png)
 
 配置`config.json`填入页面生成的地址以及在heroku上设置好的加密与密码参数
 
-<!-- ![](https://ipfs.io/ipfs/QmeYnigQFmkN2AbL2Xbqxnvsjaq57LKuxTesWHkUSRNVkM?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeYnigQFmkN2AbL2Xbqxnvsjaq57LKuxTesWHkUSRNVkM?3.png) -->
 
-![](https://i.postimg.cc/tCZsYBH0/2018-05-16-022758.png)
+[插图](https://i.postimg.cc/tCZsYBH0/2018-05-16-022758.png)
 
 再打开`ss-h.exe`与配置chrome代理插件`switchyomega`的各项参数，并应用选项
 
-<!-- ![](https://ipfs.io/ipfs/QmQXAw2mEYqVe5RDnypvkSr61FdWX5kxU2fFndq9UE161Z?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmQXAw2mEYqVe5RDnypvkSr61FdWX5kxU2fFndq9UE161Z?1.png) -->
 
-![](https://i.postimg.cc/xC1CYRP4/2018-05-16-023617.png)
+[插图](https://i.postimg.cc/xC1CYRP4/2018-05-16-023617.png)
 
 再选择已配置好的情景代理模式`proxy`
 
-<!-- ![](https://ipfs.io/ipfs/QmP2RX3fpMDNDqyzqGyJB6nNxWhZH9UsckEzrxuBs4JWHp?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmP2RX3fpMDNDqyzqGyJB6nNxWhZH9UsckEzrxuBs4JWHp?1.png) -->
 
-![](https://i.postimg.cc/htRthgrx/2018-05-16-024447.png)
+[插图](https://i.postimg.cc/htRthgrx/2018-05-16-024447.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmXYPPXw95AHRsXPTUndycXNKjyQZQu5F8Zx6ZvBn9CS4E?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXYPPXw95AHRsXPTUndycXNKjyQZQu5F8Zx6ZvBn9CS4E?3.png) -->
 
-![](https://i.postimg.cc/7ZNJkfkb/2018-05-16-025046.png)
+[插图](https://i.postimg.cc/7ZNJkfkb/2018-05-16-025046.png)
 
 加密算法
 
@@ -2946,33 +2946,33 @@ btw，当网页无法打开或者失效不久，没有时光机的话，也可�
 
 使用现成的[模板](https://heroku.com/deploy?template=https://github.com/onplus/heroku_go-getting-started)，默认的uuid有冲突所以需要更改
 
-<!-- ![](https://ipfs.io/ipfs/QmYMotFhdsdFK2nbro8psM9DrfPuGfoR1UW6Wcfhyp8e9u?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYMotFhdsdFK2nbro8psM9DrfPuGfoR1UW6Wcfhyp8e9u?2.png) -->
 
-![](https://i.postimg.cc/wxstBWpC/2018-05-16-073517.png)
+[插图](https://i.postimg.cc/wxstBWpC/2018-05-16-073517.png)
 
 使用[uuidgenerator](https://www.uuidgenerator.net/)刷新一次页面每次均生成不同uuid
 
-<!-- ![](https://ipfs.io/ipfs/QmdosJDGsEi9aXg9J42BgaRdV4qrEE7BCRCh1HuxwVt2Uc?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdosJDGsEi9aXg9J42BgaRdV4qrEE7BCRCh1HuxwVt2Uc?3.png) -->
 
-![](https://i.postimg.cc/jqN5TL6K/2018-05-16-073839.png)
+[插图](https://i.postimg.cc/jqN5TL6K/2018-05-16-073839.png)
 
 复制uuid粘贴进入uuid填写空中并确定
 
-<!-- ![](https://ipfs.io/ipfs/QmZ2jV6DEyoAaAQ45gAsfYZUnYnqjSfPpLqWhVYWGg4cL7?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZ2jV6DEyoAaAQ45gAsfYZUnYnqjSfPpLqWhVYWGg4cL7?3.png) -->
 
-![](https://i.postimg.cc/Xq0nqkKW/2018-05-16-080047.png)
+[插图](https://i.postimg.cc/Xq0nqkKW/2018-05-16-080047.png)
 
 授权登录[travis-ci](https://travis-ci.org/profile)中开启按钮并设置
 
-<!-- ![](https://ipfs.io/ipfs/QmTvirGSXtuXiBJNjKBeUAQZqvZT4qy9YNVqTSX11BPQKj?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTvirGSXtuXiBJNjKBeUAQZqvZT4qy9YNVqTSX11BPQKj?0.png) -->
 
-![](https://i.postimg.cc/q7hrG5j0/2018-05-16-074407.png)
+[插图](https://i.postimg.cc/q7hrG5j0/2018-05-16-074407.png)
 
 在`setting`选项中找到`Environment Variables`
 
-<!-- ![](https://ipfs.io/ipfs/QmPXP33L7Pr9zRLykptoKcvviJuRypviVTLfmensgQxkBG?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPXP33L7Pr9zRLykptoKcvviJuRypviVTLfmensgQxkBG?4.png) -->
 
-![](https://i.postimg.cc/xT6SV2Zn/2018-05-16-080618.png)
+[插图](https://i.postimg.cc/xT6SV2Zn/2018-05-16-080618.png)
 
 环境变量相关参数
 
@@ -2983,63 +2983,63 @@ btw，当网页无法打开或者失效不久，没有时光机的话，也可�
 |HEROKU_APIKEY|heroku的apikey| 
 
 添加写入相应键值数据
-<!-- ![](https://ipfs.io/ipfs/QmPGKFVeEbPb8x2hkTDnx4X1RwEWiV7FpsKZr22n6gpqyb?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPGKFVeEbPb8x2hkTDnx4X1RwEWiV7FpsKZr22n6gpqyb?1.png) -->
 
-![](https://i.postimg.cc/8kb2LGNM/2018-05-16-081238.png)
+[插图](https://i.postimg.cc/8kb2LGNM/2018-05-16-081238.png)
 
 关于`api key`的位置，点击头像选择`account setting`往下拉即可看到
 
-<!-- ![](https://ipfs.io/ipfs/QmbricYnEEoG4sn3tCnqVidrHdcaioWjiPZbXgfjKBZUyd?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmbricYnEEoG4sn3tCnqVidrHdcaioWjiPZbXgfjKBZUyd?1.png) -->
 
-![](https://i.postimg.cc/nhXN8Q7G/2018-05-16-081848.png)
+[插图](https://i.postimg.cc/nhXN8Q7G/2018-05-16-081848.png)
 
 按步骤构建即可
 
-<!-- ![](https://ipfs.io/ipfs/Qmc93xvtPjj3fFgfGPX9kppM8tr8LdBTgg4hniNe4sAKpg?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmc93xvtPjj3fFgfGPX9kppM8tr8LdBTgg4hniNe4sAKpg?0.png) -->
 
-![](https://i.postimg.cc/qqBZ1t4n/2018-05-16-082146.png)
+[插图](https://i.postimg.cc/qqBZ1t4n/2018-05-16-082146.png)
 
 等待片刻，黄色变成绿色即可
 
-<!-- ![](https://ipfs.io/ipfs/QmYko1LSWdnnAGFcuijvxP7WesjBuUU3eQ5XmMnSU45CMK?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYko1LSWdnnAGFcuijvxP7WesjBuUU3eQ5XmMnSU45CMK?2.png) -->
 
-![](https://i.postimg.cc/DyMYcyDJ/2018-05-16-082553.png)
+[插图](https://i.postimg.cc/DyMYcyDJ/2018-05-16-082553.png)
 
 在heroku的`more`选项中选择`Restart Dynos`并再次选择就行
 
-<!-- ![](https://ipfs.io/ipfs/QmYkUkyuG6UzPrYBqSAdMR12VFoA5kyf1ANSWVvMG45QDo?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYkUkyuG6UzPrYBqSAdMR12VFoA5kyf1ANSWVvMG45QDo?0.png) -->
 
-![](https://i.postimg.cc/ZRHwvTpq/2018-05-16-083502.png)
+[插图](https://i.postimg.cc/ZRHwvTpq/2018-05-16-083502.png)
 
 `view logs`确认启动成功
 
-<!-- ![](https://ipfs.io/ipfs/QmRCMqygTFgB8HRsfUD5zyQH33tkE2RnExCGjrDP7RA3Bk?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRCMqygTFgB8HRsfUD5zyQH33tkE2RnExCGjrDP7RA3Bk?2.png) -->
 
-![](https://i.postimg.cc/tJftF7T9/2018-05-16-083035.png)
+[插图](https://i.postimg.cc/tJftF7T9/2018-05-16-083035.png)
 
 以v2rayN为例
 
-<!-- ![](https://ipfs.io/ipfs/QmbQQ2im8gdNKfLtQ6WPv1YTZ448EsRuLgP3hSSP8gpqqq?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmbQQ2im8gdNKfLtQ6WPv1YTZ448EsRuLgP3hSSP8gpqqq?3.png) -->
 
-![](https://i.postimg.cc/jdp45WmX/2018-05-16-090353.png)
+[插图](https://i.postimg.cc/jdp45WmX/2018-05-16-090353.png)
 
 填入相应的配置参数并确定，id就是你的uuid，也可写入`80`端口，底层传输安全留空
 
-<!-- ![](https://ipfs.io/ipfs/QmRoBPBGmWPRMHYhq2YAAhtfUJKRLYLPo3iy8GsvtbyNrv?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRoBPBGmWPRMHYhq2YAAhtfUJKRLYLPo3iy8GsvtbyNrv?2.png) -->
 
-![](https://i.postimg.cc/5t3Bns07/2018-05-16-090615.png)
+[插图](https://i.postimg.cc/5t3Bns07/2018-05-16-090615.png)
 
 右键设置为活动服务器
 
-<!-- ![](https://ipfs.io/ipfs/QmbDyHz2frv4nEgt4xz1V5TLkg8qc5JjvVnZ2PJSNuYPJF?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmbDyHz2frv4nEgt4xz1V5TLkg8qc5JjvVnZ2PJSNuYPJF?1.png) -->
 
-![](https://i.postimg.cc/fWFx2tzN/2018-05-16-091318.png)
+[插图](https://i.postimg.cc/fWFx2tzN/2018-05-16-091318.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmPkj4HZVJT6QHQVUP4R9yyxk7yhbcSd2zQaRh8PB5Skcr?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPkj4HZVJT6QHQVUP4R9yyxk7yhbcSd2zQaRh8PB5Skcr?1.png) -->
 
-![](https://i.postimg.cc/cC88yhxN/2018-05-16-093822.png)
+[插图](https://i.postimg.cc/cC88yhxN/2018-05-16-093822.png)
 
 
 ## heroku搭建ss分享站点
@@ -3051,43 +3051,43 @@ fork！github项目：
 
 创建App
 
-<!-- ![](https://ipfs.io/ipfs/QmUXxiPhVKLX446nyc7Z6pdSw8WQ8F1wA37sBnSfC7wCgM?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUXxiPhVKLX446nyc7Z6pdSw8WQ8F1wA37sBnSfC7wCgM?3.png) -->
 
-![](https://i.postimg.cc/NFKxzR93/2018-04-29-195722.png)
+[插图](https://i.postimg.cc/NFKxzR93/2018-04-29-195722.png)
 
 在`deploy`点击github图标
 
-<!-- ![](https://ipfs.io/ipfs/Qmd1K1ZU8EsF8mXi9hevXBMMTdb8U45a5G7gZE36ufdJYm?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmd1K1ZU8EsF8mXi9hevXBMMTdb8U45a5G7gZE36ufdJYm?1.png) -->
 
-![](https://i.postimg.cc/7hJgVDjD/2018-04-29-200459.png)
+[插图](https://i.postimg.cc/7hJgVDjD/2018-04-29-200459.png)
 
 如图设置
 
-<!-- ![](https://ipfs.io/ipfs/QmYJwnhwpqswgePB4i3HEqYtdAefHcu8ZzuTd1wUWzTRpY?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYJwnhwpqswgePB4i3HEqYtdAefHcu8ZzuTd1wUWzTRpY?2.png) -->
 
-![](https://i.postimg.cc/gJnMfC1t/2018-04-29-200843-1.png)
+[插图](https://i.postimg.cc/gJnMfC1t/2018-04-29-200843-1.png)
 
 ?> 有些相关ss/ssr等其他节点分享站点搭建项目，需要自己手动配置相关环境变量；`settings -> buildpacks -> add buildpack` 再选择如：nodejs、java等项目所依赖的相关语言环境。
 
-![](https://i.postimg.cc/q7cLhp8x/Snipaste-2019-06-09-13-04-49.png)
+[插图](https://i.postimg.cc/q7cLhp8x/Snipaste-2019-06-09-13-04-49.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmaGX1PxhzqxFkVxfwb4VXGrK4RESZSuMfC8FBXapjbpAh?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaGX1PxhzqxFkVxfwb4VXGrK4RESZSuMfC8FBXapjbpAh?3.png) -->
 
-![](https://i.postimg.cc/SKKV90QQ/2018-04-29-201525.png)
+[插图](https://i.postimg.cc/SKKV90QQ/2018-04-29-201525.png)
 
 修改样式可点击find file选项，查找`.html`、`.css`文件
 
-<!-- ![](https://ipfs.io/ipfs/QmdowFYWqJ9RnDYGkRxVPm3w2Z9xZp3NE23AsRoNzkZ25T?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdowFYWqJ9RnDYGkRxVPm3w2Z9xZp3NE23AsRoNzkZ25T?3.png) -->
 
-![](https://i.postimg.cc/SN7GtQJN/2018-04-29-201800.png)
+[插图](https://i.postimg.cc/SN7GtQJN/2018-04-29-201800.png)
 
 如有其他问题，可查看或发起issues
 
-<!-- ![](https://ipfs.io/ipfs/QmeFUMF4SCtyzbmWExpvp4MbdpgbxCgcT12Sn4kLG7KBoZ?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeFUMF4SCtyzbmWExpvp4MbdpgbxCgcT12Sn4kLG7KBoZ?3.png) -->
 
-![](https://i.postimg.cc/CKtCfz6J/2018-04-29-202117.png)
+[插图](https://i.postimg.cc/CKtCfz6J/2018-04-29-202117.png)
 
 
 # ipfs专题
@@ -3104,9 +3104,9 @@ IPFS全称InterPlanetary File System，中文名：星际文件系统，是一�
 
 IPFS是点对点的超媒体协议，可以让网络更快、更安全、更开放。它是一个面向全球的、点对点的分布式版本文件系统，试图将所有具有相同文件系统的计算设备连接在一起
 
-<!-- ![](https://ipfs.io/ipfs/QmUSeaFSDkhz82dDfE1XbVZ7GEb7WntiZNYKRg3wfMN3kp?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUSeaFSDkhz82dDfE1XbVZ7GEb7WntiZNYKRg3wfMN3kp?1.png) -->
 
-![](https://i.postimg.cc/ncyQ97xG/ipfs-io.png)
+[插图](https://i.postimg.cc/ncyQ97xG/ipfs-io.png)
 
 IPFS—又称“星际文件系统”。简单点说，它是一个点对点的分布式文件系统（和比特币技术一样），通过底层协议，可以让存储在IPFS系统上的文件，在全世界任何一个地方快速获取，且不受防火墙的影响（无需网络代理）。
 
@@ -3120,9 +3120,9 @@ IPFS—又称“星际文件系统”。简单点说，它是一个点对点的�
 
 #### HTTP的四大痛点
 
-<!-- ![](https://ipfs.io/ipfs/QmU6CuRkqHETWhoSi8JV4SUAPKADhLBUkva7kUvnp4DGb3?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmU6CuRkqHETWhoSi8JV4SUAPKADhLBUkva7kUvnp4DGb3?0.png) -->
 
-![](https://i.postimg.cc/ht8hJ5pK/ipfs-is-the-distributed-web.png)
+[插图](https://i.postimg.cc/ht8hJ5pK/ipfs-is-the-distributed-web.png)
 
 > HTTP效率低下，服务器成本昂贵
 
@@ -3178,9 +3178,9 @@ IPFS的网络上运行着一条区块链，即用来存储互联网文件的哈�
 
 ### IPFS工作原理
 
-<!-- ![](https://ipfs.io/ipfs/QmZ7t61ZkJESFhJCsifMAkXtof6dZvcczyx7J4WQDnBsAf?0.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZ7t61ZkJESFhJCsifMAkXtof6dZvcczyx7J4WQDnBsAf?0.jpg) -->
 
-![](https://i.postimg.cc/yYc0Pnvb/ipfswork.jpg)
+[插图](https://i.postimg.cc/yYc0Pnvb/ipfswork.jpg)
 
 * 每个文件及其中的所有块都被赋予一个称为加密散列的唯一指纹。
 * IPFS通过网络删除重复具有相同哈希值的文件，通过计算是可以判断哪些文件是冗余重复的。并跟踪每个文件的版本历史记录。
@@ -3212,81 +3212,81 @@ IPFS的网络上运行着一条区块链，即用来存储互联网文件的哈�
 
 打开[ipfs](https://ipfs.io/docs/install/)，选择[getting started with ipfs](https://ipfs.io/docs/getting-started/)
 
-<!-- ![](https://ipfs.io/ipfs/QmVqhqctR8HaHEaLBsT8oCy5u2cDWH3xp5nWSgCjMGJTJJ?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVqhqctR8HaHEaLBsT8oCy5u2cDWH3xp5nWSgCjMGJTJJ?0.png) -->
 
-![](https://i.postimg.cc/Y0SyFZ1Z/2018-05-27-092613.png)
+[插图](https://i.postimg.cc/Y0SyFZ1Z/2018-05-27-092613.png)
 
 [install ipfs now](https://ipfs.io/docs/getting-started/)
 
-<!-- ![](https://ipfs.io/ipfs/QmT8nWpg14T2Vts7LRWiNMi4ZcXd3q96DYAYq8cFB3vF5j?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmT8nWpg14T2Vts7LRWiNMi4ZcXd3q96DYAYq8cFB3vF5j?2.png) -->
 
-![](https://i.postimg.cc/vHg0dWXr/2018-05-27-093125.png)
+[插图](https://i.postimg.cc/vHg0dWXr/2018-05-27-093125.png)
 
 [download ipfs for your platorm](https://dist.ipfs.io/#go-ipfs)
 
-<!-- ![](https://ipfs.io/ipfs/QmTDGnkpwcuN6tQjnP7R7XpTjLxr9MXwGYKBBbAqXN7ako?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTDGnkpwcuN6tQjnP7R7XpTjLxr9MXwGYKBBbAqXN7ako?3.png) -->
 
-![](https://i.postimg.cc/fLqfGL9q/2018-05-27-093548.png)
+[插图](https://i.postimg.cc/fLqfGL9q/2018-05-27-093548.png)
 
 点击即可下载
 
-<!-- ![](https://ipfs.io/ipfs/QmSTjFqRHEjtW6LWYmE9eLy2YRGjKUmUQgX8JznX6N28Ui?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSTjFqRHEjtW6LWYmE9eLy2YRGjKUmUQgX8JznX6N28Ui?2.png) -->
 
-![](https://i.postimg.cc/XvVKXFKD/2018-05-27-093946.png)
+[插图](https://i.postimg.cc/XvVKXFKD/2018-05-27-093946.png)
 
 解压并用CLI进入当前文件夹，输入`ipfs.exe init`完成初始化操作
 
-<!-- ![](https://ipfs.io/ipfs/QmbAL6HMqHTc8stSxQRhowh5WBcVEiW4i4NsmTe6hcjS78?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmbAL6HMqHTc8stSxQRhowh5WBcVEiW4i4NsmTe6hcjS78?4.png) -->
 
-![](https://i.postimg.cc/0yCWt9cF/2018-05-27-095305.png)
+[插图](https://i.postimg.cc/0yCWt9cF/2018-05-27-095305.png)
 
 `ipfs.exe daemon`开启守护进程
 
-<!-- ![](https://ipfs.io/ipfs/QmRQf6jx8U9VeFfu2gr8T7JhQX5zRdSPgaWmF7BipWrjvn?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRQf6jx8U9VeFfu2gr8T7JhQX5zRdSPgaWmF7BipWrjvn?0.png) -->
 
-![](https://i.postimg.cc/D0s51hSC/2018-05-27-095836.png)
+[插图](https://i.postimg.cc/D0s51hSC/2018-05-27-095836.png)
 
 输入`http://localhost:5001/webui`进入主界面，在`connection`版块中可以看到全球共有267个节点，这一数字也是动态变化的
 
-<!-- ![](https://ipfs.io/ipfs/Qmf2iphYYZbzoZXisJB6rfGTdEU5MGzRwbPLaoobzA1Nkt?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmf2iphYYZbzoZXisJB6rfGTdEU5MGzRwbPLaoobzA1Nkt?2.png) -->
 
-![](https://i.postimg.cc/T2rrjCkH/2018-05-27-100854.png)
+[插图](https://i.postimg.cc/T2rrjCkH/2018-05-27-100854.png)
 
 ## 上传文件
 
 在`files`版块中点击`create folder`创建文件夹，目前除图片外，若要正确上传文件，必须用文件夹的`hash`加载
 
-<!-- ![](https://ipfs.io/ipfs/QmTWV2wo9on5oqgcgQq5N4hRyfLrNY3RXgcvtGfE13Shjb?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTWV2wo9on5oqgcgQq5N4hRyfLrNY3RXgcvtGfE13Shjb?2.png) -->
 
-![](https://i.postimg.cc/vZpBNdT7/2018-05-27-113127.png)
+[插图](https://i.postimg.cc/vZpBNdT7/2018-05-27-113127.png)
 
 选择需要上传的文件，右键`copy hash`，转到DAG板块中粘贴进输入框GO
 
-<!-- ![](https://ipfs.io/ipfs/QmUMhW3H3ApEPihJs9gHxfAG1SExeyUuWZtoM2VmtCpQz7?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUMhW3H3ApEPihJs9gHxfAG1SExeyUuWZtoM2VmtCpQz7?3.png) -->
 
-![](https://i.postimg.cc/qq5068Cc/2018-05-27-114055.png)
+[插图](https://i.postimg.cc/qq5068Cc/2018-05-27-114055.png)
 
-<!-- ![](https://ipfs.io/ipfs/QmeoED47NpN6HHEkiSnz4Mt32XJpoWtX1AQDuC1LaojUA8?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeoED47NpN6HHEkiSnz4Mt32XJpoWtX1AQDuC1LaojUA8?2.png) -->
 
-![](https://i.postimg.cc/dQbJF9wv/2018-05-27-114452.png)
+[插图](https://i.postimg.cc/dQbJF9wv/2018-05-27-114452.png)
 
 将如上hash连接复制，并在前面加上`htttps://ipfs.io`
 
-<!-- ![](https://ipfs.io/ipfs/QmRAbdqGsKiZjScrztkftxx9XTArenE8toKkvCZfLhvP8M?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRAbdqGsKiZjScrztkftxx9XTArenE8toKkvCZfLhvP8M?3.png) -->
 
-![](https://i.postimg.cc/BvVdgqvs/2018-05-27-114812.png)
+[插图](https://i.postimg.cc/BvVdgqvs/2018-05-27-114812.png)
 
 hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生成短链接
 
-<!-- ![](https://ipfs.io/ipfs/QmfSA2veGGcndSWXpmxhn3zBNux4i1JMHv8Wm3fRr9nmbz?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmfSA2veGGcndSWXpmxhn3zBNux4i1JMHv8Wm3fRr9nmbz?3.png) -->
 
-![](https://i.postimg.cc/QCrY4VZL/2018-05-27-120243.png)
+[插图](https://i.postimg.cc/QCrY4VZL/2018-05-27-120243.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmVTmfExQdvVjrosgsmqKT5hk4wABW756V7pA6YcoN9hCu?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVTmfExQdvVjrosgsmqKT5hk4wABW756V7pA6YcoN9hCu?2.png) -->
 
-![](https://i.postimg.cc/9f7B6Vpc/2018-05-27-121017.png)
+[插图](https://i.postimg.cc/9f7B6Vpc/2018-05-27-121017.png)
 
 你愿意把它当作无限存储的网盘也可以，只不过任何人包括你在内不能删除它罢了；速度的话，聊天群、问答社区以及贴吧各种宣传，人多了应该自然也就会快一些。
 
@@ -3294,45 +3294,45 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 在这里我已预先提供了一份基于gitbook生成的静态网站文件夹
 
-<!-- ![](https://ipfs.io/ipfs/Qmf337dkc4u8Vvz3afx6hVQwDutSagkEh1nPW7dRtSCpEC?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmf337dkc4u8Vvz3afx6hVQwDutSagkEh1nPW7dRtSCpEC?2.png) -->
 
-![](https://i.postimg.cc/J4FZMvt0/2018-05-27-164203.png)
+[插图](https://i.postimg.cc/J4FZMvt0/2018-05-27-164203.png)
 
 命令行定位到文件夹的上层文件夹，执行`ipfs add -r web-book`上传整个目录
 
-<!-- ![](https://ipfs.io/ipfs/QmYAHqw57WUfvTyLEd8EgAVE6gN38ykrZJg1bV7ci5z4de?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYAHqw57WUfvTyLEd8EgAVE6gN38ykrZJg1bV7ci5z4de?0.png) -->
 
-![](https://i.postimg.cc/X7BXcJ7N/2018-05-27-171923.png)
+[插图](https://i.postimg.cc/X7BXcJ7N/2018-05-27-171923.png)
 
 `web-book`文件夹的指令输出的最后一行的哈希值，就是你的网站的根目录
 
-<!-- ![](https://ipfs.io/ipfs/QmSqfSqZCjZ2BGr75sK816cRGHksoESnYK8CPXfg6cjKUF?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSqfSqZCjZ2BGr75sK816cRGHksoESnYK8CPXfg6cjKUF?2.png) -->
 
-![](https://i.postimg.cc/fLkMz2VW/2018-05-27-172511.png)
+[插图](https://i.postimg.cc/fLkMz2VW/2018-05-27-172511.png)
 
 复制最后一行的hash值
 
-<!-- ![](https://ipfs.io/ipfs/QmcP41JKtYrq7TuS3pdU2Hmh5zpTQsDKdmniFgQyJcgwb9?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmcP41JKtYrq7TuS3pdU2Hmh5zpTQsDKdmniFgQyJcgwb9?4.png) -->
 
-![](https://i.postimg.cc/VkD6zbKR/2018-05-27-173142.png)
+[插图](https://i.postimg.cc/VkD6zbKR/2018-05-27-173142.png)
 
 输入`localhost:8080/ipfs`后面追加已复制的哈希值即可
 
-<!-- ![](https://ipfs.io/ipfs/QmW7yPmdmZXPanUrDfVFm7C38TjdB3B3gMWQXjXoU2iCf4?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmW7yPmdmZXPanUrDfVFm7C38TjdB3B3gMWQXjXoU2iCf4?1.png) -->
 
-![](https://i.postimg.cc/G2YdTBx6/2018-05-27-173114.png)
+[插图](https://i.postimg.cc/G2YdTBx6/2018-05-27-173114.png)
 
 虽数据已添加到当前的ipfs节点中，但是并没有同步到ipfs网络；此时还只是离线部署，现在要将它发布在互联网上。
 
 运行了`ipfs add -r` 的指令的窗口不要关闭，新建一个cmd命令行窗口，进入ipfs文件夹再输入`ipfs.exe daemon`便发布成功了
 
-![](https://i.postimg.cc/mrC5Q7K3/2018-05-27-175819.png)
+[插图](https://i.postimg.cc/mrC5Q7K3/2018-05-27-175819.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmdPPXYVMJ2JTMFChQbdQy2eApMiD6Dr763s27YD46n35b?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdPPXYVMJ2JTMFChQbdQy2eApMiD6Dr763s27YD46n35b?3.png) -->
 
-![](https://i.postimg.cc/3wXtyYDn/2018-05-27-181051.png)
+[插图](https://i.postimg.cc/3wXtyYDn/2018-05-27-181051.png)
 
 ## IPNS同步更新
 
@@ -3340,49 +3340,49 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 为了演示方便在`book.json`文件中添加了新的插件，并再次使用了`ipfs add -r web-book`指令使其生成新的hash值。
 
-<!-- ![](https://ipfs.io/ipfs/QmUokTS9iEMAvcBf2r4AuGXkgHzmoC97LuPLtnS3Tc3miz?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUokTS9iEMAvcBf2r4AuGXkgHzmoC97LuPLtnS3Tc3miz?4.png) -->
 
-![](https://i.postimg.cc/YSR1K9FK/2018-05-27-213304.png)
+[插图](https://i.postimg.cc/YSR1K9FK/2018-05-27-213304.png)
 
 使用`ipfs name publish`后面跟上站点根目录的hash值进行发布操作
 
-<!-- ![](https://ipfs.io/ipfs/QmPrEGfXt53aZdXwkRgPC9qFLaziKZKXjy2sXgXQmTDdPk?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPrEGfXt53aZdXwkRgPC9qFLaziKZKXjy2sXgXQmTDdPk?2.png) -->
 
-![](https://i.postimg.cc/65Z1vDg2/2018-05-27-220829.png)
+[插图](https://i.postimg.cc/65Z1vDg2/2018-05-27-220829.png)
 
 使用`ifps id`查看节点id
 
-<!-- ![](https://ipfs.io/ipfs/Qma7Ww1tWrrdX4aauMqYueeNnhuXR1Ms16JDkDCcSofYM1?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qma7Ww1tWrrdX4aauMqYueeNnhuXR1Ms16JDkDCcSofYM1?1.png) -->
 
-![](https://i.postimg.cc/ZqWN9hsX/2018-05-27-221733.png)
+[插图](https://i.postimg.cc/ZqWN9hsX/2018-05-27-221733.png)
 
 `ipfs name resolve`后面追加已查到的节点id
 
-<!-- ![](https://ipfs.io/ipfs/QmaL3MCdyBbBS5n5X2sweyMj1pKW2UgZka4jY9rSQKtd3F?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaL3MCdyBbBS5n5X2sweyMj1pKW2UgZka4jY9rSQKtd3F?0.png) -->
 
-![](https://i.postimg.cc/ZRhqTkG8/2018-05-27-222850.png)
+[插图](https://i.postimg.cc/ZRhqTkG8/2018-05-27-222850.png)
 
 此时，已经可以本地访问了，`localhost:8080/ipns/节点id`
 
-<!-- ![](https://ipfs.io/ipfs/QmULUBN4wRUSQ5NquDxXwAyvGuXogymDBCbQbXQsB8BhvR?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmULUBN4wRUSQ5NquDxXwAyvGuXogymDBCbQbXQsB8BhvR?1.png) -->
 
-![](https://i.postimg.cc/Zn54RJVd/2018-05-27-223735.png)
+[插图](https://i.postimg.cc/Zn54RJVd/2018-05-27-223735.png)
 
 关掉之前的使用`ipfs daemon`指令的窗口，再打开命令行窗口重新运行该指令即可，由于访问人数不多再加上GFW的干扰，可能会很慢。
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmUe1eWwnUFPDpjiSu75Gyv3QxpaHm8Xb2aVJMmuydwXxk?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUe1eWwnUFPDpjiSu75Gyv3QxpaHm8Xb2aVJMmuydwXxk?2.png) -->
 
-![](https://i.postimg.cc/qMY4JVnN/2018-05-27-225417.png)
+[插图](https://i.postimg.cc/qMY4JVnN/2018-05-27-225417.png)
 
 ## 备份
 
 备份这很重要，但也很简单，在`C:\Users\lorem\.ipfs`下找到`config`文件并将其拷贝至云盘即可，lorem是我的用户名
 
-<!-- ![](https://ipfs.io/ipfs/QmWdvB4mskcD6oPEWJLHB16JspxxdSQh9uog4JoaSgUR2v?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWdvB4mskcD6oPEWJLHB16JspxxdSQh9uog4JoaSgUR2v?3.png) -->
 
-![](https://i.postimg.cc/xTkVFx7n/2018-05-27-232208.png)
+[插图](https://i.postimg.cc/xTkVFx7n/2018-05-27-232208.png)
 
 
 ## 对去中心化网络的信仰
@@ -3412,9 +3412,9 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 去中心化是与中心化相对的一个概念，简单的来说中心化的意思，是中心决定节点。节点必须依赖中心，节点离开了中心就无法生存。去中心化恰恰相反，在一个分布有众多节点的系统中，每个节点都具有高度自治的特征，每一个节点都是一个“小中心”。
 
-<!-- ![](https://ipfs.io/ipfs/Qmcvrheq3DvMow9RKwtha145WaCztdYNszvTbKi1UzwHMj?3.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmcvrheq3DvMow9RKwtha145WaCztdYNszvTbKi1UzwHMj?3.jpg) -->
 
-![](https://i.postimg.cc/kXRLyV65/6cmad.jpg)
+[插图](https://i.postimg.cc/kXRLyV65/6cmad.jpg)
 
 随着网络服务形态的多元化，去中心化网络模型越来越清晰，也越来越成为可能。本文从**互联网的发展阶段，去中心化的优势，以及对去中心化趋势的预测**等角度，解释了去中心化的重要性。
 
@@ -3440,9 +3440,9 @@ hash链接始终是太长了，就需要使用[tinyURL](https://tinyurl.com/)生
 
 我们先来看看中心化平台的问题。这样的平台遵循着可预测的生命周期。最开始，互联网创业公司会尽其所能吸引用户和第三方人员，比如开发人员，企业和媒体组织，通过这种方式让他们的服务更有价值，因为“平台”的定义是具有多边网络效应的系统。在下图中，随着平台影响力的扩大使S曲线不断上升，这些平台对用户和第三方的掌控力也稳步增长。
 
-<!-- ![](https://ipfs.io/ipfs/QmSe3ztTjKYc8trh9KP3daZABHdD6DNzuYBP3faEPsM8mh?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmSe3ztTjKYc8trh9KP3daZABHdD6DNzuYBP3faEPsM8mh?0.png) -->
 
-![](https://i.postimg.cc/Y2vtJCG5/xx001x.png)
+[插图](https://i.postimg.cc/Y2vtJCG5/xx001x.png)
 
 当互联网创业公司的影响力到达S曲线的顶端时，他们与媒体、开发者等参与者的关系将从正和变为零和。最容易让公司继续升值的方法是从用户那里收集数据，并与竞争对手争夺潜在用户和利润。历史上曾有不少这样的先例，比如微软与Netscape，谷歌与Yelp，Facebook与Zynga以及Twitter与其第三方客户端。像iOS和Android这样的操作系统表现较好，虽然使用某些Apps仍需要支付30％的税费，但应用商店有权下架部分第三方的Apps，监管方面有绝对的话语权。
 
@@ -3725,9 +3725,9 @@ flowchart TD
 
 TCP/IP协议拓扑图
 
-<!-- ![](https://ipfs.io/ipfs/QmWu85jmMDSfWNRDtX2JrtRtkqpWDvAWj9XQhXmY85p6Bv?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWu85jmMDSfWNRDtX2JrtRtkqpWDvAWj9XQhXmY85p6Bv?0.png) -->
 
-![](https://i.postimg.cc/RhB8t1rj/171651525642888.png)
+[插图](https://i.postimg.cc/RhB8t1rj/171651525642888.png)
 
 所以VPN能连接TCP与UDP协议，是因为虚拟网卡以及其生成的IP比TCP与UDP更为底层；sock处于OSI模型中的会话层，负责在数据传输中设置和维护电脑网络中两台电脑之间的通信连接，并不关心是何种应用协议，以至于sock代理不能互联用于其他协议的软件。典型的例子：v2ray需要switchyomega在表示层做中继代理打开被封锁的站点。
 
@@ -3761,9 +3761,9 @@ DNS是计算机域名系统 \(Domain Name System 或Domain Name Service\) 的缩
 
 [原理图来源](http://www.cnblogs.com/yanxinjiang/p/7486314.html)
 
-<!-- ![](https://ipfs.io/ipfs/Qmdf4EHCYHXm9mQVZVwqknR9Apbw8jNLrtgQmQmte5Ncjf?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmdf4EHCYHXm9mQVZVwqknR9Apbw8jNLrtgQmQmte5Ncjf?1.png) -->
 
-![](https://i.postimg.cc/cLTznNCB/95001.png)
+[插图](https://i.postimg.cc/cLTznNCB/95001.png)
 
 ## Host
 
@@ -3825,7 +3825,7 @@ TCP重置攻击指的是使用伪造的TCP重置包干扰用户和网站的连�
 
 情景：按照代理软件默认的安装方式，登录帐号连接节点发现软件报错，并提示乱码，软件日志难以找到，去切实排查原因...第一想法是软件字符编码及兼容性问题，可win7、win10测试无效，即使设置了UTF-8编码，情况依旧；从以前经验想当然认为“乱码不影响使用（连接、功能逻辑操作）”，这个时候也是一头雾水。
 
-![image-20201215112132923.png](https://i.loli.net/2020/12/15/MXQB5KS8s4UgnDi.png)
+[image-20201215112132923.png](https://i.loli.net/2020/12/15/MXQB5KS8s4UgnDi.png)
 
 在这个时候联系了售后才了解到不能含特殊字符、空格的目录如常见的：
 
@@ -3836,25 +3836,25 @@ C:\Program Files (x86)
 
 ....O__O "…，按照软件说明安装，登录连接服务器确实成功的。虽然连接成功，但访问Google还是被阻断了有些异常，联系了厂商客服，他们也表示他们的提供服务器没有问题，页面空白如下图现象...为了临时能让同事连接上网，使用ss连接依旧如此。（该图为过程复盘）
 
-![Catch_12-03-11-39-37_.jpg](https://i.loli.net/2020/12/03/o81uC4zR6LipQYd.jpg)
+[Catch_12-03-11-39-37_.jpg](https://i.loli.net/2020/12/03/o81uC4zR6LipQYd.jpg)
 
 然而在管理员主机这边却是可以的，这又是怎么回事呢？
 
-![image-20201203114350647.png](https://i.loli.net/2020/12/03/QtNTdDCWUV4BAMO.png)
+[image-20201203114350647.png](https://i.loli.net/2020/12/03/QtNTdDCWUV4BAMO.png)
 
 **初步了解**原来是上网帐号权限问题，管理员访问网站是不受限的；所带来的疑问点是为什么实验同学明明勾选了代理工具，但用代理工具却又访问不了Google这般类型的搜索页面呢？
 
 防火墙对代理、VPN程序的协议识别机制有关，由于年限原因一些新型代理、VPN使用新型的协议导致无法识别相关的代理工具，也是存在这种可能性。
 
-![2020-12-03_120742.png](https://i.loli.net/2020/12/03/K5FiSZtICswgycp.png)
+[2020-12-03_120742.png](https://i.loli.net/2020/12/03/K5FiSZtICswgycp.png)
 
 **通过深入发现**设置LAN->WAN并制定端口范围的访问方式，限制代理、VPN翻墙。
 
-![2020-12-03_121845.png](https://i.loli.net/2020/12/03/1PbhsDdxj3nKwQE.png)
+[2020-12-03_121845.png](https://i.loli.net/2020/12/03/1PbhsDdxj3nKwQE.png)
 
 不在上图中准入系统设置的端口范围内的实验同学，该同学代理界面节点端口信息如下。
 
-![089EF.png](https://i.loli.net/2020/12/05/KI65dAZFyeWDaOm.png)
+[089EF.png](https://i.loli.net/2020/12/05/KI65dAZFyeWDaOm.png)
 
 所以这就是此次访问异常的原因所在；泛泛来说，学校学生一般有百来个，不同专业班级也有十几个左右及以上，根据相关需求也得制定不同的上网规则。将上网规则集合在一起组成策略，将各组的上网行为规范应用于策略，极大方便了对校园学生的上网行为管理。
 
@@ -3868,13 +3868,13 @@ C:\Program Files (x86)
 
 大家对我校学生及组织难以理解，也是，那么我就以毕业的社会人视角比方吧，最开始用户是通过互联网联系到能够直连外网的代理商访问外网
 
-![image-20201203142709439.png](https://i.loli.net/2020/12/03/4kM5mL2Dyv9IWhQ.png)
+[image-20201203142709439.png](https://i.loli.net/2020/12/03/4kM5mL2Dyv9IWhQ.png)
 
 用户与代理商双方建立连接关系，也是需要相互之间信任验证的，不建立信任验证，谁都可以建立连接就乱套了。于是就有了客户端与服务器端完成帐号登录与密码验证这一过程。建立信任关系后，代理商就如同用户的下手助理，接代用户的意愿去完成一系列的行为操作。
 
 代理上网拓扑流程如下：
 
-![image-20201203162752377.png](https://i.loli.net/2020/12/03/TjZLyhg1vBxuAVs.png)
+[image-20201203162752377.png](https://i.loli.net/2020/12/03/TjZLyhg1vBxuAVs.png)
 
 ### 附：网页代理原理
 
@@ -3884,7 +3884,7 @@ C:\Program Files (x86)
 
 代理程序会根据缓存的时间、大小和提取记录自动删除缓存。删除的方法有两种，一种是删除保存最久的资料，一种是删除最少提取的缓存。这两种方法也可以结合使用。
 
-![2018-05-10-192753.png](https://i.loli.net/2020/12/15/6TeZqCQ3c2gxous.png)
+[2018-05-10-192753.png](https://i.loli.net/2020/12/15/6TeZqCQ3c2gxous.png)
 
 
 ## VPN隧道协议
@@ -3953,27 +3953,27 @@ PPTP、L2TP、OpenVPN三种隧道协议的优缺点对比：（SSH不列入比�
 
 在很久很久以前，我们访问各种网站都是简单而直接的，用户的请求通过互联网发送到服务提供方，服务提供方直接将信息反馈给用户。
 
-<!-- ![](https://ipfs.io/ipfs/QmS6LwXYMGw8mtY4sMrnbtsNVSwbUfAQG6uuQiJwcqf95p?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmS6LwXYMGw8mtY4sMrnbtsNVSwbUfAQG6uuQiJwcqf95p?1.png) -->
 
-![](https://i.postimg.cc/Kj0bfpD6/whats-shadowsocks-01.png)
+[插图](https://i.postimg.cc/Kj0bfpD6/whats-shadowsocks-01.png)
 
 后来，[GFW](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E) 就出现了，他像一个收过路费的强盗一样夹在了在用户和服务之间，每当用户需要获取信息，都经过了 GFW，GFW将它不喜欢的内容统统过滤掉，于是客户当触发 GFW 的过滤规则的时候，就会收到 `Connection Reset` 这样的响应内容，而无法接收到正常的内容。
 
-<!-- ![](https://ipfs.io/ipfs/QmZU3aC45PRKweNYxbtN1Dn69nEMmw5Cfs1MitiXHBF4TS?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZU3aC45PRKweNYxbtN1Dn69nEMmw5Cfs1MitiXHBF4TS?2.png) -->
 
-![](https://i.postimg.cc/gcS1MhWb/whats-shadowsocks-02.png)
+[插图](https://i.postimg.cc/gcS1MhWb/whats-shadowsocks-02.png)
 
 GFW 内部结构：
 
-<!-- ![](https://ipfs.io/ipfs/QmWuT9BfsYt9efzir5mYUck46gL92FfXS6VzAT1hHQr3Yi?0.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWuT9BfsYt9efzir5mYUck46gL92FfXS6VzAT1hHQr3Yi?0.jpg) -->
 
-![](https://i.postimg.cc/NGzP8w6g/fiyya.jpg)
+[插图](https://i.postimg.cc/NGzP8w6g/fiyya.jpg)
 
 GFW 列表可以参考这里：[gfwlist](https://github.com/gfwlist/gfwlist)
 
-<!-- ![](https://ipfs.io/ipfs/QmX2kmam3QVEBESZvKFi6kST23BAbXzsNqBhz4eUKsWkPn?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmX2kmam3QVEBESZvKFi6kST23BAbXzsNqBhz4eUKsWkPn?1.png) -->
 
-![](https://i.postimg.cc/Vs2PftHB/image.png)
+[插图](https://i.postimg.cc/Vs2PftHB/image.png)
 
 聪明的人们想到了利用境外服务器代理的方法来绕过 GFW 的过滤，其中包含了各种HTTP代理服务、Socks服务、VPN服务等。
 
@@ -3993,9 +3993,9 @@ ssh -D 7001 username@remote-host
 
 上述命令中-D表示动态绑定，7001表示本地SOCKS代理的侦听端口，可以改成别的，后面的 `username@remote-host`就是你登录远程服务器的用户名和主机。当然，这个命令后会提示输入密码，就是username这个用户的密码（除非你配置了SSH公钥认证，可以不输入密码），这样隧道就打通了。
 
-<!-- ![](https://ipfs.io/ipfs/QmZK59U5PoQgKjuBTA1PmXwfo8xzkCwsY3DnpARtETUvh9?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZK59U5PoQgKjuBTA1PmXwfo8xzkCwsY3DnpARtETUvh9?3.png) -->
 
-![](https://i.postimg.cc/85rwt7BN/whats-shadowsocks-03.png)
+[插图](https://i.postimg.cc/85rwt7BN/whats-shadowsocks-03.png)
 
 1. 首先用户和境外服务器基于 ssh 建立起一条加密的通道 \(1\)
 2. 用户通过建立起的隧道进行代理，通过 ssh server 向真实的服务发起请求 \(2-3\)
@@ -4013,9 +4013,9 @@ ssh -D 7001 username@remote-host
 
 VPN 比shadowsocks更加底层，它通过操作系统的接口直接虚拟出一张网卡，后续整个操作系统的网络通讯都将通过这张虚拟的网卡进行收发。这和任何一个代理的实现思路都差不多，应用层并不知道网卡是虚拟的，这样vpn虚拟网卡将以中间人的身份对数据进行加工，从而实现各种神奇的效果。具体来说，vpn是通过编写一套网卡驱动并注册到操作系统实现的虚拟网卡，这样数据只要经过网卡收发就可以进行拦截处理。
 
-<!-- ![](https://ipfs.io/ipfs/QmR3HHgE8LKyyAvAhy93D2UxdeRPJv62PzBvTZDVZQqbhP?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmR3HHgE8LKyyAvAhy93D2UxdeRPJv62PzBvTZDVZQqbhP?2.png) -->
 
-![](https://i.postimg.cc/NFDX4tVQ/2018-05-28-163626.png)
+[插图](https://i.postimg.cc/NFDX4tVQ/2018-05-28-163626.png)
 
 VPN和SSH隧道翻墙有如下区别：
 
@@ -4027,9 +4027,9 @@ VPN和SSH隧道翻墙有如下区别：
 
 简单理解的话，shadowsocks 是将原来 ssh 创建的 Socks5 协议拆开成 server 端和 client 端，所以下面这个原理图基本上和利用 ssh tunnel 大致类似。
 
-<!-- ![](https://ipfs.io/ipfs/QmU3iBDrP1R72ZKrKHP5QBQ7K33vPPNssQsSxzUBvdvYyF?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmU3iBDrP1R72ZKrKHP5QBQ7K33vPPNssQsSxzUBvdvYyF?0.png) -->
 
-![](https://i.postimg.cc/9MWFB9jq/whats-shadowsocks-04.png)
+[插图](https://i.postimg.cc/9MWFB9jq/whats-shadowsocks-04.png)
 
 * 1、6\) 客户端发出的请求基于 Socks5 协议跟 ss-local 端进行通讯，由于这个 ss-local 一般是本机或路由器或局域网的其他机器，不经过 GFW，所以解决了上面被 GFW 通过特征分析进行干扰的问题
 * 2、5\) ss-local 和 ss-server 两端通过多种可选的加密方法进行通讯，经过 GFW 的时候是常规的TCP包，没有明显的特征码而且 GFW 也无法对通讯数据进行解密
@@ -4043,26 +4043,26 @@ VPN和SSH隧道翻墙有如下区别：
 
 上面是从维基百科摘录的关于PAC的解释，我做了一个简单的图片解释什么是PAC：
 
-<!-- ![](https://ipfs.io/ipfs/QmWz6Q97MWa5mKZeBR8tbikczwkjr1ULKwigC6zkZAoY4C?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWz6Q97MWa5mKZeBR8tbikczwkjr1ULKwigC6zkZAoY4C?2.png) -->
 
-![](https://i.postimg.cc/MHgSgMg5/yEvu2aF.png)
+[插图](https://i.postimg.cc/MHgSgMg5/yEvu2aF.png)
 
 简单的讲，PAC就是一种配置，它能让你的浏览器智能判断哪些网站走代理，哪些不需要走代理。点击 Shadowsocks 的菜单，选择 `编辑自动模式的 PAC`，如下图
 
-<!-- ![](https://ipfs.io/ipfs/QmcxE9dbPLTCbmSKxFvLvCBHQ9dQCpaLt8dxTJUqqEk5PK?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmcxE9dbPLTCbmSKxFvLvCBHQ9dQCpaLt8dxTJUqqEk5PK?3.png) -->
 
-![](https://i.postimg.cc/9Xs06rds/1nkq1h.png)
+[插图](https://i.postimg.cc/9Xs06rds/1nkq1h.png)
 
-<!-- ![](https://ipfs.io/ipfs/QmYArbNR1F6paD6Zutp5Fvpb3YewCwwyroNNndyLpGKryX?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYArbNR1F6paD6Zutp5Fvpb3YewCwwyroNNndyLpGKryX?4.png) -->
 
-![](https://i.postimg.cc/PxphyQRJ/18ie14.png)
+[插图](https://i.postimg.cc/PxphyQRJ/18ie14.png)
 
 在上面的目录下有两个文件，一个是 gfwlist.js，还有一个是   
 user-rule.txt,确保当前的模式为自动代理模式，打开系统设置--&gt;网络，点击高级，查看代理选项卡，如下图
 
-<!-- ![](https://ipfs.io/ipfs/QmdCqRf9CdE9ZzuPidsuPFdpiRmUgpW2eLnsSqd1rX8MsJ?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdCqRf9CdE9ZzuPidsuPFdpiRmUgpW2eLnsSqd1rX8MsJ?2.png) -->
 
-![](https://i.postimg.cc/mgmsGnxh/13p1u.png)
+[插图](https://i.postimg.cc/mgmsGnxh/13p1u.png)
 
 ## SS全局模式与PAC模式的区别 
 
@@ -4164,9 +4164,9 @@ DNS劫持和污染是针对某些网站的最严重的干扰。
 
 在meek之前，tor开源社区已经出过好几款流量混淆插件。以obfsproxy为例：
 
-<!-- ![](https://ipfs.io/ipfs/QmWbJAtptajEo98PHticEVyGDQewFyEYuq7hv6w9AbE8uh?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmWbJAtptajEo98PHticEVyGDQewFyEYuq7hv6w9AbE8uh?3.png) -->
 
-![](https://i.postimg.cc/bv8fkjQ6/2018-05-10-164713.png)
+[插图](https://i.postimg.cc/bv8fkjQ6/2018-05-10-164713.png)
 
 图中的tor client和obfsproxy client在你本机，他们要正常工作就需要先连接到obfsproxy server。虽然GFW无法区分被obfsproxy混淆过的流量，但是因为全球的obfsproxy server数量是有限的，GFW可以把所有的obfsproxy server都加入IP黑名单。如此一来，就足以让obfsproxy失效。  
   
@@ -4174,9 +4174,9 @@ meek client也是跟tor client
 
 一起运行在你本机。下面这张是meek的示意图：
 
-<!-- ![](https://ipfs.io/ipfs/QmRD4PGd2W2PotzuukKbMnbU5gHAijrnXzTxpCbUQT5fGq?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRD4PGd2W2PotzuukKbMnbU5gHAijrnXzTxpCbUQT5fGq?1.png) -->
 
-![](https://i.postimg.cc/XJJhkNXg/2018-05-10-171318.png)
+[插图](https://i.postimg.cc/XJJhkNXg/2018-05-10-171318.png)
 
 从图中可以看出，meek跟obfsproxy的主要差异在于meek server 并不是直接暴露出来的。换句话说，你本机不需要直连meek server，而是直接连接云计算平台的服务器。如此一来，即便GFW知道meek server的IP，封杀这些IP也没有意义。
 
@@ -4193,31 +4193,31 @@ meek client也是跟tor client
 
 桥接网络拓扑图
 
-<!-- ![](https://ipfs.io/ipfs/QmaM994hn7RC2gT8qd3ubxqrTiURzsUrhYCwu2JJc68ERN?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaM994hn7RC2gT8qd3ubxqrTiURzsUrhYCwu2JJc68ERN?3.png) -->
 
-![](https://i.postimg.cc/D0m3YyN6/2018-05-13-161016.png)
+[插图](https://i.postimg.cc/D0m3YyN6/2018-05-13-161016.png)
 
 那么物理网卡和虚拟网卡就相当于处于同一个网段，虚拟交换机就相当于一台现实网络中的交换机。所以两个网卡的IP地址也要设置为同一网段。
 
 物理网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmTksR6g9wBZptxJzXcVspXtzUppUFfSj9d5W2k74iGWv8?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTksR6g9wBZptxJzXcVspXtzUppUFfSj9d5W2k74iGWv8?3.png) -->
 
-![](https://i.postimg.cc/zBccvwdw/2018-05-13-161401.png)
+[插图](https://i.postimg.cc/zBccvwdw/2018-05-13-161401.png)
 
 虚拟网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmemKU954PgTQaBQ4jg3Wa8A7tk74wAAHf4XLEpMiqg1ZW?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmemKU954PgTQaBQ4jg3Wa8A7tk74wAAHf4XLEpMiqg1ZW?4.png) -->
 
-![](https://i.postimg.cc/ZRHyxVk3/2018-05-13-161708.png)
+[插图](https://i.postimg.cc/ZRHyxVk3/2018-05-13-161708.png)
 
 我们看到，物理网卡和虚拟网卡的IP地址处于同一个网段，子网掩码、网关、DNS等参数都相同。两个网卡在拓扑结构中是相对独立的。
 
 ping结果
 
-<!-- ![](https://ipfs.io/ipfs/QmcwWPpLZXN7yU5KmPgA9pJNV3gPefNH3ot87GjDQxZUUp?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmcwWPpLZXN7yU5KmPgA9pJNV3gPefNH3ot87GjDQxZUUp?3.png) -->
 
-![](https://i.postimg.cc/Gpr2gGxj/2018-05-13-161826.png)
+[插图](https://i.postimg.cc/Gpr2gGxj/2018-05-13-161826.png)
 
 我们在192.168.15.111上ping192.168.15.96，结果显示两个网卡能够互相通信。如果在网络中存在DHCP服务器，那么虚拟网卡同样可以从DHCP服务器上获取IP地址。所以桥接网络模式是VMware虚拟机中最简单直接的模式。安装虚拟机时它为默认选项。
 
@@ -4227,9 +4227,9 @@ ping结果
 
 NAT网络模式拓扑图
 
-<!-- ![](https://ipfs.io/ipfs/QmT4kUS8cMC7g9VoZMmro4rf3vjRc84f6MagkYuZQcmY3u?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmT4kUS8cMC7g9VoZMmro4rf3vjRc84f6MagkYuZQcmY3u?2.png) -->
 
-![](https://i.postimg.cc/zvjZBHgq/2018-05-13-162012.png)
+[插图](https://i.postimg.cc/zvjZBHgq/2018-05-13-162012.png)
 
 VMware Network Adepter VMnet8虚拟网卡的作用仅限于和VMnet8网段进行通信，它不给VMnet8网段提供路由功能，所以虚拟机虚拟一个NAT服务器，使虚拟网卡可以连接到Internet。在这种情况下，我们就可以使用端口映射功能，让访问主机80端口的请求映射到虚拟机的80端口上。
 
@@ -4237,15 +4237,15 @@ VMware Network Adepter VMnet8虚拟网卡的IP地址是在安装VMware时由系�
 
 NAT虚拟网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/Qmd2KUrSiviXCv34mUha2dfV7MzSbGi9foPm5yiKK7ATF1?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmd2KUrSiviXCv34mUha2dfV7MzSbGi9foPm5yiKK7ATF1?4.png) -->
 
-![](https://i.postimg.cc/63JDffV9/2018-05-13-162216.png)
+[插图](https://i.postimg.cc/63JDffV9/2018-05-13-162216.png)
 
 物理网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmXWg73AiRBuE5i2auxwPicmfYUwsnFd4GhbH1qGuhhDxi?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmXWg73AiRBuE5i2auxwPicmfYUwsnFd4GhbH1qGuhhDxi?3.png) -->
 
-![](https://i.postimg.cc/sXLGL1XD/2018-05-13-162302.png)
+[插图](https://i.postimg.cc/sXLGL1XD/2018-05-13-162302.png)
 
 虚拟出来的网段和NAT模式虚拟网卡的网段是一样的，都为192.168.111.X，包括NAT服务器的IP地址也是这个网段。在安装VMware之后同样会生成一个虚拟DHCP服务器，为NAT服务器分配IP地址。
 
@@ -4259,23 +4259,23 @@ NAT虚拟网卡IP地址
 
 host-only模式拓扑图
 
-<!-- ![](https://ipfs.io/ipfs/QmdsKse5xP3BRDMy7dGQPWmGNcCrFF9RVYtgyYzPVPqoE9?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmdsKse5xP3BRDMy7dGQPWmGNcCrFF9RVYtgyYzPVPqoE9?1.png) -->
 
-![](https://i.postimg.cc/0yvnnXFX/2018-05-13-162359.png)
+[插图](https://i.postimg.cc/0yvnnXFX/2018-05-13-162359.png)
 
 同NAT一样，VMware Network Adepter VMnet1虚拟网卡的IP地址也是VMware系统指定的，同时生成的虚拟DHCP服务器和虚拟网卡的IP地址位于同一网段，但和物理网卡的IP地址不在同一网段。
 
  Host-Only虚拟网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmeBhyZXNcraRFGp2evnAK74NRSYNpgKgeo2g5M26mG63g?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmeBhyZXNcraRFGp2evnAK74NRSYNpgKgeo2g5M26mG63g?2.png) -->
 
-![](https://i.postimg.cc/8zwRHphs/2018-05-13-162504.png)
+[插图](https://i.postimg.cc/8zwRHphs/2018-05-13-162504.png)
 
 物理网卡IP地址
 
-<!-- ![](https://ipfs.io/ipfs/QmUn6ZwscVPmigSNfxABezVX8A3Qeekqt7Ss4pDGYKGrR7?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmUn6ZwscVPmigSNfxABezVX8A3Qeekqt7Ss4pDGYKGrR7?0.png) -->
 
-![](https://i.postimg.cc/LXjhxDrv/2018-05-13-162617.png)
+[插图](https://i.postimg.cc/LXjhxDrv/2018-05-13-162617.png)
 
 Host-Only的宗旨就是建立一个与外界隔绝的内部网络，来提高内网的安全性。这个功能或许对普通用户来说没有多大意义，但大型服务商会常常利用这个功能。如果你想为VMnet1网段提供路由功能，那就需要使用RRAS，而不能使用XP或2000的ICS，因为ICS会把内网的IP地址改为192.168.0.1，但虚拟机是不会给VMnet1虚拟网卡分配这个地址的，那么主机和虚拟机之间就不能通信了。
 
@@ -4333,16 +4333,16 @@ Host-Only的宗旨就是建立一个与外界隔绝的内部网络，来提高�
 
 测得的结果： 
 
-![](https://i.postimg.cc/NFMFQtKC/132059dd4rfiilqz4e4s4p.jpg)
+[插图](https://i.postimg.cc/NFMFQtKC/132059dd4rfiilqz4e4s4p.jpg)
 
-<!-- ![](https://ipfs.io/ipfs/QmZNLVAGW4wUrd1qpRKhj4JzXei9PhKJ7z9HTnjvp3qYbw?0.jpg)    -->
+<!-- [插图](https://ipfs.io/ipfs/QmZNLVAGW4wUrd1qpRKhj4JzXei9PhKJ7z9HTnjvp3qYbw?0.jpg)    -->
 
-<!-- ![](http://www.right.com.cn/forum/data/attachment/forum/201611/10/132059dd4rfiilqz4e4s4p.jpg)   -->
+<!-- [插图](http://www.right.com.cn/forum/data/attachment/forum/201611/10/132059dd4rfiilqz4e4s4p.jpg)   -->
 最后附上NAT类型测试工具：  
 
-![](https://i.postimg.cc/257n6z5C/zip.gif) [NAT类型测试.zip](http://down7.pc6.com/xy3/NatTypeTester.zip) 
+[插图](https://i.postimg.cc/257n6z5C/zip.gif) [NAT类型测试.zip](http://down7.pc6.com/xy3/NatTypeTester.zip) 
 
-<!-- ![](http://www.right.com.cn/forum/static/image/filetype/zip.gif) [NAT类型测试.zip](http://www.right.com.cn/forum/plugin.php?id=imc_attachad:ad&aid=MTQzODYzfDQxMGQxODFmfDE1MjU4MzkxMjZ8MHwxOTkyOTk%3D)  -->
+<!-- [插图](http://www.right.com.cn/forum/static/image/filetype/zip.gif) [NAT类型测试.zip](http://www.right.com.cn/forum/plugin.php?id=imc_attachad:ad&aid=MTQzODYzfDQxMGQxODFmfDE1MjU4MzkxMjZ8MHwxOTkyOTk%3D)  -->
 PS:  
 如果能找运营商要到外网IP，这是最好的；没有公网IP的话，可以打电话给客服态度强硬点、最好一开始就把客服的工号也要了并说“我家宽带怎么没公网IP啊，我需在家里装远程监控，没有公网IP的话不行，如果不给我公网IP，我只好退宽带换别家的了，不给就投诉你”；但如果还是要不到公网IP，能提升到NAT2也不错了。
 
@@ -4395,7 +4395,7 @@ PS:
 
 其实这个技术最典型的应用是在服务后端。比如说某大型网站服务器有一台，然后后端负责计算的服务器有N台，其实真正的服务器在这N台服务器上，这N台服务器通过某些机制同步内容，然后前端的服务器只负责收发数据，那么前端接收到请求之后就会根据后台某服务器的空闲资源来决定将请求反向代理给谁，从而达到了负载均衡的目的。
 
-![](https://i.postimg.cc/rFXTMWDX/imagesppx.png)
+[插图](https://i.postimg.cc/rFXTMWDX/imagesppx.png)
 
 > 比如说淘宝以前访问速度一般，后来就是革新了负载均衡的系统，对于反向代理都需要这个代理的过程。而淘宝把这个代理过程砍掉一半，也就是上文中的N台服务器中的某台收到前端的请求之后，并不会将数据返回给前端，而是直接反馈给了用户。（这个案例具体的忘记了，两年前朋友讲给我听的……求斧正。）
 
@@ -4476,43 +4476,43 @@ PS:
 
 而根据wiki上[Dark web](https://en.wikipedia.org/wiki/Dark_web)里的相关数据表明，暗网站点里数量前三的是”Drugs”、”Market”、”Fraud”,即药品、交易、欺诈前三，可以说明那些极度血腥反人类的真的只是极少
 
-<!-- ![](https://ipfs.io/ipfs/Qmd2gda91yrCpzfNMu8LKEjPaV8WcBpa7SXSH5iM5Tp9rx?2.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmd2gda91yrCpzfNMu8LKEjPaV8WcBpa7SXSH5iM5Tp9rx?2.jpg) -->
 
-![](https://i.postimg.cc/c6qJwb1d/hidden-web-category.png)
+[插图](https://i.postimg.cc/c6qJwb1d/hidden-web-category.png)
 
 ## 总结
 
 首先是需要TOR打开[The Uncensored Hidden Wiki](http://uhwiki36pbooodfj.onion/wiki/index.php/Main_Page)，另外这种导航页其实有很多，各位可以自行挖掘
 
-<!-- ![](https://ipfs.io/ipfs/QmaX8fmm2pBGNRQ9WU3xuPDdiB4wtyGd18oPpZ16mu3Bxc?0.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaX8fmm2pBGNRQ9WU3xuPDdiB4wtyGd18oPpZ16mu3Bxc?0.jpg) -->
 
-![](https://i.postimg.cc/1373KX3W/hiddenwiki.jpg)
+[插图](https://i.postimg.cc/1373KX3W/hiddenwiki.jpg)
 
-<!-- ![](https://ipfs.io/ipfs/QmRzrEfCk1Rxo6opZbidCyNnStFBhhzmszsbq517NC3E1K?0.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmRzrEfCk1Rxo6opZbidCyNnStFBhhzmszsbq517NC3E1K?0.jpg) -->
 
-![](https://i.postimg.cc/RZ2zFHFz/hiddenwiki-list.jpg)
+[插图](https://i.postimg.cc/RZ2zFHFz/hiddenwiki-list.jpg)
 
 另一个导航站点：
 
-<!-- ![](https://ipfs.io/ipfs/QmYfBSP66ToswbWvm44JwAYg6jsSrxPS3TrrMzxC2jzX3m?3.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmYfBSP66ToswbWvm44JwAYg6jsSrxPS3TrrMzxC2jzX3m?3.jpg) -->
 
-![](https://i.postimg.cc/90wdcKN2/hdwiki.jpg)
+[插图](https://i.postimg.cc/90wdcKN2/hdwiki.jpg)
 
 其次是某些站点的截图。有军火、Drug、假护照、信用卡
 
-<!-- ![](https://ipfs.io/ipfs/QmcdFpt8HEUsPTGgw9zASrUbNZZCg9pzFuazRBZcPCJoQW?0.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmcdFpt8HEUsPTGgw9zASrUbNZZCg9pzFuazRBZcPCJoQW?0.jpg) -->
 
-![](https://i.postimg.cc/bY0b90c3/gun.jpg)
+[插图](https://i.postimg.cc/bY0b90c3/gun.jpg)
 
-<!-- ![](https://ipfs.io/ipfs/QmabaP9oANr2MyKBf9igUJn3pj3KtrTSsYbmaGWXpzUuCa?2.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmabaP9oANr2MyKBf9igUJn3pj3KtrTSsYbmaGWXpzUuCa?2.jpg) -->
 
-![](https://i.postimg.cc/TwVyQxSp/fake.jpg)
+[插图](https://i.postimg.cc/TwVyQxSp/fake.jpg)
 
 不过也不是所有站点都是违法犯罪的，也有些画风比较清奇如下图，这说明其实你也完全可以在暗网搭个网站放动画片，不过有没有人看就是另一回事了。
 
-<!-- ![](https://ipfs.io/ipfs/Qmdye3d2Ct3AhAnJUYgLpUTnRtUie2uJkd74gfRvx3PjF7?2.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmdye3d2Ct3AhAnJUYgLpUTnRtUie2uJkd74gfRvx3PjF7?2.jpg) -->
 
-![](https://i.postimg.cc/q7fMFY2n/ps4.jpg)
+[插图](https://i.postimg.cc/q7fMFY2n/ps4.jpg)
 
 ## 参考文档
 
@@ -4626,17 +4626,17 @@ PS:
 
 我们来做一个详细的访问流程分析:
 
-![](https://i.postimg.cc/FHfH5gPn/1156565-20170729153452566-2008499549.png)
+[插图](https://i.postimg.cc/FHfH5gPn/1156565-20170729153452566-2008499549.png)
 
 用户(IP:207.17.117.20)访问域名`www.a10networks.com`，首先会通过DNS查询解析出这个域名的公网地址：199.237.202.124，接下来用户207.17.117.20会访问199.237.202.124这个地址，因此数据包会到达负载均衡设备，接下来负载均衡设备会把数据包分发到合适的服务器，看下图：
 
-![](https://i.postimg.cc/63KWZsBD/85133083.png)
+[插图](https://i.postimg.cc/63KWZsBD/85133083.png)
 
 负载均衡设备在将数据包发给服务器时，数据包是做了一些变化的，如上图所示，数据包到达负载均衡设备之前，源地址是：207.17.117.20，目的地址是：199.237.202.124，当负载均衡设备将数据包转发给选中的服务器时，源地址还是：207.17.117.20，目的地址变为172.16.20.1，我们称这种方式为目的地址NAT(DNAT，目的地址转换)。一般来说，在服务器负载均衡中DNAT是一定要做的（还有另一种模式叫做服务器直接返回-DSR，是不做DNAT的，我们将另行讨论），而源地址根据部署模式的不同，有时候也需要转换成别的地址，我们称之为：源地址NAT(SNAT)，一般来说，旁路模式需要做SNAT，而串接模式不需要，本示意图为串接模式，所以源地址没做NAT。
 
 我们再看服务器的返回包，如下图所示，也经过了IP地址的转换过程，不过应答包中源/目的地址与请求包正好对调，从服务器回来的包源地址为172.16.20.1，目的地址为207.17.117.20，到达负载均衡设备后，负载均衡设备将源地址改为199.237.202.124，然后转发给用户，保证了访问的一致性。
 
-![](https://i.postimg.cc/Xq7n2wGL/12538.png)
+[插图](https://i.postimg.cc/Xq7n2wGL/12538.png)
 
 ### 负载均衡算法
 
@@ -4700,7 +4700,7 @@ TCP连接复用技术通过将前端多个客户的HTTP请求复用到后端与�
 
 采用TCP连接复用技术后，客户端（如：ClientA）与负载均衡设备之间进行三次握手并发送HTTP请求。负载均衡设备收到请求后，会检测服务器是否存在空闲的长连接，如果不存在，服务器将建立一个新连接。当HTTP请求响应完成后，客户端则与负载均衡设备协商关闭连接，而负载均衡则保持与服务器之间的这个连接。当有其它客户端（如：ClientB）需要发送HTTP请求时，负载均衡设备会直接向与服务器之间保持的这个空闲连接发送HTTP请求，避免了由于新建TCP连接造成的延时和服务器资源耗费。
 
-![](https://i.postimg.cc/8zTxL1vd/266.png)
+[插图](https://i.postimg.cc/8zTxL1vd/266.png)
 
 在HTTP 1.1中，客户端可以在一个TCP连接中发送多个HTTP请求，这种技术叫做HTTP复用（HTTP Multiplexing）。它与TCP连接复用最根本的区别在于，TCP连接复用是将多个客户端的HTTP请求复用到一个服务器端TCP连接上，而HTTP复用则是一个客户端的多个HTTP请求通过一个TCP连接进行处理。前者是负载均衡设备的独特功能；而后者是HTTP 1.1协议所支持的新功能，目前被大多数浏览器所支持。
 
@@ -4734,7 +4734,7 @@ SSL是需要耗费大量CPU资源的一种安全技术。目前，大多数负�
 
 DNS负责提供域名解析服务，当访问某个站点时，实际上首先需要通过该站点域名的DNS服务器来获取域名指向的IP地址，在这一过程中，DNS服务器完成了域名到IP地址的映射，同样，这样映射也可以是一对多的，这时候，DNS服务器便充当了负载均衡调度器，将用户的请求分散到多台服务器上。使用dig命令来看下”baidu”的DNS设置：
 
-![](https://i.postimg.cc/ZKwxDZgx/baidu.png)
+[插图](https://i.postimg.cc/ZKwxDZgx/baidu.png)
 
 可见baidu拥有三个A记录。
 
@@ -4748,7 +4748,7 @@ DNS负责提供域名解析服务，当访问某个站点时，实际上首先�
 
 实际处理服务器ip和数据请求目的ip一致，不需要经过负载均衡服务器进行地址转换，可将响应数据包直接返回给用户浏览器，避免负载均衡服务器网卡带宽成为瓶颈。也称为直接路由模式（DR模式）。如下图：
 
-![](https://i.postimg.cc/T2q9gnJS/974.png)
+[插图](https://i.postimg.cc/T2q9gnJS/974.png)
 
 性能很好，但是配置复杂，目前应用比较广泛。
 
@@ -4759,7 +4759,7 @@ DNS负责提供域名解析服务，当访问某个站点时，实际上首先�
 
 以常见的TCP为例，负载均衡设备在接收到第一个来自客户端的SYN 请求时，即通过上述方式选择一个最佳的服务器，并对报文中目标IP地址进行修改(改为后端服务器IP），直接转发给该服务器。TCP的连接建立，即三次握手是客户端和服务器直接建立的，负载均衡设备只是起到一个类似路由器的转发动作。在某些部署情况下，为保证服务器回包可以正确返回给负载均衡设备，在转发报文的同时可能还会对报文原来的源地址进行修改。
 
-![](https://i.postimg.cc/HLq242KG/maxk.png)
+[插图](https://i.postimg.cc/HLq242KG/maxk.png)
 
 **应用层（OSI 第七层）负载均衡**
 
@@ -4767,7 +4767,7 @@ DNS负责提供域名解析服务，当访问某个站点时，实际上首先�
 
 所谓七层负载均衡，也称为“内容交换”，也就是主要通过报文中的真正有意义的应用层内容，再加上负载均衡设备设置的服务器选择方式，决定最终选择的内部服务器。注意此时可以看到具体的http请求的完整url，因此可以实现下图所示的分发：
 
-![](https://i.postimg.cc/HnC6H240/5615.png)
+[插图](https://i.postimg.cc/HnC6H240/5615.png)
 
 以常见的TCP为例，负载均衡设备如果要根据真正的应用层内容再选择服务器，只能先代理最终的服务器和客户端建立连接(三次握手)后，才能看到客户端发送的真正应用层内容的报文，然后再根据该报文中的特定字段，再加上负载均衡设备设置的服务器选择方式，决定最终选择的内部服务器。负载均衡设备在这种情况下，更类似于一个代理服务器。负载均衡和前端的客户端以及后端的服务器会分别建立TCP连接。所以从这个技术原理上来看，七层负载均衡明显的对负载均衡设备的要求更高，处理七层的能力也必然会低于四层模式的部署方式。那么，为什么还需要七层负载均衡呢？
 
@@ -4800,11 +4800,11 @@ RST与SSL_ERR_SYSCALL有一个共同的问题：hosts IP-DNS映射
 
 应用层的Hosts通过IP-DNS映射，网址解析被指向特定IP地址。而代理只是转达客户端这特定指向访问IP请求，并不会对IP进行路径转换。若Hosts映射IP、DNS任一方不存在，则会造成即使翻墙配置了代理也无法进行访问的情况。所以代理也被称作[应用网关](https://baike.baidu.com/item/%E5%BA%94%E7%94%A8%E7%BD%91%E5%85%B3/6324513)，也是有原因的。
 
-![](https://i.postimg.cc/SKjbkkk8/008.png)
+[插图](https://i.postimg.cc/SKjbkkk8/008.png)
 
 由于Hosts比远程的DNS优先级高，主机最先进入Hosts查询DNS映射，只有在hosts中没查到该条访问映射才进行远程DNS服务器查询，VPN方面虽建立一条专用隧道进行外部服务器访问，但主机给到外部服务器解析的DNS映射还是错误的，所以还是会造成主机不可达，依旧无法访问。
 
-![](https://i.postimg.cc/fT1p9pnn/009.png)
+[插图](https://i.postimg.cc/fT1p9pnn/009.png)
 
 有时就算进行Host设定重定向也能短时间内也正常访问站点，这与keep-alive、浏览器及系统DNS缓存有关，参考 [小胡子哥-修改Hosts为何不生效，是DNS缓存？](https://www.cnblogs.com/hustskyking/p/hosts-modify.html)
 
@@ -4816,7 +4816,7 @@ RST与SSL_ERR_SYSCALL有一个共同的问题：hosts IP-DNS映射
 
 由此从ping转向curl测试，因为该工具也提供了很直观的信息。
 
-![](https://i.postimg.cc/brH28KhX/010.png)
+[插图](https://i.postimg.cc/brH28KhX/010.png)
 
 
 # 仅作了解
@@ -4825,35 +4825,35 @@ RST与SSL_ERR_SYSCALL有一个共同的问题：hosts IP-DNS映射
 
 我们开始是不能打开[wiki主页 https://wikipedia.org](https://wikipedia.org)
 
-![](https://i.postimg.cc/WbbqtFZ4/2020-04-13-114900.png)
+[插图](https://i.postimg.cc/WbbqtFZ4/2020-04-13-114900.png)
 
 现在，[点进入Accesser证书下载页面](https://urenko.github.io/Accesser/)，选择下载相应系统版本的程序。
 
-![](https://i.postimg.cc/MGwBYs4W/2020-04-13-114303.png)
+[插图](https://i.postimg.cc/MGwBYs4W/2020-04-13-114303.png)
 
 运行下载好的程序，接受弹窗提示的安装证书操作，选择 **`是`**
 
-![](https://i.postimg.cc/Bb6RyBjy/old-3.png)
+[插图](https://i.postimg.cc/Bb6RyBjy/old-3.png)
 
 测试成功，该操作支持较多数被DNS污染和SNI（服务器名称指示）、RST（TCP重置攻击）的站点。
 
-![](https://i.postimg.cc/KvtCWjjm/new2-acc.png)
+[插图](https://i.postimg.cc/KvtCWjjm/new2-acc.png)
 
 证书+代理的脚本程序，将被CSP限制。这也就是用此类工具也不能访问P站的原因。有关[内容安全策略( CSP )的了解阅读](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP)
 
-![](https://i.postimg.cc/Gm1mXvBd/piv.png)
+[插图](https://i.postimg.cc/Gm1mXvBd/piv.png)
 
 ## ping
 
 可能部分读者会对下图站点、IP都能ping通，但就是访问不了网页的这一现象，而感到奇怪。
 
-![](https://i.postimg.cc/50gC6Nkz/54.png)
+[插图](https://i.postimg.cc/50gC6Nkz/54.png)
 
 ping不处于应用层http协议内，而是网络层ICMP的协议，所以，站点、IP都能ping通，但就是访问不了网页。这与TCP重置攻击有关，相关原理[请看对数字证书的相关概要说明（见「数字证书攻防概述」）](#)
 
 > 图摘自 [TCP/IP、HTTP协议的区别](https://www.jianshu.com/p/f4db4eb065bd)
 
-![](https://i.postimg.cc/50XytRx1/tcpxiyiceng.png)
+[插图](https://i.postimg.cc/50XytRx1/tcpxiyiceng.png)
 
 
 ## goagent
@@ -4862,7 +4862,7 @@ ping不处于应用层http协议内，而是网络层ICMP的协议，所以，�
 
 GoAgent通过使用GAE的服务器作为中转绕过了GFW。它的运作流程是浏览器代理设置将请求的数据重定向到client，对数据加密后并发送到GAE的server，再将数据解密并请求需要的数据回传给client。
 
-![](https://i.postimg.cc/nrqdmmrj/goagengstuture.jpg)
+[插图](https://i.postimg.cc/nrqdmmrj/goagengstuture.jpg)
 
 
 ## gatherproxy
@@ -4871,33 +4871,33 @@ GoAgent通过使用GAE的服务器作为中转绕过了GFW。它的运作流程�
 
 进入 [gatherproxy](http://www.gatherproxy.com/) 网址代理服务器列表
 
-![](https://i.postimg.cc/bJ7bFNmk/Snipaste-2019-06-14-13-24-29.png)
+[插图](https://i.postimg.cc/bJ7bFNmk/Snipaste-2019-06-14-13-24-29.png)
 
 选择 `proxy checker` 并下载 GatherProxyer
 
-![](https://i.postimg.cc/T1cwqRFR/Snipaste-2019-06-14-13-25-26.png)
+[插图](https://i.postimg.cc/T1cwqRFR/Snipaste-2019-06-14-13-25-26.png)
 
 在`gather proxy  from` 中选择 `gatherproxy.com` 勾选 `filter proxy` 点击 `start`；等会就如图所示该站点的代理服务器列表。
 
-![](https://i.postimg.cc/FK1DMzVB/Snipaste-2019-06-14-13-54-a28.png)
+[插图](https://i.postimg.cc/FK1DMzVB/Snipaste-2019-06-14-13-54-a28.png)
 
 在 proxy checker 下方 `checking for` 中勾选 socks代理 ，并点击`start` 开始。
 
-![](https://i.postimg.cc/bvJp4xMf/Snipaste-2019-06-14-14-01-15asd.png)
+[插图](https://i.postimg.cc/bvJp4xMf/Snipaste-2019-06-14-14-01-15asd.png)
 
 右键选中一个绿色 ip （随机）测试， `set as proxy for ie chrome`
 
-![](https://i.postimg.cc/sgWNxvhG/Snipaste-2019-06-14-14-10-32.png)
+[插图](https://i.postimg.cc/sgWNxvhG/Snipaste-2019-06-14-14-10-32.png)
 
 此时提示设定已经完成
 
-![](https://i.postimg.cc/sXbn3zg4/Snipaste-2019-06-14-14-14-23.png)
+[插图](https://i.postimg.cc/sXbn3zg4/Snipaste-2019-06-14-14-14-23.png)
 
 打开ie 浏览器测试，捎带安利一个ip查询站点: [ip-adress](https://www.ip-adress.com/)
 
 ?> 选择相关代理服务器，绿色代表服务器状态相对良好，红色也就是很差的；当然，显示绿色也未必连接状态就很好；多数时候，得多测试好几个代理服务器ip，红色恶心的，那就更不用说了。
 
-![](https://i.postimg.cc/Gh04ymgn/Snipaste-2019-06-14-14-37-09.png)
+[插图](https://i.postimg.cc/Gh04ymgn/Snipaste-2019-06-14-14-37-09.png)
 
 ## bing翻译用作web代理
 
@@ -4905,11 +4905,11 @@ GoAgent通过使用GAE的服务器作为中转绕过了GFW。它的运作流程�
 
 利用连接到的代理服务器ip，必应也可当做代理网站使用
 
-![](https://i.postimg.cc/25zMtC1q/Snipaste-2019-06-14-14-22-00.png)
+[插图](https://i.postimg.cc/25zMtC1q/Snipaste-2019-06-14-14-22-00.png)
 
 sure thin' 你得还需将英文转换中文浏览 `English -> Chinese` 即可所示如图效果
 
-![](https://i.postimg.cc/pdSTVcbB/Snipaste-2019-06-14-14-29-20.png)
+[插图](https://i.postimg.cc/pdSTVcbB/Snipaste-2019-06-14-14-29-20.png)
 
 
 ## CoNET
@@ -4920,7 +4920,7 @@ sure thin' 你得还需将英文转换中文浏览 `English -> Chinese` 即可�
 
 CoNET是对抗网络监控的工具。用户通过连接第三方公众邮件服务器，接入CoNET的匿名虚拟网络，它的技术被称为[折射网络](https://zh.wikipedia.org/zh-cn/%E6%8A%98%E5%B0%84%E7%BD%91%E7%BB%9C)，可以帮助用户逃避被网络监控，访问被网络屏蔽的服务器。
 
-![](https://i.postimg.cc/Qd86BH3C/conet-refraction1.png)
+[插图](https://i.postimg.cc/Qd86BH3C/conet-refraction1.png)
 
 
 ## brook
@@ -4929,21 +4929,21 @@ CoNET是对抗网络监控的工具。用户通过连接第三方公众邮件服
 
 进入[逗比ss分享站点](https://doub.io/sszhfx/)，在服务器列表找到brook，打开控制台输入`decodeuricomponent("需要解码URL")`
 
-<!-- ![](https://ipfs.io/ipfs/QmVyHu3fJZNiWXaFL6FcNx2LXDh6rASN4uQVxrjkLc1Ems?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVyHu3fJZNiWXaFL6FcNx2LXDh6rASN4uQVxrjkLc1Ems?4.png) -->
 
-![](https://i.postimg.cc/RZWHbB1G/2018-04-29-004340.png)
+[插图](https://i.postimg.cc/RZWHbB1G/2018-04-29-004340.png)
 
 将解码的信息填入`setting`选项中，保存后，右键brook程序打开`toggle`选项即可
 
-<!-- ![](https://ipfs.io/ipfs/QmV54Pz3apqZFaiVcnq3K7L2fUXEdciR6XRANcMMr3qphw?4.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmV54Pz3apqZFaiVcnq3K7L2fUXEdciR6XRANcMMr3qphw?4.png) -->
 
-![](https://i.postimg.cc/13V8rKPj/2018-04-29-004903.png)
+[插图](https://i.postimg.cc/13V8rKPj/2018-04-29-004903.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmVRpEBVCKUWUBZguT2TYnmxmV4asZtGG7ryHaGwuRCHdn?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVRpEBVCKUWUBZguT2TYnmxmV4asZtGG7ryHaGwuRCHdn?0.png) -->
 
-![](https://i.postimg.cc/cH06Zy3p/2018-04-29-005228.png)
+[插图](https://i.postimg.cc/cH06Zy3p/2018-04-29-005228.png)
 
 
 ## reqrypt
@@ -5025,39 +5025,39 @@ BarbaTunnel是点对点非独立的隧道，应在运行BarbaTunnel后运行隧�
 
 > 图片来源：[BarbaTunnelCoder/BarbaTunnel](https://github.com/BarbaTunnelCoder/BarbaTunnel/#barbatunnel-diagram) 
 
-![](https://i.postimg.cc/vmmSKDqk/home-barbatunneldiagram.png)
+[插图](https://i.postimg.cc/vmmSKDqk/home-barbatunneldiagram.png)
 
 
 # 细节补充
 
 ## ss#1130
 
-<!-- ![](https://ipfs.io/ipfs/QmZ2145UzK4PSkXcs49sWEwpqksWZb6wRJKioNbd97skSW?4.png)
+<!-- [插图](https://ipfs.io/ipfs/QmZ2145UzK4PSkXcs49sWEwpqksWZb6wRJKioNbd97skSW?4.png)
 
-![](https://ipfs.io/ipfs/QmV4U7c4zZbYaH7vWWWeLfRLshhbC1UwQrmwr6PfWz8yHD?4.png)
+[插图](https://ipfs.io/ipfs/QmV4U7c4zZbYaH7vWWWeLfRLshhbC1UwQrmwr6PfWz8yHD?4.png)
 
-![](https://ipfs.io/ipfs/QmQh1CwQzf7Aqfyi9YAcNYhbk7pdwgDHxhLHctGYkUQBm5?3.png) -->
+[插图](https://ipfs.io/ipfs/QmQh1CwQzf7Aqfyi9YAcNYhbk7pdwgDHxhLHctGYkUQBm5?3.png) -->
 
-![](https://i.postimg.cc/d095hhm0/2018-05-02-012348.png)
+[插图](https://i.postimg.cc/d095hhm0/2018-05-02-012348.png)
 
-![](https://i.postimg.cc/tg95GXQG/2018-05-02-012640.png)
+[插图](https://i.postimg.cc/tg95GXQG/2018-05-02-012640.png)
 
-![](https://i.postimg.cc/FFknZHhT/2018-05-02-012818.png)
+[插图](https://i.postimg.cc/FFknZHhT/2018-05-02-012818.png)
 
 
 ## 难封锁的草榴
 
 一个IP指向多个地址，污染一个域名还有另一个域名指向。
 
-<!-- ![](https://ipfs.io/ipfs/QmPkd76acmkTYoi92Bxtb5G5QezHzAoQN8YSmJSz4f2G1v?3.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPkd76acmkTYoi92Bxtb5G5QezHzAoQN8YSmJSz4f2G1v?3.png) -->
 
-![](https://i.postimg.cc/9QzzqZY8/2018-05-02-002837.png)
+[插图](https://i.postimg.cc/9QzzqZY8/2018-05-02-002837.png)
 
 IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议访问。
 
-<!-- ![](https://ipfs.io/ipfs/Qmf8D6wegWbtbKviSJU1w5tzhn7sYDqJJ7fDtWze77vGaF?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/Qmf8D6wegWbtbKviSJU1w5tzhn7sYDqJJ7fDtWze77vGaF?0.png) -->
 
-![](https://i.postimg.cc/XNHbBh1W/2018-05-02-002021.png)
+[插图](https://i.postimg.cc/XNHbBh1W/2018-05-02-002021.png)
 
 若是浏览器不支持远程DNS解析，访问网站很多时候就会先通过ISP默认的DNS解析服务器进行解析，这样ISP就会知道你访问了哪个网站。对于VPN来说DNS很多时候都是本地解析的，所以常有人反映即使用了VPN一些被DNS污染的网站依旧上不了，把默认DNS解析服务器设置为国外的DNS解析服务器就能解决问题。
 
@@ -5080,7 +5080,7 @@ IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议
 
 倒是像极了那句话：没有做不到，只有想不到...
 
-![](https://i.postimg.cc/NjpHZTTV/QQ-20190612093300.jpg)
+[插图](https://i.postimg.cc/NjpHZTTV/QQ-20190612093300.jpg)
 
 火绒做法比较精明罢了，刚入市的时候以广告推广是以提供浏览器首页的形式，而并不锁定首页；它的[营销方式](#一些题外话-（可看可不看）)很像一加，有兴趣的话，可以在问答网站搜寻下其火热原因，这里不在过多赘述；反正，所有举动背后都是在原有市场上，自己能占有一席之地，分一杯羹；处处都一个德行，人家本来就已经占领了庞大的市场，那为什么还用你的呢？倒不如形成一股清流，让“少数极客及电脑高手”来带动大众，以此做良性的口碑推广。
 
@@ -5090,7 +5090,7 @@ IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议
 
 首先 `windows + r` 输入 `gpedit.msc`， 在`用户配置->管理模板->Windows组件->Internet Explorer`找到`阻止更改代理设置`，进行相关配置即可。
 
-![](https://i.postimg.cc/fR6Ht6qD/Snipaste-2019-06-12-11-06-32.png)
+[插图](https://i.postimg.cc/fR6Ht6qD/Snipaste-2019-06-12-11-06-32.png)
 
 若是 VPN 的话，好多时候有可能是禁用 `Remote Access Connection Manager` 与 `DHCP Client` 服务
 
@@ -5098,11 +5098,11 @@ IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议
 
 `win + r -> cmd -> services.msc  -> Remote Access Connection Manager`
 
-![](https://i.postimg.cc/XNpDqPNx/Snipaste-2019-06-30-00-22-10.png)
+[插图](https://i.postimg.cc/XNpDqPNx/Snipaste-2019-06-30-00-22-10.png)
 
 `win + r -> cmd -> services.msc -> DHCP Client`
 
-![](https://i.postimg.cc/C16PJG7j/2019-06-30-002835.png)
+[插图](https://i.postimg.cc/C16PJG7j/2019-06-30-002835.png)
 
 只要客户端状态是自动获取IP地址，开启DHCP后，服务器端就会对客户端动态分配IP。如果客户端是手动配置好的IP，那么它就不会再到服务器端申请IP地址了；关闭DHCP后，客户端自动获取IP地址的请求没有服务器响应，自然无法远程分配的IP。
 
@@ -5113,11 +5113,11 @@ IP被列入黑名单后，需通过迎春楼贵宾通道，就是VPN隧道协议
 
 ?> 觉得还不够的话，cmd 键入 `ipconfig /flushdns`； `netsh winsock reset` 此指令对不能打开作业系统之外的其他任何软件也有奇效 :-Oヾ(o◕∀◕)ﾉヾ！
 
-![](https://i.postimg.cc/sXfNPbS8/Snipaste-2019-06-12-11-28-17.png)
+[插图](https://i.postimg.cc/sXfNPbS8/Snipaste-2019-06-12-11-28-17.png)
 
 ps：这里都是设置网络相关服务配置，说不准以后又会在哪，动些手脚呢？
 
-![](https://i.postimg.cc/xCT9kxdj/Snipaste-2019-06-12-11-39-47.png)
+[插图](https://i.postimg.cc/xCT9kxdj/Snipaste-2019-06-12-11-39-47.png)
 
 还好，现在（其实早就有了）win10在设置中有比重装更可靠的还原功能！或者直接以压缩文件打开原版系统.ISO 再接着双击 `setup` 也可找到！当然，最好把国产杀软卸了吧 @_@
 
@@ -5266,45 +5266,45 @@ ZeroNet利用比特币加密和BT技术提供不受审查的网络与通信的BT
 
 在NAT模式中不考虑使用VPN或代理的情况下，IP地址是完全一致的
 
-<!-- ![](https://ipfs.io/ipfs/QmPgX1CEGGAkCGiG6eD5ujWysQ9iBhV2iTqn8hNmZV4upT?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPgX1CEGGAkCGiG6eD5ujWysQ9iBhV2iTqn8hNmZV4upT?2.png) -->
 
-![](https://i.postimg.cc/y6nWLsnS/2018-05-13-005931.png)
+[插图](https://i.postimg.cc/y6nWLsnS/2018-05-13-005931.png)
 
 在vm中开启v2ray以及配置privoxy相关参数`0.0.0.0:8118`监听任意地址开启的`8118`端口，将所有http流量再转发至本机代理
 
-<!-- ![](https://ipfs.io/ipfs/QmVvZ3tL2jX5NizhrctG7FFFBDYJVDu3pbgB8JGDrrduvj?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmVvZ3tL2jX5NizhrctG7FFFBDYJVDu3pbgB8JGDrrduvj?2.png) -->
 
-![](https://i.postimg.cc/2SnDXxmX/2018-05-12-065612.png)
+[插图](https://i.postimg.cc/2SnDXxmX/2018-05-12-065612.png)
 
 在vm设置代理本机地址与privoxy代理的监听端口
 
-<!-- ![](https://ipfs.io/ipfs/QmZHt9U6eiYkSrjiU3npR7pCuTi8HVTcEFGy26p5uY9JU7?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZHt9U6eiYkSrjiU3npR7pCuTi8HVTcEFGy26p5uY9JU7?1.png) -->
 
-![](https://i.postimg.cc/rFrXK9dF/2018-05-13-013525.png)
+[插图](https://i.postimg.cc/rFrXK9dF/2018-05-13-013525.png)
 
 查看vm局域网地址
 
-<!-- ![](https://ipfs.io/ipfs/QmPPBiFHzDh7crMrLCfvDc9f6B5v13P4zygPhdDhBxg2Wj?0.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmPPBiFHzDh7crMrLCfvDc9f6B5v13P4zygPhdDhBxg2Wj?0.png) -->
 
-![](https://i.postimg.cc/wBT9ym8f/2018-05-13-014622.png)
+[插图](https://i.postimg.cc/wBT9ym8f/2018-05-13-014622.png)
 
 VMware设置端口映射
 
-<!-- ![](https://ipfs.io/ipfs/QmZhNJ9bMbuSp9DSPpZHyzmkbBD3DAZNLKqdAYNLhh4814?1.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmZhNJ9bMbuSp9DSPpZHyzmkbBD3DAZNLKqdAYNLhh4814?1.png) -->
 
-![](https://i.postimg.cc/fy44K3ph/2018-05-13-0153pxcx.png)
+[插图](https://i.postimg.cc/fy44K3ph/2018-05-13-0153pxcx.png)
 
 宿主机中设置代理，填入vm的IP地址与端口
 
-<!-- ![](https://ipfs.io/ipfs/QmTJ8f5AAMX3ak1u78sBXPzYyBUTVoxwSYfsy4ixfcdnKT?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmTJ8f5AAMX3ak1u78sBXPzYyBUTVoxwSYfsy4ixfcdnKT?2.png) -->
 
-![](https://i.postimg.cc/P57SZg0g/2018-05-13-02xsdf.png)
+[插图](https://i.postimg.cc/P57SZg0g/2018-05-13-02xsdf.png)
 
 测试
 
-<!-- ![](https://ipfs.io/ipfs/QmaREa4sCZgTLZ7xqdUh45TuSieGbtyvHp6P9JXGRkqv9Q?2.png) -->
+<!-- [插图](https://ipfs.io/ipfs/QmaREa4sCZgTLZ7xqdUh45TuSieGbtyvHp6P9JXGRkqv9Q?2.png) -->
 
-![](https://i.postimg.cc/bJ906WFN/2018-05-13-021830.png)
+[插图](https://i.postimg.cc/bJ906WFN/2018-05-13-021830.png)
 
 
 ## SS二级（前置）代理设置
@@ -5313,19 +5313,19 @@ VMware设置端口映射
 
 有些时候，我们的shadowsocks代理直连速度比较慢。例如，我们想要用英国代理来观看BBC iPlayer，如果直接用shadowsocks连接英国节点，在很多网络下速度并不理想。这个时候，如果我们有其他节点速度非常快，比如香港节点（阿里云）、维也纳节点等，就可以利用这些速度快的代理作为中转，加速我们的目标代理的连接速度。在这里，我们以维也纳节点作为前置代理，以英国节点作为目标代理来说明一下如何用shadowsocks实现中转。原理如下图：
 
-![](https://i.loli.net/2019/06/06/5cf8d8e90b7b017028.png)
+[插图](https://i.loli.net/2019/06/06/5cf8d8e90b7b017028.png)
 
 了解原理之后，下面的设置就很简单了。
 第一，由于需要两个代理，你需要同时打开两个shadowsocks客户端，所以，你要需要复制一份。为了避免冲突，请将两个客户端分别放入两个不同的文件夹内。
 第二，先打开一个客户端，连接维也纳节点。（系统代理模式选择不修改系统（IE）代理）
 第三，再打开另外一个客户端，此时会提醒你端口被占用，先点击确定，连接伦敦节点。端口占用的原因是shadowsocks默认本地端口都是1080，两个同时打开必然会冲突。所以你需要修改这一个客户端的本地端口为1081（可以任意选择端口，只要不和其他程序占用相同端口即可）。同时填写二级（前置）代理信息。这部分参数设置为：右键小飞机→选项设置 。 请参照下图填写：
 
-![](https://i.loli.net/2019/06/06/5cf8d9178597669922.png)
+[插图](https://i.loli.net/2019/06/06/5cf8d9178597669922.png)
 
 第四，启用这个伦敦节点客户端代理就行了（这里系统代理模式选择全局模式） ，然后就大功告成了！
 打开 https://www.bbc.co.uk/iplayer 测试：
 
-![](https://i.loli.net/2019/06/06/5cf8d983a308d69299.png)
+[插图](https://i.loli.net/2019/06/06/5cf8d983a308d69299.png)
 
 
 ## ss、ssr、v2ray链接解析
@@ -5341,17 +5341,17 @@ VMware设置端口映射
 
 用[base64解码站长工具](http://tool.chinaz.com/Tools/Base64.aspx)（此工具存在和谐因素，仅为演示方便）进行解码
 
-![](https://i.postimg.cc/W3Vkrt3d/2018-06-07-131159x.png)
+[插图](https://i.postimg.cc/W3Vkrt3d/2018-06-07-131159x.png)
 
-![](https://i.postimg.cc/ZKny6GTx/2018-06-07-132540.png)
+[插图](https://i.postimg.cc/ZKny6GTx/2018-06-07-132540.png)
 
 从这两幅图也不难看出格式其实是这样的 `ss://method:password@server:port`，按照这个格式的写法并进行base64编码，就能将ss分享给对方使用。
 
-![](https://i.postimg.cc/fT1kmkqM/2018-06-07-142343.png)
+[插图](https://i.postimg.cc/fT1kmkqM/2018-06-07-142343.png)
 
 若是分享二维码，可以用[二维码生成器](https://www.qrstuff.com/)将ss链接嵌入二维码中扫描分享
 
-![](https://i.postimg.cc/7hGwZnk0/2018-06-07-141818.png)
+[插图](https://i.postimg.cc/7hGwZnk0/2018-06-07-141818.png)
 
 ## SSR链接
 
@@ -5363,19 +5363,19 @@ ssr://NjQuMTM3LjIyOC4zNTo1NzYwOmF1dGhfc2hhMV92NDpjaGFjaGEyMDp0bHMxLjJfdGlja2V0X2
 
 使用[base64工具](https://1024tools.com/base64)解码
 
-![](https://i.postimg.cc/cJzsyzq0/2018-06-07-145222.png)
+[插图](https://i.postimg.cc/cJzsyzq0/2018-06-07-145222.png)
 
  字符串包含`–`，需在解码前把`–`这个字符通通替换为`+`字符
 
-![](https://i.postimg.cc/3wzHbDpw/2018-06-07-150006.png)
+[插图](https://i.postimg.cc/3wzHbDpw/2018-06-07-150006.png)
 
 效果如下
 
-![](https://i.postimg.cc/Jzgg1Ch6/2018-06-07-150327.png)
+[插图](https://i.postimg.cc/Jzgg1Ch6/2018-06-07-150327.png)
 
 再来看ssr链接导入的截图
 
-![](https://i.postimg.cc/4NyBn2qr/2018-06-07-150608.png)
+[插图](https://i.postimg.cc/4NyBn2qr/2018-06-07-150608.png)
 
 由此得知，格式如下
 
@@ -5389,7 +5389,7 @@ ssr://NjQuMTM3LjIyOC4zNTo1NzYwOmF1dGhfc2hhMV92NDpjaGFjaGEyMDp0bHMxLjJfdGlja2V0X2
 
 这其中`obfsparam`、`protoparam`、`group`、`remarks`等都是可选的，也可不填。
 
-![](https://i.postimg.cc/76PSdfyp/2018-06-07-160125.png)
+[插图](https://i.postimg.cc/76PSdfyp/2018-06-07-160125.png)
 
 ## v2ray链接
 
@@ -5403,7 +5403,7 @@ vmess://ew0KICAicHMiOiAicnVzc2lhbi1jbG91ZCIsDQogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0
 
 进行base64解码之后再对比v2ray客户端的参数配置就显得一目了然
 
-![](https://i.postimg.cc/85sbKtW2/2018-06-08-223349.png)
+[插图](https://i.postimg.cc/85sbKtW2/2018-06-08-223349.png)
 
 可以说大体是这么一个格式
 
@@ -5423,7 +5423,7 @@ vmess://ew0KICAicHMiOiAicnVzc2lhbi1jbG91ZCIsDQogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0
 
  除别名外，可以说服务器与客户端的参数必须要相互对应，别名、留空的是可以省略的。按照这个相关格式生成base64编码。
 
-![](https://i.postimg.cc/pXBnjK5z/2018-06-08-233637.png)
+[插图](https://i.postimg.cc/pXBnjK5z/2018-06-08-233637.png)
 
 在base64编码首部加上`vmess://`协议头
 
@@ -5433,11 +5433,11 @@ vmess://ewogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwKICAicG9ydCI6ICIyMjUzNSIsCiAgImlk
 
 将其导入至v2ray客户端，在服务器未作其他相关变更时，即可成功连接服务器。
 
-![](https://i.postimg.cc/mDTvPxvQ/2018-06-08-235033.png)
+[插图](https://i.postimg.cc/mDTvPxvQ/2018-06-08-235033.png)
 
 当然添加别名更好，这样就能v2ray客户端就能自动生成相应的v2ray链接
 
-![](https://i.postimg.cc/cLX9FK28/2018-06-08-235553.png)
+[插图](https://i.postimg.cc/cLX9FK28/2018-06-08-235553.png)
 
 ## SSR对SS的兼容
 
@@ -5457,19 +5457,19 @@ vmess://ewogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwKICAicG9ydCI6ICIyMjUzNSIsCiAgImlk
 
 我个人认为ssr倒像一个ss的升级版，是这样的一个关系：
 
-![](https://i.postimg.cc/1RrpGkL8/2018-06-08-011429.png)
+[插图](https://i.postimg.cc/1RrpGkL8/2018-06-08-011429.png)
 
 在了解这些，那么开始进行演示，打开[ssrshare论坛的小工具网页](https://tool.ssrshare.com/tool/free_ssr)
 
-![](https://i.postimg.cc/7hjDGsMw/2018-06-08-014905.png)
+[插图](https://i.postimg.cc/7hjDGsMw/2018-06-08-014905.png)
 
 图中的origin协议、plain混淆都是支持原版ss的，选择其中一个进行复制ss链接
 
-![](https://i.postimg.cc/t70QC1pg/2018-06-08-020234.png)
+[插图](https://i.postimg.cc/t70QC1pg/2018-06-08-020234.png)
 
 将其解码
 
-![](https://i.postimg.cc/VN58gPGm/2018-06-08-023014.png)
+[插图](https://i.postimg.cc/VN58gPGm/2018-06-08-023014.png)
 
 由于我们得知ss与ssr的链接格式：
 
@@ -5479,25 +5479,25 @@ vmess://ewogICJhZGQiOiAiMTg1LjE3Ny4yMTYuMTM0IiwKICAicG9ydCI6ICIyMjUzNSIsCiAgImlk
 
 将解码后的ss的格式转成ssr的格式
 
-![](https://i.postimg.cc/vZ2RcSQj/2018-06-08-024019.png)
+[插图](https://i.postimg.cc/vZ2RcSQj/2018-06-08-024019.png)
 
 对其编码
 
-![](https://i.postimg.cc/zfhd8d3T/2018-06-08-024834.png)
+[插图](https://i.postimg.cc/zfhd8d3T/2018-06-08-024834.png)
 
 加入`ssr://`链接协议头，再导入至ssr并不成功，原因是密码都套上一层base64编码...因此需要对密码进行一次编码
 
-![](https://i.postimg.cc/jdJn8B16/2018-06-08-030909.png)
+[插图](https://i.postimg.cc/jdJn8B16/2018-06-08-030909.png)
 
 之后，按照原有格式将部分参数配置粘贴至密码前，进行编码
 
-![](https://i.postimg.cc/d0J7V3Vn/2018-06-08-031437.png)
+[插图](https://i.postimg.cc/d0J7V3Vn/2018-06-08-031437.png)
 
 再加入`ssr://`链接协议头，导入至ssr即可如：
 
 `ssr://MTM5LjU5LjE2Ny4yNDY6NjIwMzpvcmlnaW46YWVzLTI1Ni1jZmI6cGxhaW46YVM1M2RYY3VjbVZr`
 
-![](https://i.postimg.cc/x1nHctsK/2018-06-08-032054.png)
+[插图](https://i.postimg.cc/x1nHctsK/2018-06-08-032054.png)
 
 ## v2ray对ss的兼容
 
@@ -5535,16 +5535,16 @@ ss连接v2ray的服务器，需在v2ray服务端做相应的ss兼容配置；至
 
 在平常上网过程中，难免会遇到一些网络方面的问题，这时候我们就需要查看网络连接的状态，查找问题根源。
 
-<!-- ![](https://ipfs.io/ipfs/QmQtXLa5xLbqNsdv82cVYJA8hE9greNXR34FUfkENjoDND?4.jpg) -->
+<!-- [插图](https://ipfs.io/ipfs/QmQtXLa5xLbqNsdv82cVYJA8hE9greNXR34FUfkENjoDND?4.jpg) -->
 
-![](https://i.postimg.cc/tCYPPsyg/a12d690.jpg)    
+[插图](https://i.postimg.cc/tCYPPsyg/a12d690.jpg)    
 在WinXP中，大家这时候都会从开始菜单或控制面板打开“网络连接”窗口来检查网络问题，但对于一个Win7新手来说，找到这个窗口似乎有点困难，在控制面板中搜索“网络连接”也找不到它。这时候，大家应该想到的就是上次介绍过的“网络和共享中心”，因为这里集中了网络相关的常规配置，在这里能不能找到线索呢？
 
 试试点击左上方的“更改适配器设置”任务吧，瞧，“网络连接”窗口原来藏在这里，这时候我们就可以和XP中一样查看到计算机中网卡的设置和状态了：
 
-<!-- ![](https://ipfs.io/ipfs/QmPQopQc63jx7VJ6x5DVzAShK3XbfsDLA2ZMictCSdWMcx?0.jpg)   -->
+<!-- [插图](https://ipfs.io/ipfs/QmPQopQc63jx7VJ6x5DVzAShK3XbfsDLA2ZMictCSdWMcx?0.jpg)   -->
 
-![](https://i.postimg.cc/Nf3yHbpN/e88p690.jpg) 
+[插图](https://i.postimg.cc/Nf3yHbpN/e88p690.jpg) 
 
 但有的同学可能会发现，在这些网卡当中多了一个叫“Microsoft Virtual WiFi Miniport Adapter”的东西，按名字来看似乎是微软的虚拟Wifi网卡。电脑中怎么会无缘无故多了这么一个东西呢？难道又一个Win7的隐藏功能被发现啦？
 
@@ -5552,9 +5552,9 @@ ss连接v2ray的服务器，需在v2ray服务端做相应的ss兼容配置；至
 
 有的同学可能知道，在此之前，其实也可以建立临时网络向其他Wifi设备共享互联网啊，虚拟 Wifi 网卡有什么新的优势呢？
 
-<!-- ![](https://ipfs.io/ipfs/QmbDefgaVGHeDwmMdbS4BGi27r8wpYNwzNHJZpWWUBXTQJ?0.jpg)   -->
+<!-- [插图](https://ipfs.io/ipfs/QmbDefgaVGHeDwmMdbS4BGi27r8wpYNwzNHJZpWWUBXTQJ?0.jpg)   -->
 
-![](https://i.postimg.cc/Jz3hB8yn/a3et690.jpg) 
+[插图](https://i.postimg.cc/Jz3hB8yn/a3et690.jpg) 
 
 传统的临时无线网（即Ad Hoc模式）是一种点对点网络，类似于有线网中的“双机互联”，虽然也能实现互联网共享，但主要用于两个设备临时互联，并且有的设备（如采用Android系统的设备）并不支持连接到临时无线网。还有一个很严重的问题，由于一块无线网卡只能连接到一个无线网络，因此如果通过无线网卡连接到Internet，就不能再使用这个无线网卡建立临时网络，共享Internet了。
 
@@ -5572,9 +5572,9 @@ ss连接v2ray的服务器，需在v2ray服务端做相应的ss兼容配置；至
 
     `netsh wlan set hostednetwork mode=allow ssid=”Win7 AP WOW!” key=wifimima`
 
-    <!-- ![](https://ipfs.io/ipfs/QmaMeEgS3zw7VeCXrcxAyRdiQPhynYVaanbWJT6Q1Y2bYo?1.jpg)  -->
+    <!-- [插图](https://ipfs.io/ipfs/QmaMeEgS3zw7VeCXrcxAyRdiQPhynYVaanbWJT6Q1Y2bYo?1.jpg)  -->
     
-    ![](https://i.postimg.cc/9QB7HZYJ/cd41e690.jpg) 
+    [插图](https://i.postimg.cc/9QB7HZYJ/cd41e690.jpg) 
 
     这个命令中有三个参数：
 
@@ -5588,11 +5588,11 @@ ss连接v2ray的服务器，需在v2ray服务端做相应的ss兼容配置；至
 
     为了与其他计算机或设备共享已连接的互联网，我们需要启用“Internet连接共享”功能。打开“网络连接”窗口，右键单击已连接到Internet的网络连接，选择“属性”，切换到“共享”选项卡，选中其中的复选框，并选择允许其共享Internet的网络连接在这里即我们的虚拟Wifi网卡：
 
-    ![](https://i.postimg.cc/jSvLFKR1/d1de690.jpg)
+    [插图](https://i.postimg.cc/jSvLFKR1/d1de690.jpg)
     
     确定之后，提供共享的网卡图标旁会出现“已共享”标志，表示“Internet连接共享”向虚拟无线网卡开通了：
     
-    ![](https://i.postimg.cc/5tYbSMyL/e2f690.jpg)
+    [插图](https://i.postimg.cc/5tYbSMyL/e2f690.jpg)
 
 4. **开启无线网络**
 
@@ -5602,35 +5602,35 @@ ss连接v2ray的服务器，需在v2ray服务端做相应的ss兼容配置；至
 
     即可开启我们之前设置好的无线网络（相当于打开路由器的无线功能。同理，将start改为stop即可关闭该无线网）。
 
-    <!-- ![](https://ipfs.io/ipfs/QmZGdo9UjyEKx5v3pSzKaTvTeFonGRwVs6wR7NdXinfraw?0.jpg) -->
+    <!-- [插图](https://ipfs.io/ipfs/QmZGdo9UjyEKx5v3pSzKaTvTeFonGRwVs6wR7NdXinfraw?0.jpg) -->
 
-    ![](https://i.postimg.cc/ZKMQFvds/et6ae690.jpg)
+    [插图](https://i.postimg.cc/ZKMQFvds/et6ae690.jpg)
 
     可以看到，虚拟无线网卡已经开启了我们所指定的无线网络，其IP地址等属性是由“Internet连接共享”服务分配的，因此比较特别：
 
-    <!-- ![](https://ipfs.io/ipfs/QmSykUE1kpTVbUiiGnn3QoSyokGfpsTR7mwSE3HiSTr1SL?4.jpg) -->
+    <!-- [插图](https://ipfs.io/ipfs/QmSykUE1kpTVbUiiGnn3QoSyokGfpsTR7mwSE3HiSTr1SL?4.jpg) -->
 
-    ![](https://i.postimg.cc/Qtfm8vgY/c17ec690.jpg)
+    [插图](https://i.postimg.cc/Qtfm8vgY/c17ec690.jpg)
 
     一切准备就绪，最后只要在需要联网的的电脑或手机上连接该无线网络，就可以直接畅游互联网了：
 
-    <!-- ![](https://ipfs.io/ipfs/QmR3wMDpsf4MngKbRWuiw8s8BAednxzGWhUcCpqy3tn2Ed?1.jpg) -->
+    <!-- [插图](https://ipfs.io/ipfs/QmR3wMDpsf4MngKbRWuiw8s8BAednxzGWhUcCpqy3tn2Ed?1.jpg) -->
 
-    ![](https://i.postimg.cc/RZmgT10R/dcd690.jpg)
+    [插图](https://i.postimg.cc/RZmgT10R/dcd690.jpg)
     
 需要多说一点的是，虚拟Wifi网卡需要真实网卡的驱动程序专门针对Windows 7设计开发。所幸只要通过Win7徽标认证的无线网卡驱动程序都支持该模式，我们在选购无线网卡时直接寻找是否带有该标志即可。如果在运行`mode=allow`命令后，网络连接中没有出现虚拟无线网卡，就说明真实网卡不支持该功能。大家可以将网卡驱动升级到最新的Win7版本试试看，只要提供共享的电脑不休眠不关机，就可以和路由器一样提供网络共享。
 
 除了使用命令设置虚拟WIFI功能，微软还将其编程接口公开了出来，为开发图形化设置程序提供了可能，例如免费小软件Connectify就能直观的设置虚拟Wifi功能，同学们可以在其官方网站下载使用：[www.connectify.me](http://www.connectify.me/)
 
 <!--分别替换启用“Internet连接共享（ICS）的图片即可  -->
-<!-- ![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/d1de690.jpg)-->
+<!-- [插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/d1de690.jpg)-->
 
-<!-- ![](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/e2f690.jpg) -->
+<!-- [插图](https://raw.githubusercontent.com/hoodiearon/fq-book/master/docs/images/e2f690.jpg) -->
 
 <!-- ipfs 启用“Internet连接共享（ICS）的图片-->
-<!-- ![](https://ipfs.io/ipfs/QmQkAtXoff2tp8uiRbpGNwAA4hTbCqm8uRGjXmayWP1RcN?4.jpg)   -->
+<!-- [插图](https://ipfs.io/ipfs/QmQkAtXoff2tp8uiRbpGNwAA4hTbCqm8uRGjXmayWP1RcN?4.jpg)   -->
 
- <!-- ![](https://ipfs.io/ipfs/QmagdtNek1pwCGB6syXtf46WY6MuJFcrJieS9W623NFUik?0.jpg) -->
+ <!-- [插图](https://ipfs.io/ipfs/QmagdtNek1pwCGB6syXtf46WY6MuJFcrJieS9W623NFUik?0.jpg) -->
 
 
 ## 初次搭建网站多次失败后的成功记录
@@ -5751,7 +5751,7 @@ docker compose up -d
 
 旧版 UI 截图：
 
-![旧版 Memos UI](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-11-05_18-11-00.webp)
+[旧版 Memos UI](https://cdn.jsdelivr.net/gh/hoochanlon/picx-images-hosting@master/imgs/uploads/2025/PixPin_2025-11-05_18-11-00.webp)
 
 虽然有不少衍生项目，但个人兴趣不大：
 
