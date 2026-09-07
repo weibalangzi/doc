@@ -1,31 +1,33 @@
-# fq-book → EPUB（微信读书可导入）
+# fq-book → 微信读书适配 EPUB
 
-将 [《这本书能让你连接互联网》](https://hoochanlon.github.io/fq-book/#/)（Docsify）按官方 `_sidebar.md` 目录转换为 **EPUB**，便于微信读书等本地阅读器导入。
+将 [《这本书能让你连接互联网》](https://hoochanlon.github.io/fq-book/#/) 按官方侧边栏转成**手机阅读友好**的 EPUB。
 
 ## 成品
 
-| 文件 | 说明 |
-|------|------|
-| [`output/这本书能让你连接互联网.epub`](./output/这本书能让你连接互联网.epub) | 可导入微信读书的电子书 |
-| [`output/fq-book.md`](./output/fq-book.md) | 转换用中间 Markdown（可再跑 pandoc） |
+[`output/这本书能让你连接互联网.epub`](./output/这本书能让你连接互联网.epub)
 
-原书许可为 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)，仅供非商用学习。
+## 移动端适配要点
+
+- **83 个独立章节**（一篇原文 = 一章），微信读书长按目录可直接跳转
+- 目录只保留篇章标题，不混入正文小标题
+- 书内另有分组「目录」页（按原书栏目）
+- 中文手机排版：行距、段首缩进、代码换行、引用块、配图占位
+- 清理 Docsify 语法（`!> / ?>`、details、HTML 碎片）
+- 章间链接可跳转；外链配图改为「〔配图〕+ URL」避免破版
 
 ## 导入微信读书
 
-1. 把 `这本书能让你连接互联网.epub` 传到手机（隔空投送、网盘、电脑助手等）
-2. 微信读书 → **我** → **书架** / **本地导入**（或系统「打开方式」选微信读书）
-3. 导入后即可离线阅读；目录来自原书侧边栏章节
-
-> 原书插图为外链，EPUB 中以链接形式保留（不嵌入），便于离线阅读正文、控制文件体积。
+1. 下载 EPUB 到手机  
+2. 用微信读书打开 / 本地导入  
+3. 长按屏幕 → 目录，应能看到全部章节
 
 ## 重新生成
 
 ```bash
 git clone --depth 1 https://github.com/hoochanlon/fq-book.git /tmp/fq-book
-python3 scripts/convert_fq_book.py \
-  --docs-dir /tmp/fq-book/docs \
-  --output-dir output
+python3 scripts/convert_fq_book.py --docs-dir /tmp/fq-book/docs --output-dir output
 ```
 
-依赖：`pandoc`（用于 Markdown → EPUB3）。
+依赖：`python3`、`ebooklib`、`markdown`。
+
+原书许可：[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
