@@ -4,15 +4,21 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
+import io
 import re
 import sys
 import uuid
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 import markdown
 from ebooklib import epub
+from PIL import Image
 
 BOOK_TITLE = "这本书能让你连接互联网"
 BOOK_AUTHOR = "hoochanlon"
@@ -104,7 +110,26 @@ p {
 p.no-indent,
 p.chapter-meta,
 p.fig,
+p.img-wrap,
 li p {
+  text-indent: 0;
+}
+.img-wrap {
+  margin: 0.85em 0;
+  text-align: center;
+}
+.img-wrap img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.fig-missing {
+  margin: 0.7em 0;
+  padding: 0.45em 0.7em;
+  background: #f8f8f8;
+  border: 1px dashed #ccc;
+  color: #777;
+  font-size: 0.88em;
   text-indent: 0;
 }
 .chapter-meta {
@@ -176,15 +201,6 @@ th, td {
   padding: 0.35em 0.5em;
   text-align: left;
   word-break: break-word;
-}
-.fig {
-  margin: 0.7em 0;
-  padding: 0.45em 0.7em;
-  background: #f8f8f8;
-  border: 1px dashed #ccc;
-  color: #555;
-  font-size: 0.9em;
-  text-indent: 0;
 }
 .cover {
   text-align: center;
@@ -311,11 +327,123 @@ def normalize_docsify(text: str) -> str:
     return text
 
 
-def rewrite_images(text: str) -> str:
+def collect_image_urls(texts: list[str]) -> list[str]:
+    found: list[str] = []
+    seen: set[str] = set()
+    for text in texts:
+        for m in IMG_RE.finditer(text):
+            url = m.group(2).strip()
+            if url.startswith(("http://", "https://")) and url not in seen:
+                seen.add(url)
+                found.append(url)
+    return found
+
+
+def _url_digest(url: str) -> str:
+    return hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+
+
+def compress_image(raw: bytes, max_side: int = 1280, quality: int = 72) -> tuple[bytes, str, str]:
+    """Return (bytes, ext, mime). Prefer JPEG for screenshots."""
+    img = Image.open(io.BytesIO(raw))
+    img.load()
+    if img.mode in ("RGBA", "LA") or (img.mode == "P" and "transparency" in img.info):
+        img = img.convert("RGBA")
+        background = Image.new("RGB", img.size, (255, 255, 255))
+        background.paste(img, mask=img.split()[-1])
+        img = background
+    elif img.mode != "RGB":
+        img = img.convert("RGB")
+
+    w, h = img.size
+    scale = min(1.0, max_side / float(max(w, h)))
+    if scale < 1.0:
+        img = img.resize((max(1, int(w * scale)), max(1, int(h * scale))), Image.Resampling.LANCZOS)
+
+    out = io.BytesIO()
+    img.save(out, format="JPEG", quality=quality, optimize=True, progressive=True)
+    return out.getvalue(), "jpg", "image/jpeg"
+
+
+def fetch_one_image(url: str, cache_dir: Path) -> tuple[str, Path | None, str]:
+    """Returns (url, local_path_or_None, note)."""
+    digest = _url_digest(url)
+    # cached?
+    for ext in ("jpg", "jpeg", "png", "gif", "webp"):
+        hit = cache_dir / f"{digest}.{ext}"
+        if hit.is_file() and hit.stat().st_size > 0:
+            return url, hit, "cache"
+
+    req = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; fq-book-epub/1.0)",
+            "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+        },
+        method="GET",
+    )
+    try:
+        with urlopen(req, timeout=25) as resp:
+            raw = resp.read()
+            ctype = (resp.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+    except (HTTPError, URLError, TimeoutError, OSError) as exc:
+        return url, None, f"fail:{exc}"
+
+    if not raw or len(raw) < 40:
+        return url, None, "fail:empty"
+
+    try:
+        data, ext, _mime = compress_image(raw)
+    except Exception:
+        # fall back to original bytes with guessed extension
+        if "png" in ctype:
+            ext = "png"
+        elif "gif" in ctype:
+            ext = "gif"
+        elif "webp" in ctype:
+            ext = "webp"
+        else:
+            ext = "jpg"
+        data = raw
+
+    path = cache_dir / f"{digest}.{ext}"
+    path.write_bytes(data)
+    return url, path, "ok"
+
+
+def download_images(urls: list[str], cache_dir: Path, workers: int = 12) -> dict[str, Path]:
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    mapping: dict[str, Path] = {}
+    ok = fail = 0
+    print(f"Downloading {len(urls)} images...", flush=True)
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(fetch_one_image, u, cache_dir) for u in urls]
+        for i, fut in enumerate(as_completed(futures), start=1):
+            url, path, note = fut.result()
+            if path is not None:
+                mapping[url] = path
+                ok += 1
+            else:
+                fail += 1
+            if i % 40 == 0 or i == len(futures):
+                print(f"  images {i}/{len(futures)} ok={ok} fail={fail}", flush=True)
+    return mapping
+
+
+def rewrite_images(text: str, url_to_local: dict[str, Path], url_to_epub: dict[str, str]) -> str:
     def repl(m: re.Match[str]) -> str:
         alt = (m.group(1) or "").strip() or "配图"
         url = m.group(2).strip()
-        return f'\n\n<p class="fig">〔{html.escape(alt)}〕 {html.escape(url)}</p>\n\n'
+        epub_href = url_to_epub.get(url)
+        if epub_href:
+            return (
+                f'\n\n<p class="img-wrap">'
+                f'<img src="{html.escape(epub_href)}" alt="{html.escape(alt)}" />'
+                f"</p>\n\n"
+            )
+        return (
+            f'\n\n<p class="fig-missing">〔图片暂不可用：{html.escape(alt)}〕</p>\n\n'
+        )
 
     return IMG_RE.sub(repl, text)
 
@@ -327,7 +455,6 @@ def rewrite_links(text: str, path_to_href: dict[str, str], title_by_path: dict[s
             key = path
         else:
             key = path if path.endswith(".md") else f"{path}.md"
-        # also try basename / with folders from sidebar keys
         href = path_to_href.get(key)
         title = title_by_path.get(key)
         if not href:
@@ -364,18 +491,17 @@ def rewrite_links(text: str, path_to_href: dict[str, str], title_by_path: dict[s
 
 
 def prepare_chapter_markdown(
-    raw: str,
+    normalized: str,
     title: str,
     path_to_href: dict[str, str],
     title_by_path: dict[str, str],
+    url_to_local: dict[str, Path],
+    url_to_epub: dict[str, str],
 ) -> str:
-    text = normalize_docsify(raw)
-    text = rewrite_images(text)
+    text = rewrite_images(normalized, url_to_local, url_to_epub)
     text = rewrite_links(text, path_to_href, title_by_path)
 
-    # Strip leading H1 (we inject our own title)
     text = re.sub(r"^#\s+.+\n+", "", text.lstrip(), count=1)
-    # Demote leftover H1 to H2 so only chapter title is H1
     text = re.sub(r"^#\s+", "## ", text, flags=re.MULTILINE)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     return f"# {title}\n\n{text}\n"
@@ -450,13 +576,49 @@ def build_epub(docs_dir: Path, out_path: Path) -> int:
     )
     book.add_item(style)
 
+    # Preload + normalize chapter markdown, then fetch images for embedding.
+    normalized_bodies: dict[str, str] = {}
+    for meta in chapter_metas:
+        raw = meta["src"].read_text(encoding="utf-8", errors="replace")
+        normalized_bodies[meta["rel"]] = normalize_docsify(raw)
+
+    image_urls = collect_image_urls(list(normalized_bodies.values()))
+    cache_dir = Path("/tmp/fq-book-image-cache")
+    url_to_local = download_images(image_urls, cache_dir)
+
+    url_to_epub: dict[str, str] = {}
+    mime_by_ext = {
+        "jpg": "image/jpeg",
+        "jpeg": "image/jpeg",
+        "png": "image/png",
+        "gif": "image/gif",
+        "webp": "image/webp",
+    }
+    for i, (url, local) in enumerate(sorted(url_to_local.items(), key=lambda x: x[0])):
+        ext = local.suffix.lstrip(".").lower() or "jpg"
+        mime = mime_by_ext.get(ext, "image/jpeg")
+        epub_name = f"images/img-{i:04d}-{local.stem}.{ext}"
+        item = epub.EpubItem(
+            uid=f"img_{i:04d}",
+            file_name=epub_name,
+            media_type=mime,
+            content=local.read_bytes(),
+        )
+        book.add_item(item)
+        url_to_epub[url] = epub_name
+
+    print(
+        f"Embedded images: {len(url_to_epub)}/{len(image_urls)}",
+        flush=True,
+    )
+
     cover = epub.EpubHtml(title="封面", file_name="cover.xhtml", lang=BOOK_LANG)
     cover.set_content(
         f"""
 <div class="cover">
   <h1>{html.escape(BOOK_TITLE)}</h1>
   <p class="sub">作者：{html.escape(BOOK_AUTHOR)}</p>
-  <p class="sub">微信读书 / 手机阅读适配版</p>
+  <p class="sub">微信读书 / 手机阅读适配版（含插图）</p>
 </div>
 <p class="no-indent" style="margin-top:2.5em;color:#666;font-size:0.9em;">
 许可：CC BY-NC 4.0（非商用）<br/>
@@ -473,7 +635,7 @@ def build_epub(docs_dir: Path, out_path: Path) -> int:
 
     toc_parts = [
         '<div class="toc-page">',
-        f"<h1>目录</h1>",
+        "<h1>目录</h1>",
         f'<p class="chapter-meta">{html.escape(BOOK_TITLE)}</p>',
     ]
     for section, items in toc_sections.items():
@@ -495,10 +657,16 @@ def build_epub(docs_dir: Path, out_path: Path) -> int:
     spine_chapters: list[epub.EpubHtml] = []
 
     for meta in chapter_metas:
-        md_src = meta["src"].read_text(encoding="utf-8", errors="replace")
         md_body = prepare_chapter_markdown(
-            md_src, meta["title"], path_to_href, title_by_path
+            normalized_bodies[meta["rel"]],
+            meta["title"],
+            path_to_href,
+            title_by_path,
+            url_to_local,
+            url_to_epub,
         )
+        # prepare_chapter_markdown calls normalize again — pass already normalized
+        # by skipping double normalize: feed through rewrite only path.
         body_html = md_to_body_html(md_body)
         if meta["section"]:
             crumb = f'<p class="chapter-meta">{html.escape(meta["section"])}</p>\n'
@@ -521,7 +689,6 @@ def build_epub(docs_dir: Path, out_path: Path) -> int:
         book.add_item(chapter)
         spine_chapters.append(chapter)
 
-    # Flat TOC: every article is a top-level NCX entry (WeChat Reading chapter list).
     book.toc = tuple(spine_chapters)
     book.add_item(epub.EpubNcx())
     book.add_item(epub.EpubNav())
