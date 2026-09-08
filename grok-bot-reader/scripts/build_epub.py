@@ -18,7 +18,11 @@ BOOK_LANG = "zh"
 BOOK_SOURCE = "https://docs.x.ai/grok-bot/ · https://github.com/KinGao294/grok-bot-orange-book"
 
 IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
-HEADING_H2_RE = re.compile(r"^##\s+(.+)$", re.MULTILINE)
+TABLE_RE = re.compile(r"<table>.*?</table>", re.DOTALL | re.IGNORECASE)
+MD_TABLE_RE = re.compile(
+    r"(?:^\|.+\|\s*\n)+^\|[-:| ]+\|\s*\n(?:^\|.+\|\s*\n?)+",
+    re.MULTILINE,
+)
 
 MOBILE_CSS = """
 @namespace epub "http://www.idpf.org/2007/ops";
@@ -28,43 +32,51 @@ html {
 }
 body {
   margin: 0;
-  padding: 0.9em 1em 1.4em;
+  padding: 0.75em 0.85em 1.6em;
   font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC",
                "Source Han Sans SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
-  line-height: 1.85;
-  color: #222;
+  line-height: 1.9;
+  color: #1f1f1f;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.4;
   text-indent: 0;
-  margin: 1.25em 0 0.55em;
+  text-align: left;
+  margin: 1.35em 0 0.55em;
   page-break-after: avoid;
+  page-break-inside: avoid;
 }
 h1 {
-  font-size: 1.35em;
-  text-align: center;
-  margin-top: 0.4em;
-  margin-bottom: 0.9em;
-  padding-bottom: 0.45em;
-  border-bottom: 1px solid #ddd;
+  font-size: 1.28em;
+  margin-top: 0.25em;
+  margin-bottom: 0.35em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #e5e5e5;
+  letter-spacing: 0.01em;
 }
 h2 {
-  font-size: 1.15em;
-  margin-top: 1.4em;
+  font-size: 1.12em;
+  margin-top: 1.55em;
+  padding-top: 0.15em;
 }
 h3 {
-  font-size: 1.05em;
+  font-size: 1.02em;
+  margin-top: 1.25em;
+  color: #333;
 }
 h4, h5, h6 {
   font-size: 1em;
+  color: #444;
 }
 p {
-  margin: 0.55em 0;
+  margin: 0.65em 0;
   text-align: justify;
+  text-justify: inter-ideograph;
   text-indent: 2em;
   widows: 2;
   orphans: 2;
@@ -72,54 +84,74 @@ p {
 p.no-indent,
 p.chapter-meta,
 p.fig,
-li p {
+p.source,
+p.lead,
+li p,
+.kv p,
+.card p {
   text-indent: 0;
+}
+p.lead {
+  color: #444;
+  margin: 0.4em 0 0.9em;
 }
 .chapter-meta {
-  color: #777;
-  font-size: 0.88em;
-  text-align: center;
-  margin: 0 0 1.1em;
+  color: #888;
+  font-size: 0.82em;
+  text-align: left;
+  margin: 0 0 1em;
+  letter-spacing: 0.02em;
 }
 ul, ol {
-  margin: 0.5em 0 0.7em;
-  padding-left: 1.4em;
+  margin: 0.55em 0 0.85em;
+  padding-left: 1.35em;
 }
 li {
-  margin: 0.28em 0;
+  margin: 0.35em 0;
   text-indent: 0;
-  line-height: 1.7;
+  line-height: 1.75;
+  padding-left: 0.1em;
 }
 blockquote {
-  margin: 0.85em 0;
-  padding: 0.55em 0.85em;
-  border-left: 0.22em solid #8a8a8a;
-  background: #f6f6f6;
+  margin: 0.9em 0;
+  padding: 0.65em 0.8em;
+  border-left: 0.2em solid #b0b0b0;
+  background: #f7f7f7;
   color: #333;
+  border-radius: 0 0.2em 0.2em 0;
 }
 blockquote p {
   text-indent: 0;
-  margin: 0.35em 0;
+  margin: 0.3em 0;
+  text-align: left;
+  line-height: 1.75;
 }
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.88em;
+  font-size: 0.86em;
   word-break: break-all;
+  background: #f3f3f3;
+  padding: 0.05em 0.25em;
+  border-radius: 0.15em;
 }
 pre {
-  margin: 0.8em 0;
-  padding: 0.7em 0.8em;
-  background: #f4f4f4;
-  border-radius: 0.25em;
+  margin: 0.85em 0;
+  padding: 0.75em 0.8em;
+  background: #f5f5f5;
+  border: 1px solid #ebebeb;
+  border-radius: 0.3em;
   overflow-x: auto;
   white-space: pre-wrap;
   word-break: break-word;
-  line-height: 1.5;
-  font-size: 0.86em;
+  line-height: 1.55;
+  font-size: 0.84em;
+  page-break-inside: avoid;
 }
 pre code {
   font-size: inherit;
   word-break: break-word;
+  background: transparent;
+  padding: 0;
 }
 a {
   color: #2f5faf;
@@ -128,68 +160,124 @@ a {
 }
 hr {
   border: 0;
-  border-top: 1px solid #ddd;
-  margin: 1.2em 0;
+  border-top: 1px solid #ececec;
+  margin: 1.35em 0;
+}
+strong {
+  font-weight: 600;
+}
+em {
+  font-style: normal;
+  color: #555;
 }
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 0.8em 0;
-  font-size: 0.92em;
+  margin: 0.85em 0;
+  font-size: 0.9em;
   display: block;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 th, td {
-  border: 1px solid #ccc;
-  padding: 0.35em 0.5em;
+  border: 1px solid #ddd;
+  padding: 0.4em 0.55em;
   text-align: left;
   word-break: break-word;
+  vertical-align: top;
 }
-.fig {
+th {
+  background: #f3f3f3;
+  font-weight: 600;
+}
+.fig, .source {
   margin: 0.7em 0;
   padding: 0.45em 0.7em;
   background: #f8f8f8;
-  border: 1px dashed #ccc;
-  color: #555;
-  font-size: 0.9em;
+  border: 1px dashed #d5d5d5;
+  color: #666;
+  font-size: 0.88em;
   text-indent: 0;
+  text-align: left;
+}
+.card {
+  margin: 0.7em 0;
+  padding: 0.65em 0.75em;
+  background: #fafafa;
+  border: 1px solid #ececec;
+  border-radius: 0.3em;
+  page-break-inside: avoid;
+}
+.card .k {
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 0.25em;
+  text-indent: 0;
+  text-align: left;
+}
+.card .v {
+  margin: 0;
+  color: #333;
+  text-indent: 0;
+  text-align: left;
+  line-height: 1.7;
+}
+.kv {
+  margin: 0.75em 0 1em;
+}
+.kv-row {
+  margin: 0 0 0.65em;
+  padding-bottom: 0.55em;
+  border-bottom: 1px solid #f0f0f0;
+}
+.kv-row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 .cover {
   text-align: center;
-  padding-top: 28vh;
+  padding: 18vh 0.4em 2em;
 }
 .cover h1 {
   border: 0;
-  font-size: 1.55em;
-  margin-bottom: 0.6em;
+  font-size: 1.45em;
+  margin-bottom: 0.7em;
+  text-align: center;
+  line-height: 1.35;
 }
 .cover .sub {
   color: #666;
-  font-size: 0.95em;
+  font-size: 0.92em;
   text-indent: 0;
-  margin: 0.4em 0;
+  text-align: center;
+  margin: 0.35em 0;
+  line-height: 1.6;
 }
 .toc-page h1 {
   border: 0;
+  text-align: center;
 }
 .toc-page .sec {
-  margin: 1.1em 0 0.35em;
+  margin: 1.2em 0 0.4em;
   font-weight: 600;
-  font-size: 1.05em;
+  font-size: 1.02em;
   text-indent: 0;
+  color: #333;
 }
 .toc-page ul {
   list-style: none;
   padding-left: 0;
-  margin: 0.2em 0 0.8em;
+  margin: 0.15em 0 0.85em;
 }
 .toc-page li {
-  margin: 0.35em 0;
-  padding-left: 0.2em;
-  line-height: 1.6;
+  margin: 0.42em 0;
+  padding: 0.15em 0.1em;
+  line-height: 1.55;
+  border-bottom: 1px solid #f3f3f3;
 }
 .toc-page a {
   color: #222;
+  display: block;
 }
 """
 
@@ -197,6 +285,22 @@ th, td {
 def slugify(text: str) -> str:
     s = re.sub(r"[^\w\-]+", "-", text, flags=re.UNICODE).strip("-").lower()
     return s[:48] or "chapter"
+
+
+def short_toc_title(title: str, limit: int = 22) -> str:
+    """Shorter titles for WeChat Reading long-press chapter list."""
+    t = re.sub(r"\s+", " ", title).strip()
+    # Drop redundant book prefixes already shown via grouping
+    t = re.sub(r"^附表[一二三四]：", "", t)
+    if len(t) <= limit:
+        return t
+    # Prefer cut at Chinese punctuation / colon
+    for sep in ("：", ":", "·", "—", "-", "（"):
+        if sep in t[: limit + 2]:
+            head = t.split(sep, 1)[0].strip()
+            if 6 <= len(head) <= limit:
+                return head
+    return t[: limit - 1] + "…"
 
 
 def rewrite_images(text: str) -> str:
@@ -211,28 +315,132 @@ def rewrite_images(text: str) -> str:
     return IMG_RE.sub(repl, text)
 
 
+def md_table_to_cards(table_md: str) -> str:
+    lines = [ln.strip() for ln in table_md.strip().splitlines() if ln.strip()]
+    if len(lines) < 2:
+        return table_md
+    rows = []
+    for ln in lines:
+        if re.match(r"^\|?\s*[-:| ]+\s*\|?$", ln):
+            continue
+        cells = [c.strip() for c in ln.strip("|").split("|")]
+        rows.append(cells)
+    if len(rows) < 2:
+        return table_md
+    headers = rows[0]
+    body = rows[1:]
+    # 2-column comparison / role tables → stacked cards
+    if len(headers) == 2:
+        out = ['<div class="kv">']
+        for row in body:
+            while len(row) < 2:
+                row.append("")
+            k, v = row[0], row[1]
+            out.append('<div class="kv-row card">')
+            out.append(f'<p class="k">{k}</p>')
+            out.append(f'<p class="v">{v}</p>')
+            out.append("</div>")
+        out.append("</div>")
+        return "\n\n" + "\n".join(out) + "\n\n"
+    # Wider tables: one card per row, label: value lines
+    out = ['<div class="kv">']
+    for row in body:
+        out.append('<div class="kv-row card">')
+        for i, cell in enumerate(row):
+            label = headers[i] if i < len(headers) else f"列{i+1}"
+            if i == 0:
+                out.append(f'<p class="k">{cell}</p>')
+            else:
+                out.append(f'<p class="v"><strong>{label}</strong>：{cell}</p>')
+        out.append("</div>")
+    out.append("</div>")
+    return "\n\n" + "\n".join(out) + "\n\n"
+
+
+def convert_md_tables(text: str) -> str:
+    return MD_TABLE_RE.sub(lambda m: md_table_to_cards(m.group(0)), text)
+
+
+def normalize_horizontal_rules(text: str) -> str:
+    # Keep section breathing room, but avoid dense --- noise
+    text = re.sub(r"\n---+\n", "\n\n", text)
+    return text
+
+
+def promote_headings_after_title(text: str) -> str:
+    """Ensure subsections under chapter H1 start at H2 (not H3)."""
+    lines = text.splitlines()
+    if not lines:
+        return text
+    # Detect minimum heading level among body headings (exclude first H1)
+    levels: list[int] = []
+    for i, line in enumerate(lines):
+        if i == 0:
+            continue
+        m = re.match(r"^(#{2,6})\s+", line)
+        if m:
+            levels.append(len(m.group(1)))
+    if not levels:
+        return text
+    min_level = min(levels)
+    shift = min_level - 2  # want body headings to start at ##
+    if shift <= 0:
+        return text
+    out: list[str] = []
+    for i, line in enumerate(lines):
+        if i == 0:
+            out.append(line)
+            continue
+        m = re.match(r"^(#{2,6})(\s+.*)$", line)
+        if m:
+            new_level = max(2, len(m.group(1)) - shift)
+            out.append("#" * new_level + m.group(2))
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+
 def prepare_md(raw: str, title: str) -> str:
     text = raw.replace("\r\n", "\n").replace("\r", "\n").strip()
     text = rewrite_images(text)
-    # Drop leading H1; we inject chapter title.
+    text = normalize_horizontal_rules(text)
+    text = convert_md_tables(text)
+    # Drop leading H1 (we inject our own title).
     text = re.sub(r"^#\s+.+\n+", "", text.lstrip(), count=1)
     # Demote leftover H1 so only the injected title is H1.
     text = re.sub(r"^#\s+", "## ", text, flags=re.MULTILINE)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
-    return f"# {title}\n\n{text}\n"
+    text = f"# {title}\n\n{text}\n"
+    text = promote_headings_after_title(text)
+    return text
 
 
 def md_to_xhtml_body(md_text: str) -> str:
-    return markdown.markdown(
+    # No nl2br: Chinese markdown already uses blank lines; nl2br densifies mobile text.
+    body = markdown.markdown(
         md_text,
         extensions=[
             "markdown.extensions.fenced_code",
             "markdown.extensions.tables",
-            "markdown.extensions.nl2br",
             "markdown.extensions.sane_lists",
         ],
         output_format="xhtml",
     )
+    # First content paragraph after H1+meta feels better without indent.
+    body = re.sub(
+        r"(</h1>\s*(?:<p class=\"chapter-meta\">.*?</p>\s*)?)<p>",
+        r'\1<p class="lead">',
+        body,
+        count=1,
+        flags=re.DOTALL,
+    )
+    # Mark trailing source lines
+    body = re.sub(
+        r"<p>((?:公开出处|出处|来源|原帖)[^<]*)</p>",
+        r'<p class="source">\1</p>',
+        body,
+    )
+    return body
 
 
 def split_orange_book(path: Path) -> list[tuple[str, str, str]]:
@@ -250,7 +458,6 @@ def split_orange_book(path: Path) -> list[tuple[str, str, str]]:
 
     for part in parts:
         part = part.strip()
-        # Section markers may sit before a chapter or at the end of the previous body.
         leading = re.match(r"<!--SECTION:([^>]+)-->\s*", part)
         if leading:
             section = f"橙皮书 · {leading.group(1).strip()}"
@@ -282,14 +489,49 @@ def split_orange_book(path: Path) -> list[tuple[str, str, str]]:
     return chapters
 
 
+def split_front_file(path: Path) -> list[tuple[str, str, str]]:
+    """Split a front markdown file by ## into multiple spine chapters when useful."""
+    raw = path.read_text(encoding="utf-8")
+    m = re.match(r"^#\s+(.+)$", raw.lstrip(), re.MULTILINE)
+    top_title = m.group(1).strip() if m else path.stem
+    # Only split the long X tips chapter; keep short notes intact.
+    if "X 推文" not in top_title and "使用介绍精华" not in top_title:
+        return [("导读与精选", top_title, raw)]
+
+    body = re.sub(r"^#\s+.+\n+", "", raw.lstrip(), count=1)
+    chunks = re.split(r"\n(?=## )", body.strip())
+    out: list[tuple[str, str, str]] = []
+    # Lead-in before first ##
+    lead = chunks[0].strip() if chunks and not chunks[0].startswith("## ") else ""
+    start_idx = 0
+    if lead and not lead.startswith("## "):
+        out.append(
+            (
+                "X 使用介绍",
+                "X 精华导读",
+                f"# X 精华导读\n\n{lead}\n",
+            )
+        )
+        start_idx = 1
+    for chunk in chunks[start_idx:]:
+        chunk = chunk.strip()
+        if not chunk.startswith("## "):
+            continue
+        title_line, _, rest = chunk.partition("\n")
+        title = title_line[3:].strip()
+        # Strip leading ordinal decoration for TOC clarity but keep in body H1
+        rest = rest.strip()
+        rest = re.sub(r"^---+\s*", "", rest)
+        rest = re.sub(r"\n---+\s*$", "", rest)
+        out.append(("X 使用介绍", title, f"# {title}\n\n{rest}\n"))
+    return out or [("导读与精选", top_title, raw)]
+
+
 def load_front_chapters(chapters_dir: Path) -> list[tuple[str, str, str]]:
     files = sorted(chapters_dir.glob("*.md"))
     out: list[tuple[str, str, str]] = []
     for path in files:
-        raw = path.read_text(encoding="utf-8")
-        m = re.match(r"^#\s+(.+)$", raw.lstrip(), re.MULTILINE)
-        title = m.group(1).strip() if m else path.stem
-        out.append(("导读与精选", title, raw))
+        out.extend(split_front_file(path))
     return out
 
 
@@ -314,7 +556,7 @@ def build_epub(
     book.add_metadata(
         "DC",
         "description",
-        "X 推文/文章中的 Grok Bot 使用介绍精华 + 橙皮书 + 官方入门摘要，手机排版。",
+        "X 推文/文章中的 Grok Bot 使用介绍精华 + 橙皮书 + 官方入门摘要，手机排版优化。",
     )
 
     style = epub.EpubItem(
@@ -331,11 +573,11 @@ def build_epub(
 <div class="cover">
   <h1>{html.escape(BOOK_TITLE)}</h1>
   <p class="sub">{html.escape(BOOK_AUTHOR)}</p>
-  <p class="sub">微信读书 / 手机阅读适配版</p>
+  <p class="sub">微信读书 · 手机排版优化版</p>
 </div>
-<p class="no-indent" style="margin-top:2.5em;color:#666;font-size:0.9em;">
-整理自公开 X 文章、橙皮书与官方文档摘要。<br/>
-产品迭代快，价格与规则以官方最新为准。
+<p class="no-indent" style="margin-top:2em;color:#666;font-size:0.9em;text-align:center;">
+整理自公开 X 文章、橙皮书与官方文档摘要<br/>
+产品迭代快，价格与规则以官方最新为准
 </p>
 """
     )
@@ -362,8 +604,12 @@ def build_epub(
             count=1,
             flags=re.DOTALL,
         )
+        # Trailing rules look like accidental page breaks on phone.
+        body = re.sub(r"(?:<hr\s*/?>\s*)+$", "", body.strip())
+        body = re.sub(r"^(?:<hr\s*/?>\s*)+", "", body)
+        ncx_title = short_toc_title(title)
         chapter = epub.EpubHtml(
-            title=title,
+            title=ncx_title,
             file_name=href,
             lang=BOOK_LANG,
             uid=base,
@@ -399,6 +645,7 @@ def build_epub(
     toc_page.add_item(style)
     book.add_item(toc_page)
 
+    # Flat NCX: one entry per article for WeChat Reading long-press list.
     book.toc = tuple(spine_chapters)
     book.add_item(epub.EpubNcx())
     book.add_item(epub.EpubNav())
